@@ -100,9 +100,9 @@ n3: Prima di iniziare, imposta la *tua* preferenza di lettura!
 
 # intro-start-2
 
-n3: Great! Note: you can always change options with the ⚙ icon below. Also, game auto-saves at each chapter!
+n3: Ottimo! Nota: puoi modificare le impostazioni con l'icona ⚙ in basso. Inoltre, il gioco si salverà automaticamente ad ogni capitolo!
 
-n3: Now, let's begin our story...
+n3: E ora, iniziamo la nostra storia...
 
 `clearText()`
 
@@ -110,7 +110,7 @@ n3: Now, let's begin our story...
 
 `publish("intro-to-game-2")`
 
-n2: THIS IS A HUMAN
+n2: QUESTO È UN UMANO
 
 (...600)
 
