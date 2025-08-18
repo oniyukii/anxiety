@@ -14,7 +14,7 @@
 
 `clearText()`
 
-n3: Prima di iniziare, qual è la *tua* preferenza di lettura?
+n3: Prima di iniziare, imposta la *tua* preferenza di lettura!
 
 `publish("show_options_bottom")`
 
