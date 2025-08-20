@@ -675,15 +675,15 @@ b: DEVO AVVISARTI DI...
 
 `bb({body:"normal", mouth:"normal", eyes:"shock"})`
 
-b: Actually, Netflix & food delivery isn't quarantined enough! We'd still infect the delivery person!
+b: Ripensandoci, l'idea "Netflix e cibo d'asporto" non è abbastanza sicura! Potremmo comunque infettare il corriere!
 
 `bb({body:"one_up", mouth:"small"})`
 
-b: We need to move to the Canadian Yukon territories, and have our food delivered by drone!
+b: Dobbiamo trasferirci verso l'area canadese dello Yukon, e farci spedire il cibo dai droni!
 
 `bb({body:"two_up", mouth:"normal"})`
 
-b: And then they'd have to sterilize the drone to rid it of our SAD LUMP GERMS
+b: E dovranno sterilizzare il drone per eliminare i GERMI DEL MUSONE
 
 `_.a2_attack_3 = "alone";`
 
@@ -716,13 +716,13 @@ sfx("gravel");
 
 (...501)
 
-b: The BIG DISGUSTING TRASH PERVERT shall be sentenced to 72 hours in one of those medieval public-humiliation devices
+b: L'ENORME DISGUSTOSO SCHIFOSO PERVERTITO verrà recluso per 72 ore in uno di quei ridicoli dispositivi medievali,
 
-b: unless they're secretly *into* that sort of thing
+b: a meno che in realtà non gli *piaccia* quel genere di cose,
 
 `bb({body:"scream_a_1"})`
 
-b: because they're a BIG DISGUSTING TRASH PERVERT
+b: dato che è un ENORME DISGUSTOSO SCHIFOSO PERVERTITO
 
 `_.a2_attack_3 = "bad";`
 
@@ -734,19 +734,19 @@ b: because they're a BIG DISGUSTING TRASH PERVERT
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
-b: BUTTERFLY EFFECT! You're using a non-biodegradable plastic cup?
+b: EFFETTO FARFALLA! Stai usando un bicchiere di plastica non biodegradabile?
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
-b: BAM, A LANDFILL LEAKS POISON AND KILLS A KID
+b: BAM, UNA DISCARICA RILASCIA DEL VELENO E UCCIDE DEI BAMBINI
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
-b: You're sweating and your heart's pounding?
+b: Stai sudando e ti batte il cuore?
 
 `bb({body:"scream_a_1"})`
 
-b: BAM, YOU BANKRUPT OUR HEALTHCARE SYSTEM AND MILLIONS DIE
+b: BAM, MANDI IN BANCAROTTA IL SISTEMA SANITARIO MUOIONO IN MILIONI
 
 `_.a2_attack_3 = "bad";`
 
@@ -758,16 +758,15 @@ b: BAM, YOU BANKRUPT OUR HEALTHCARE SYSTEM AND MILLIONS DIE
 
 `bb({body:"normal", mouth:"small", eyes:"angry"})`
 
-b: These pleasure-zombies will stumble towards you mumbling,
+b: Questi zombie del piacere barcollano verso di te borbottando,
 
 `bb({body:"normal", mouth:"normal", eyes:"shock"})`
 
-b: LIIIIIKES. LIIIIIIIIIIKES.
+b: MI PIACEEEEEE. MI PIACEEEEEE.
 
 `bb({body:"scream_a_1"})`
 
-b: Then they'll BITE YOU and turn you into a BRAINLESS BRO and/or THOUGHTLESS THOT!
-
+b: Poi ti MORDERANNO e ti trasformano in un FRA FESSO e/o una CAGNA CRETINA
 `_.a2_attack_3 = "bad";`
 
 `_.a2_hoodie_callback = "zombies";`
@@ -778,11 +777,11 @@ b: Then they'll BITE YOU and turn you into a BRAINLESS BRO and/or THOUGHTLESS TH
 
 `bb({body:"scream_a_1"})`
 
-b: THE NAZIS ARE GOOSE-STEPPING BACK ON THE STREETS RIGHT NOW
+b: I NAZI STANNO MARCIANDO PER LE STRADE ADESSO
 
 `bb({body:"one_up", mouth:"smile", eyes:"happy"})`
 
-b: Saying, *good thing those 'good folks' slacked off with stuff like 'relaxing' and 'self-care'!*
+b: Dicendo, *menomale che "i buoni" si sono calmati con robe del tipo "rilassanti" e "per la cura personale"!*
 
 `bb({body:"point", mouth:"smile", eyes:"happy_r"})`
 
@@ -798,15 +797,15 @@ b: *Now our plans can go fourth, reich on schedule!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal_r"})`
 
-b: Come to think about it, do we know if this building *has* a monoxide detector?!
+b: Pensaci, che ne sappiamo se in questo posto *non c'è* un rilevatore di monossido?!
 
 `bb({body:"two_up", mouth:"small", eyes:"normal"})`
 
-b: What if we're all being poisoned *RIGHT NOW?*
+b: E ci stessimo avvelenando *IN QUESTO MOMENTO?*
 
 `bb({body:"scream_a_1"})`
 
-b: WE WOULDN'T EVEN SEE DEATH APPROACH. WE'D JUST STOP EXISTING FOREVER AND EVER AND EV--
+b: Non ce ne accorgeremmo nemmeno che stiamo morendo. Smetteremo semplicemente di esistere fino alla fine dei te-
 
 `_.a2_attack_3 = "harm";`
 
@@ -818,15 +817,15 @@ b: WE WOULDN'T EVEN SEE DEATH APPROACH. WE'D JUST STOP EXISTING FOREVER AND EVER
 
 `bb({body:"normal", mouth:"normal", eyes:"sad"})`
 
-b: What if we're just *fundamentally incapable* of ever being loved, or loving another?
+b: E se fossimo *completamente incapaci* di essere amati, o di amare?
 
 `bb({body:"normal", mouth:"small", eyes:"sad_r"})`
 
-b: What if something irreversibly broke inside of us a long time ago? Or never existed in us in the first place?
+b: E se qualcosa dentro di noi si fosse irreversibilmente rotto tempo fa? O non fosse mai del tutto esistito?
 
 `bb({body:"scream_a_1"})`
 
-b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
+b: AHH SIAMO COSÌ ROTTI! ROTTI ROTTI ROTTI RO-
 
 `_.a2_attack_3 = "alone";`
 
@@ -836,19 +835,19 @@ b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: What if we're just *fundamentally rotten?*
+b: E se fossimo *completamente marci?*
 
 `bb({body:"one_up", eyes:"sad"})`
 
-b: Others have an inner drive to do goodness, but we only do "good" out of guilt or shame, if at all.
+b: Gli altri sono naturalmente portati a fare del bene, noi, il "bene", al massimo lo facciamo solo spinti dalla colpa o dalla vergogna.
 
 `bb({body:"normal", mouth:"small", eyes:"sad_r"})`
 
-b: What if it's in our nature to hurt others? What if we can't be anything *other* than a burden to those close to us?
+b: E se fosse nella nostra indole ferire gli altri? E se non possiamo essere *altro* che un fardello per chi ci sta intorno?
 
 `bb({body:"scream_a_1"})`
 
-b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
+b: AHH SIAMO COSÌ ROTTI! ROTTI ROTTI ROTTI RO-
 
 `_.a2_attack_3 = "bad";`
 
@@ -858,15 +857,15 @@ b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: I'm not being irrational. People *do* drug punch bowls. That is an actual thing that actually happens.
+b: Dico sul serio. Le persone *drogano* le ciotole di punch. È un dato di fatto e succede davvero.
 
 `bb({eyes:"suspect"})`
 
-b: Human, does your head hurt? Are your limbs limp? I think we're dying.
+b: Umano, ti fa male la testa? Ti fanno male gli arti? Mi sa che stiamo per morire.
 
 `bb({body:"scream_a_1"})`
 
-b: AHHH WE'RE DYING! WE'RE DYING WE'RE DYING WE'RE DYI--
+b: AHHH STIAMO MORENDO! STIAMO MORENDO STIAMO MORENDO STIAMO MOR-
 
 `_.a2_attack_3 = "harm";`
 
@@ -904,11 +903,11 @@ h: F^ACK^ING F^ACK^-F^AKK^ITY *F^AAAAACK^*
 
 `bb({body:"two_up", mouth:"smile", eyes:"happy"});`
 
-b: Yay, human! I'm so happy you can hear me again!
+b: Evviva! Son felice che tu mi riesca di nuovo a sentire!
 
 `bb({body:"normal", mouth:"small", eyes:"sad"})`
 
-b: Why were you ignoring me?
+b: Perché mi stavi ignorando?
 
 `hong({body:"facepalm"})`
 
@@ -916,30 +915,30 @@ h: Holy ^hell^, you absolute moron.
 
 `hong({body:"facepalm_2"})`
 
-h: You know that Native American story?
+h: Sai quella storiella nativa americana?
 
-h: "There are two wolves inside you, one is hope, one is despair, which wolf wins? The one you feed."
+h: "Dentro di te ci sono due lupi, uno è la speranza, l'altro la disperazione, quale dei due vince? Quello a cui dai da mangiare."
 
 ```
 hong({body:"facepalm_3"});
 bb({eyes:"normal"});
 ```
 
-h: I was trying to *starve* you, you sadistic ^asshole^!
+h: Stavo provando a farti *morire di fame*, brutto ^stronzo^ sadico!
 
 `hong({body:"smile", mouth:"smile"})`
 
-h: Screw it, I'll do positive affirmations instead.
+h: Vai al diavolo, dirò piuttosto delle affermazioni positive.
 
-h: *I am loved. I am good. I am smart. I am beautiful. I am special.*
+h: *Sono una persona amata. Sono gentile. Sono intelligente. Ho un bell'aspetto. Sono speciale.*
 
 `bb({eyes:"suspect"});`
 
-[Golly, that's so narcissistic!](#act2d_narcissist)
+[Accidenti, quanto narcisismo!](#act2d_narcissist)
 
-[Y'know affirmations were *disproven?*](#act2d_disproven)
+[Sai che queste affermazioni sono state *smentite?*](#act2d_disproven)
 
-[omg don't credit random stories to indigenous folk](#act2d_racist)
+[Ti prego, non associare storielle a caso con gli indigenti](#act2d_racist)
 
 # act2d_disproven
 
