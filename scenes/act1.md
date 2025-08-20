@@ -1303,7 +1303,7 @@ b: Ti picchierà con un timer pomodoro, urlando "NON STAI FACENDO NULLA, PARASSI
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: Ti strapperà la carne riducendola in coriandoli di sangue, trasformerà le tue viscere in stelle filanti, e mescoleranno il tuo sangue in una zuppiera!
+b: Ti strapperà la carne riducendola in coriandoli di sangue, trasformerà le tue viscere in stelle filanti, e mescoleranno il tuo sangue nel ciotolne del punch!
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
