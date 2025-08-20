@@ -51,7 +51,7 @@ music('battle', {volume:0.5});
 
 (...300)
 
-n: E QUESTA È L'ANSIA DELL'UMANO
+n: E QUESTA È LA SUA ANSIA
 
 n: _TU_ SEI L'ANSIA
 
