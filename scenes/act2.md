@@ -23,7 +23,7 @@
 publish("act2",["dee",3]);
 ```
 
-s: Ma hai *letto* la "notizia" su quel fattaccio successo non so dove?But did you *see* that "news story" about that horrible thing happening somewhere?
+s: Ma hai *letto* la "notizia" di quel fattaccio successo non so dove?
 
 ```
 publish("act2",["dee",2]);
@@ -38,7 +38,7 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: Dio, odio quegli articoli. Tutto sensazionalismo per farti cliccare.God I hate the news. It's all sensationalism and clickbait.
+a: Dio, odio quegli articoli. Tutto sensazionalismo per farti cliccare.
 
 ```
 publish("act2",["dum",2]);
@@ -53,7 +53,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: Vero, ma lo fanno solo per incentivare. Il *vero* problema è chi ci clicca.True, but they're just following incentives. The *real* problem is people who click the clickbait.
+s: Vero, ma lo fanno solo per incentivare. Il *vero* problema è chi ci clicca.
 
 ```
 publish("act2",["dee",3]);
@@ -1089,15 +1089,15 @@ b: I tuoi ricordi sono pesi sinaptici, il tuo buon senso è un insieme di segnal
 
 `bb({eyes:"normal", body:"normal"});`
 
-b: So if me being "just chemicals" means *I'm* irrational... then that means *you're* irrational!
+b: Se io *sono* irrazionale in quanto sono "solo sostanza chimica"... allora anche *tu* lo sei! So if me being "just chemicals" means *I'm* irrational... then that means *you're* irrational!
 
 `bb({body:"two_up", eyes:"shock"});`
 
-b: And if we're *both* irrational, then we'll *never* figure out how to be fulfilled and happy!
+b: E se *entrambi* siamo irrazionali, allora non scopriremo *mai* come essere soddisfatti e felici!And if we're *both* irrational, then we'll *never* figure out how to be fulfilled and happy!
 
 `bb({body:"scream_a_1"})`
 
-b: AHHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKEN--
+b: AHH SIAMO COSÌ ROTTI! ROTTI ROTTI ROTTI RO-
 
 ```
 music(null);
@@ -1114,19 +1114,19 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"});`
 
-b: Hang on... "they" say that feelings are valid, that you should always accept your emotions.
+b: Un momento... dicono "tutti" che le emozioni sono importanti, che dovresti accettarle."they" say that feelings are valid, that you should always accept your emotions.
 
 `bb({eyes:"suspect_r"});`
 
-b: But "they" also say emotions are irrational, that emotions are not to be trusted.
+b: Ma dicono anche che le emozioni sono irrazionali, e che non sono affidabili.But "they" also say emotions are irrational, that emotions are not to be trusted.
 
 `bb({eyes:"angry"});`
 
-b: Oh my gosh, "they" have been lying to us this whole time!
+b: Oh no, ci hanno "tutti" mentito per tutto questo tempo!Oh my gosh, "they" have been lying to us this whole time!
 
 `bb({body:"scream_a_1"})`
 
-b: "THEY" FEED US CONTRADICTIONS TO MAKE US DEPENDENT ON THE SELF-HELP INDUSTRIAL COMPLEX
+b: CI HANNO NUTRITO DI CONTRADDIZIONI PER RENDERCI SUCCUBI DEL COMPLESSO INDUSTRIALE DI AUTO-AIUTO "THEY" FEED US CONTRADICTIONS TO MAKE US DEPENDENT ON THE SELF-HELP INDUSTRIAL COMPLEX
 
 ```
 music(null);
@@ -1145,25 +1145,25 @@ attack("10p", "harm");
 
 h: ...
 
-h: I hate this. God it hurts so much I *hate* this.
+h: Odio tutto questo. Fa così male per quanto lo *odio*.I hate this. God it hurts so much I *hate* this.
 
-h: I can't appease you. I can't ignore you. I can't fight you. 
+h: Non riesco a placarti. Non riesco ad ignorarti. Non riesco ad affrontarti.
 
 `bb({eyes:"suspect"});`
 
-h: No matter what I do, I can't seem to get rid of yo--
+h: Non importa cosa faccio, non riesco proprio a sbarazzarmi di t-
 
 `bb({body:"cry_1"});`
 
-b: Well maybe you're NOT *SUPPOSED* TO GET RID OF ME.
+b: Beh, magari *NON DOVRESTI* SBARAZZARTI DI ME.Well maybe you're NOT *SUPPOSED* TO GET RID OF ME.
 
 `bb({body:"cry_2"});`
 
-b: How do you think *I* feel, human?!
+b: Come pensi che *io* mi senta, umano?!How do you think *I* feel, human?!
 
 `bb({body:"cry_4", mouth:"cry", eyes:"cry"})`
 
-b: I'm trying my best to be your guard-dog, but you keep seeing me as some Big Bad Wolf!
+b: Sto facendo del mio meglio per essere il tuo cane da guardia, ma tu continui a vedermi come il lupo cattivo!I'm trying my best to be your guard-dog, but you keep seeing me as some Big Bad Wolf!
 
 b: So I try even *harder* to alert you to danger! *More* danger! *Different* danger!
 
