@@ -23,7 +23,7 @@ publish("act3",["roofhunter",3]);
 publish("act3",["roofhong",3]);
 ```
 
-h2: *Ah* mi ha colpito ed affondato.
+h2: *Ah*, mi ha colpito ed affondato.
 
 ```
 publish("act3",["roofhunter",2]);
@@ -366,7 +366,7 @@ h: Guarda, ^coglione^, abbiamo *tutti* un modo per farti chiudere il ^cazzo^ di 
 
 `hong({ body:"look_up", eyes:"look_up" });`
 
-h: C'è chi si butta nel lavoro.Some people throw themselves into work.
+h: C'è chi si butta nel lavoro.
 
 `hong({ body:"look_down", eyes:"look_down" });`
 
@@ -476,7 +476,7 @@ h: Altro da aggiungere, Capitan Ovvio?
 
 # act3_good_1_fail_revenge
 
-b: Devi instaurare una relazione più sana con le tue emozioni, piuttoste che farle affogar-
+b: Devi instaurare una relazione più sana con le tue emozioni, piuttosto che farle affogar-
 
 ```
 hong({body:"drink"});
@@ -525,7 +525,7 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 b: Ti prego... Non...
 
-h: Your energy bar's looking awfully low there, wolf.
+h: La tua barra dell'energia è tremendamente bassa, lupo.
 
 h: Fossi in te, sceglierei le tue prossime parole attentamente.
 
@@ -540,7 +540,7 @@ h: Fossi in te, sceglierei le tue prossime parole attentamente.
 
 # act3_bad_2_jump
 
-b: Allora, vai e salta. See what I care.
+b: Allora, vai e salta. Sai che mi importa.
 
 `hong({ eyes:"look_right", mouth:"normal", MOUTH_LOCK:true });`
 
@@ -558,7 +558,7 @@ bb({ mouth:"normal", eyes:"oh_crap" });
 Game.OVERRIDE_TEXT_SPEED = 2;
 ```
 
-b: WAIT NO THAT WAS REVERSE PSYCHOLOGY YOU WERE SUPPOSED TO DO THE *OPPOSITE* OF WHAT I SA--
+b: NO, ASPETTA, ERA PSICOLOGIA INVERSA, DOVEVI FARE IL *CONTRARIO* DI QUELLO CHE TI DI-
 
 (#act3_bad_3)
 
@@ -568,7 +568,7 @@ b: WAIT NO THAT WAS REVERSE PSYCHOLOGY YOU WERE SUPPOSED TO DO THE *OPPOSITE* OF
 
 `bb({ eyes:"angry" });`
 
-b: You *are* putting yourself in danger. Your so-called friends *are* using you. And *you* are using your so-called friends.
+b: Ti *stai* mettendo tu in pericolo. I tuoi cosiddetti amici ti *stanno* usando. E *tu* stai usando loro.
 
 `bb({ eyes:"sad" });`
 
@@ -583,9 +583,9 @@ h: Perché tu non hai mai creduto in *me*.
 
 `bb({ eyes:"angry" });`
 
-b: Other guard-wolves have humans who actually take time to patiently train them, to *learn* to work together,
+b: Gli altri lupi da guardia hanno degli umani che si prendono del tempo per addestrarli pazientemente, per *imparare* a collaborare,
 
-b: Rather than hate the guard-wolves for trying to protect them! So why can't you jus--
+b: E non odiano il loro lupo da guardia perché prova a proteggerli! E allora perché non puoi sempl-
 
 `bb({ eyes:"normal" });`
 
@@ -614,7 +614,7 @@ bb({ body:"dead" });
 
 (...999)
 
-h: *"The only thing to fear is fear itself."*
+h: *"L'unica cosa di cui avere paura è la paura stessa."*
 
 `hong({ body:"look_up", mouth:"happy", eyes:"blank" });`
 
@@ -626,15 +626,15 @@ h: Lo dicono tutti i saggi contemporanei: le emozioni negative sono *cattive*!
 
 `hong({ eyes:"less_angry" });`
 
-h: Beh, sennò non si chiamavano *negative*!
+h: Grazie al ^cazzo^, altrimenti non si chiamavano *negative*!
 
-b: Umano... Per favore...
+b: Umano... Ti prego...
 
 `hong({ eyes:"normal" });`
 
-h: Un po' di tempo fa dissi: “Voglio solo liberarmi di tutto questo dolore.”
+h: Tempo fa dissi: “Voglio solo liberarmi di tutto questo dolore.”
 
-h: Ho ottenuto quello che volevo. Non sento più dolore, o paura, o ansia...
+h: Il mio desiderio si è esaudito. Non sento più dolore, o paura, o ansia...
 
 h: Non sento più nulla.
 
@@ -648,7 +648,7 @@ h: Non sento più nulla.
 
 `bb({mouth:"sorry", eyes:"sorry_down"});`
 
-b: I was so obsessed with making sure nothing else hurt you, that I didn't realize *I* was creating the hurt.
+b: Mi ossessionava l'idea di assicurarmi che niente ti facesse del male, ma non stavo realizzando che *io* fossi artefice del tuo male.
 
 ```
 bb({ eyes:"sorry"});
@@ -703,9 +703,9 @@ h: Ti dispiace per *cosa*?
 
 `hong({ body:"normal", mouth:"angry", eyes:"less_angry" });`
 
-[Mi dispiace di non averti protetto.](#act3_good_3_protector)
+[Mi dispiace per non averti protetto.](#act3_good_3_protector)
 
-[Mi dispiace di non averti rispettato.](#act3_good_3_respect)
+[Mi dispiace per non averti rispettato.](#act3_good_3_respect)
 
 [Mi dispiace.](#act3_good_4)
 
@@ -714,11 +714,11 @@ h: Ti dispiace per *cosa*?
 
 `hong({ body:"normal", mouth:"angry", eyes:"angry" }, 0);`
 
-[Mi dispiace di avere un terribile umano!](#act3_bad_2_terrible) `bb({mouth:"normal", eyes:"normal"})`
+[Mi dispiace per avere un terribile umano!](#act3_bad_2_terrible) `bb({mouth:"normal", eyes:"normal"})`
 
-[Mi dispiace di non averti rispettato.](#act3_good_3_respect)
+[Mi dispiace per non averti rispettato.](#act3_good_3_respect)
 
-[Mi dispiace di averti ferito.](#act3_good_3_hurt)
+[Mi dispiace per averti ferito.](#act3_good_3_hurt)
 
 
 
@@ -726,15 +726,15 @@ h: Ti dispiace per *cosa*?
 
 `bb({eyes:"sorry_down"});`
 
-b: It's my duty to warn you against *real* danger, but I kept barking at cars and the mailman.
+b: È mio compito metterti in guardia contro i *veri* pericoli, ma continuavo ad abbaiare alla luna.
 
 `bb({eyes:"sorry_up"});`
 
-b: Barking at shadows. Barking so much.
+b: Ad abbaiare al nulla. Ad abbaiare e basta.
 
 `bb({eyes:"sorry"});`
 
-b: It only makes sense that you'd want to muzzle me.
+b: Ha senso che tu mi voglia mettere la museruola.
 
 `bb({eyes:"sorry_down"});`
 
@@ -752,7 +752,7 @@ b: Dovevo essere il *tuo* fedele cane da guardia, ma mi sono comportato come se 
 
 `bb({eyes:"sorry_up"});`
 
-b: There's a difference between a protector and a prison warden, e ho esagerato.
+b: C'è differenza tra un protettore e una guardia carceraria, e io ho oltrepassato il limite.
 
 `bb({eyes:"sorry_down"});`
 
@@ -766,7 +766,7 @@ b: Mi dispiace.
 
 `bb({eyes:"sorry_down"});`
 
-b: I was so obsessed with trying to protect you from being hurt, I never stopped to realize *I* was hurting you.
+b: Mi ossessionava l'idea di provare a proteggerti dal farti del male, e ho da sempre realizzato che *io* ti stessi facendo del male.
 
 `bb({eyes:"sorry_up"});`
 
@@ -794,7 +794,7 @@ hong({ body:"stop", mouth:"stop", eyes:"blank" });
 
 h: Sì, beh, era comunque un'idea assurda.
 
-h: I only did this to mess you up, and, well, I messed you up.
+h: L'ho fatto solo per rovinarti e, beh, ce l'ho fatta.
 
 h: Facciamo che siamo pari, ok?
 
@@ -887,7 +887,7 @@ publish("act3",["roofhunter",27]);
 
 r: Oh, *ma dai*. Dopo tutto quello che ti ha fatto l'animale, ti *arrendi* così?
 
-r: Che problema c'è, giovane? Hai *paura*?
+r: Che c'è, giovane? Hai *paura*?
 
 ```
 publish('hong-next');
