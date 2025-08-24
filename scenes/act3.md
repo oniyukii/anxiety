@@ -37,7 +37,7 @@ publish("act3",["roofhunter",3]);
 publish("act3",["roofhong",6]);
 ```
 
-h2: Nello specifico, ha colpito il lato destro e sinistro dell'amigdala.the spots hit are my left and right amygdala.
+h2: Nello specifico, ha colpito il lato destro e sinistro dell'amigdala.
 
 ```
 publish("act3",["roofhunter",8]);
@@ -51,7 +51,7 @@ publish("act3",["roofhunter",9]);
 publish("act3",["roofhong",2]);
 ```
 
-r: Mi fa piacere che possa ricambiare il favore, ed aiutarti a uccidere la bestia come io ho ucciso la mia.
+r: Mi fa piacere che possa ricambiare il favore, e aiutarti ad uccidere la bestia così come io ho ucciso la mia.
 
 ```
 publish("act3",["roofhunter",2]);
@@ -127,7 +127,7 @@ r: *Oh nooooo è pericoloso, non farlooooo*
 publish("act3",["roofhunter",22]);
 ```
 
-r: Ma è proprio per questo che abbiamo bisogno di essere spericolati! Dacci dentro! Carpe diem! Sniffa coca dal ^culo^ di una ^troia^, la vita è una!
+r: Ma è proprio per questo che dobbiamo essere spericolati! Dacci dentro! Carpe diem! Sniffa coca dal ^culo^ di una ^troia^, la vita è una!
 
 ```
 publish("act3",["roofhunter",10]);
