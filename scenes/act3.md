@@ -6,7 +6,7 @@ Game.WORDS_HEIGHT_BOTTOM = 205;
 sfx("cheers");
 ```
 
-r: Cheers!
+r: Cin cin!
 
 ```
 publish("act3",["roofhunter",1]);
@@ -23,21 +23,21 @@ publish("act3",["roofhunter",3]);
 publish("act3",["roofhong",3]);
 ```
 
-h2: *Ah* that hits the spot.
+h2: *Ah* mi ha colpito ed affondato.
 
 ```
 publish("act3",["roofhunter",2]);
 publish("act3",["roofhong",2]);
 ```
 
-r: You know, kid...
+r: Sai, giovane...
 
 ```
 publish("act3",["roofhunter",3]);
 publish("act3",["roofhong",6]);
 ```
 
-h2: Specifically, the spots hit are my left and right amygdala.
+h2: Nello specifico, ha colpito il lato destro e sinistro dell'amigdala.the spots hit are my left and right amygdala.
 
 ```
 publish("act3",["roofhunter",8]);
@@ -51,7 +51,7 @@ publish("act3",["roofhunter",9]);
 publish("act3",["roofhong",2]);
 ```
 
-r: I'm so grateful I can pay it forward, and help you kill the beast the way I killed mine.
+r: Mi fa piacere che possa ricambiare il favore, ed aiutarti a uccidere la bestia come io ho ucciso la mia.
 
 ```
 publish("act3",["roofhunter",2]);
@@ -88,7 +88,7 @@ publish("act3",["roofhunter",11]);
 publish("act3",["roofhong",9]);
 ```
 
-h2: Yeah? Six floors down?
+h2: Sì? Quella a sei piani giù?
 
 ```
 publish("act3",["roofhunter",10]);
@@ -115,19 +115,19 @@ publish("act3",["roofhong",10]);
 publish("act3",["roofhunter",2]);
 ```
 
-r: The animal's started whining, hasn't it?
+r: L'animale ha iniziato a piagnucolare, vero?
 
 ```
 publish("act3",["roofhunter",23]);
 ```
 
-r: *Oh nooooo è pericolo, non farlooooo*
+r: *Oh nooooo è pericoloso, non farlooooo*
 
 ```
 publish("act3",["roofhunter",22]);
 ```
 
-r: But that's exactly why we need death-defying thrills! Party hard! Carpe diem! Snort coke off a hooker's ^ass^, #YOLO!
+r: Ma è proprio per questo che abbiamo bisogno di essere spericolati! Dacci dentro! Carpe diem! Sniffa coca dal ^culo^ di una ^troia^, la vita è una!
 
 ```
 publish("act3",["roofhunter",10]);
@@ -156,37 +156,37 @@ publish("act3",["roofhunter",6]);
 publish("act3",["dd",1]);
 ```
 
-r: Scusa, did you fall for that McMindfulness propaganda that claims feeling bad is *good?*
+r: Scusa, sei vittima di quella propaganda della McCoscienza dove dicono che stare male è un *bene*?
 
 ```
 publish("act3",["roofhunter",17]);
 ```
 
-r: The ^assholes^ who run this world give the rest of *us* anxiety and depression,
+r: Gli ^stronzi^ che governano questo mondo prima offrono a *noi* comuni mortali ansia e depressione,
 
 ```
 publish("act3",["roofhunter",18]);
 ```
 
-r: Then make TED Talks to tell us to "accept" being ^fucked^ over, and "embrace" that sadistic demon in our heads!
+r: Poi fanno i discorsi su TED per dirci di "accettare" il fatto che siamo ^fottuti^, e di "accogliere" il demone sadico nella nostra testa!
 
 ```
 publish("act3",["roofhunter",6]);
 ```
 
-r: Kid, I know that *you* know that animal *hurts* people like us. It *tortures* people like us.
+r: Giovane, lo sai anche *tu* sai che quell'animale *ferisce* le persone come noi. *Tortura*, le persone come noi.
 
 ```
 publish("act3",["roofhunter",19]);
 ```
 
-r: Non è un amico. It's a rabid beast, which either needs to be *tranquilized*,
+r: Non è un amico. È una bestia feroce che, o deve essere *calmata*,
 
 ```
 publish("act3",["roofhunter",20]);
 ```
 
-r: Or have a *bullet put in its skull*.
+r: O deve avere una *pallottola puntata al cranio*.
 
 ```
 publish("act3",["roofhunter",27]);
@@ -242,7 +242,7 @@ publish("hp_show");
 
 b: no no no no no no
 
-n: QUESTO CAPITOLO HA DUE POSSIBILI FINALI. ONE IS *VERY, VERY BAD.*
+n: QUESTO CAPITOLO HA DUE POSSIBILI FINALI. UNO È *MOLTO, MOLTO BRUTTO*.
 
 b: NO NO NO NO NO NO NO NO NO NO NO NO NO NO
 
@@ -279,7 +279,7 @@ b: U-
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: Q--
+b: Q-
 
 (#act3a_after)
 
@@ -287,7 +287,7 @@ b: Q--
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: Q--
+b: Q-
 
 (#act3a_after)
 
@@ -307,9 +307,9 @@ hong({ body:"normal" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: Sai, ti avrei potuto credere... if you hadn't tried that a zillion times before.
+h: Sai, ti avrei potuto credere... se non avessi dovuto farlo un miliardo di volte prima.
 
-h: You're the wolf who cried wolf.
+h: Sei il lupo che grida al lupo al lupo.
 
 ```
 bb({ eyes:"sad" });
@@ -354,31 +354,31 @@ hong({ body:"normal" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: You tried that too.
+h: Anche tu ci hai provato.
 
 b: Umano, ti prego...
 
 `hong({ eyes:"look_right" });`
 
-h: Oh I'm *sorry* Big Pharma doesn't approve of my self-medication.
+h: Oh, mi dispiace che Big Pharma non approvi la mia automedicazione.
 
-h: Look ^asshole^, we *all* have a way of shutting you the ^fuck^ up.
+h: Guarda, ^coglione^, abbiamo *tutti* un modo per farti chiudere il ^cazzo^ di becco.
 
 `hong({ body:"look_up", eyes:"look_up" });`
 
-h: C'è chi si lancia nel lavoro.Some people throw themselves into work.
+h: C'è chi si butta nel lavoro.Some people throw themselves into work.
 
 `hong({ body:"look_down", eyes:"look_down" });`
 
-h: C'è chi si lancia nel sesso, nella droga, o aggiornando la pagina di Facebook.Some people throw themselves into sex, drugs, and refreshing their Facebook feed.
+h: C'è chi si butta nel sesso, nella droga, o riaggiornando la pagina di Facebook.
 
 `hong({ body:"normal", eyes:"look_right" });`
 
-h: C'è che si lancia in altre persone.Some people throw themselves into other people. 
+h: C'è che si butta in altre persone.
 
 `hong({ eyes:"angry" });`
 
-h: Io mi lancerò in quella piscina.I'm going to throw myself into that swimming pool.
+h: Io mi butterò in quella piscina.
 
 [Hai bevuto troppo, e siamo al SESTO PIANO](#act3_bad_1_harm)
 
@@ -388,7 +388,7 @@ h: Io mi lancerò in quella piscina.I'm going to throw myself into that swimming
 
 # act3_bad_1_harm
 
-b: Even if you land in the water, the surface tension will crack your ribs and give you a concussion *at the least!*
+b: Anche se atterrassi in acqua, la tensione della superficie ti spaccherà le costole, causandoti una commozione cerebrale, *se ti dice bene*.
 
 h: Eh.
 
@@ -406,7 +406,7 @@ hong({ body:"normal", mouth:"angry", eyes:"angry" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: Ho visto su YouTube un tizio russo farlo, una volta.I saw a Russian guy do this on YouTube once.
+h: Ho visto farlo da un tizio russo su YouTube, una volta.
 
 (#act3_bad_2)
 
@@ -418,7 +418,7 @@ h: Scusa, hai detto *grazie*?
 
 `bb({ eyes:"angry" });`
 
-b: This is exactly why I *exist!* Because humans can't be trusted to protect themselves!
+b: È proprio per questo che io *esisto*! Perché gli umani sono inaffidabili per proteggersi da soli!
 
 b: Ti ho provato a salvare il ^culo^ per tutta la vita, e ora stai per-
 
@@ -457,26 +457,26 @@ bb({ eyes:"sorry"});
 hong({ body:"yell_1", mouth:"yell", eyes:"blank" });
 ```
 
-h: Oh WOW is that the biggest *^fuck^ing* understatement of the century!
+h: Oh WOW, questo è il più grande ^cazzo^ di eufemismo del secolo!
 
 `hong({ body:"yell_2" });`
 
-h: Yeah, you rotting pile of blood-coated ^shit^! You messed the ^fuck^ up!
+h: Esatto, brutto ammasso di ^merda^ ricoperta di sangue! Hai rovinato tutto, ^cazzo^!
 
 `hong({ body:"normal", mouth:"angry", eyes:"angry" });`
 
-h: Any other remarks, Capitan Ovvio?
+h: Altro da aggiungere, Capitan Ovvio?
 
-[But revenge on me isn't the answer!](#act3_good_1_fail_revenge) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
+[Ma vendicarsi su di me non è la soluzione!](#act3_good_1_fail_revenge) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
 
-[But this time I'm *actually* right!](#act3_good_1_fail_harm) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
+[Ma stavolta ho *davvero* ragione!](#act3_good_1_fail_harm) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
 
-[I've hurt you.](#act3_good_2a)
+[Ti ho fatto del male.](#act3_good_2a)
 
 
 # act3_good_1_fail_revenge
 
-b: You need to have a healthier relationship with your emotions, rather than drown them wi--
+b: Devi instaurare una relazione più sana con le tue emozioni, piuttoste che farle affogar-
 
 ```
 hong({body:"drink"});
