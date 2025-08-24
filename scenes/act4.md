@@ -14,7 +14,7 @@ Game.FORCE_CANT_SKIP = false;
 Game.CLICK_TO_ADVANCE = true;
 ```
 
-n3: (game auto-saved)
+n3: (gioco salvato automaticamente)
 
 ```
 Game.clearText();
@@ -215,35 +215,35 @@ hong({body:"hold", eyes:"normal", mouth:"normal"});
 bb({eyes:"normal"});
 ```
 
-h: So what the ^hell^ was the moral of this story?
+h: Allora, quale diamine è la morale della favola?
 
 `hong({body:"one_up", eyes:"annoyed"})`
 
-h: What did we even *learn*? I *was* being stupid, my "friends" *were* using me, and we almost frickin' *died*.
+h: Cosa abbiamo *imparato*? Mi *stavo* comportando da idiota, i miei "amici" mi *stavano* usando, e stavamo quasi per *morire*, cavolo.
 
 `hong({body:"normal", eyes:"normal"})`
 
 {{if _.INJURED}}
-[Yeah, not to mention the hospital bill.](#act4a_bill)
+[Già, per non parlare delle spese mediche.](#act4a_bill)
 {{/if}}
 
 {{if !_.INJURED}}
-[Yeah, not to mention the liver damage.](#act4a_liver)
+[Già, per non parlare del danno epatico.](#act4a_liver)
 {{/if}}
 
-[Yeah, that *was* the worst-case scenario.](#act4a_worst)
+[Già, quello *è stato* il peggio che potesse capitare](#act4a_worst)
 
-[Yeah, I was right.](#act4a_right)
+[Già, avevo ragione.](#act4a_right)
 
 # act4a_bill
 
 `hong({eyes:"annoyed_l", mouth:"narrow"});`
 
-h: Right. I don't think my insurance plan covers "being a dumb^ass^".
+h: Vero. Non penso il piano assicurativo copra la polizza "sono un idiota".
 
 `hong({eyes:"annoyed", mouth:"normal"});`
 
-b: And yet... we survived!
+b: Eppure... siamo sopravvissuti!
 
 `hong({eyes:"normal"});`
 
@@ -255,11 +255,11 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: We definitely shaved a few years off our life expectancy...
+b: Abbiamo decisamente perso qualche anno di vita...
 
 `bb({eyes:"surprise"});`
 
-b: But at least we still *have* a life expectancy! We survived!
+b: Ma almeno ce l'*abbiamo* ancora, qualche anno di vita! Siamo sopravvissuti!
 
 ```
 hong({eyes:"surprise"});
@@ -274,13 +274,13 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: And yet...
+b: Eppure...
 
-h: Hm?
+h: Mh?
 
 `bb({eyes:"surprise"});`
 
-b: We survived!
+b: Siamo sopravvissuti!
 
 (#act4b)
 
@@ -288,19 +288,19 @@ b: We survived!
 
 `bb({eyes:"normal_d"});`
 
-b: But... you were right, too.
+b: Ma... anche tu avevi ragione.
 
 `hong({eyes:"surprise"});`
 
-h: Hm?
+h: Mh?
 
 `bb({eyes:"normal"});`
 
-b: I *was* the wolf who cried wolf. So when *actual* danger came, you – justifiably – didn't believe me.
+b: Io *ero* il lupo che grida al lupo al lupo. Perciò, quando arrivavano i *veri* pericoli, tu, giustamente, non mi credevi.
 
 `bb({eyes:"surprise_r"});`
 
-b: And yet, we survived!
+b: Eppure siamo sopravvissuti!
 
 (#act4b)
 
@@ -311,16 +311,16 @@ bb({eyes:"normal", mouth:"normal"});
 hong({eyes:"normal", mouth:"normal"});
 ```
 
-b: Despite everything, we're still here.
+b: Nonostante tutto, siamo ancora qua.
 
 `hong({eyes:"suspect"});`
 
 {{if _.INJURED}}
-h: You seem pretty calm considering we just had a near-death experience.
+h: Sembri piuttosto calmo, considerando che stavamo per morire.
 {{/if}}
 
 {{if !_.INJURED}}
-h: You seem pretty calm considering we just had a *near*-near-death experience.
+h: Sembri piuttosto calmo, considerando che stavamo *tanto così* per morire.
 {{/if}}
 
 ```
@@ -328,21 +328,21 @@ hong({eyes:"normal"});
 bb({eyes:"annoyed_d", mouth:"narrow"});
 ```
 
-b: Well, it makes everything else less scary in comparison. It's also got me thinking.
+b: Beh, tutto il resto a confronto fa meno paura. Mi ha fatto anche riflettere.
 
 `bb({eyes:"normal", mouth:"normal"});`
 
-b: If me fighting you sucks, because it doesn't protect you...
+b: Se io faccio schifo a litigare con te, perché non riesco a proteggerti...
 
-h: But me fighting you *also* sucks, because it just makes you yell louder...
+h: Ma *anch'io* faccio schifo a litigare con te, perché ti faccio solo abbaiare più forte...
 
 `bb({eyes:"normal_r"})`
 
-b: Then maybe...
+b: Forse, allora...
 
 `bb({eyes:"normal"})`
 
-h: Maybe we don't have to fight.
+h: Forse non dovremmo litigare.
 
 ```
 Game.FORCE_CANT_SKIP = true;
@@ -381,15 +381,15 @@ music('dontfight',{fade:5, volume:0.6});
 bb({eyes:"annoyed_d"});
 ```
 
-b: I'm not a Big Bad Wolf. But I'm not a guard-wolf either.
+b: Non sono il lupo cattivo, ma non sono nemmeno un lupo da guardia.
 
 `bb({eyes:"sad_d"})`
 
-b: I'm a battered shelter dog.
+b: Sono un malconcio cane da rifugio.
 
 `bb({eyes:"sad"})`
 
-b: We've been through rough stuff. Maybe trauma or neglect. That's why I sometimes over-react and go:
+b: Abbiamo attraversato cose difficili. Forse traumi o negligenza. Ecco perché a volte esagero e faccio:
 
 ```
 sfx("yaps", {volume:0.6});
@@ -400,7 +400,7 @@ Game.FORCE_TEXT_DURATION = 90;
 Game.FORCE_NO_VOICE = true;
 ```
 
-b: YAP YAP YAP YAP YAP
+b: BLA BLA BLA BLA BLA
 
 (...1884)
 
@@ -410,35 +410,35 @@ Game.FORCE_CANT_SKIP = false;
 bb({body:"normal", mouth:"scream", eyes:"scream_sad"});
 ```
 
-b: But I don't *want* to be a cowardly dog! I want to protect you! I want to be a good dog!
+b: Ma non *voglio* essere un cane fifone! Voglio proteggerti! Voglio essere un bravo cagnolino!
 
 `bb({eyes:"sad", mouth:"normal"});`
 
-b: Human... will you help tame this wolf?
+b: Umano... mi aiuterai a domare questo lupo?
 
 `hong({eyes:"sad"})`
 
-h: I... I'll try.
+h: Ci... ci provo.
 
 `hong({eyes:"normal_l", body:"chin", mouth:"narrow"})`
 
-h: Okay. Healthy relationship with emotions. Relationships need communication. So, let's communicate.
+h: Ok. Relazioni sane con le emozioni. Le relazioni necessitano di comunicazione. Quindi, comunichiamo.
 
 `hong({eyes:"normal", body:"hands_1", mouth:"normal"})`
 
-h: The next five minutes are going to sound super cheesy, but let's fake it 'til we make it.
+h: I prossimi cinque minuti saranno melensi, ma facciamo finta fino a che non ce la facciamo.
 
 ```
 hong({body:"hands_2", mouth:"normal"});
 ```
 
-h: Dear inner wolf... how are *you* feeling?
+h: Caro lupo interiore... come *ti* senti?
 
-n2: TOTAL FEARS USED:
+n2: TOTALE PAURE USATE:
 
-n2: *HARMED* {{_.attack_harm_total}}, *UNLOVED* {{_.attack_alone_total}}, *BAD PERSON* {{_.attack_bad_total}}
+n2: *HARMED* {{_.attack_harm_total}}, *UNLOVED* {{_.attack_alone_total}}, *CATTIVA PERSONA* {{_.attack_bad_total}}
 
-n2: WHAT FEAR DO YOU WANT TO TALK ABOUT FIRST? (YOU CAN DO THE OTHERS LATER)
+n2: DI QUALE PAURA VORRESTI PARLARE PER PRIMA? (PUOI PARLARE DELLE ALTRE IN SEGUITO)
 
 ```
 _.a4_fears_discussed = 0;
