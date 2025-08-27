@@ -389,7 +389,7 @@ b: Sono un malconcio cane da rifugio.
 
 `bb({eyes:"sad"})`
 
-b: Abbiamo passato momenti difficili. Forse traumi o negligenza. Ecco perché a volte esagero e faccio:
+b: Abbiamo passato momenti difficili. Forse traumi o negligenze. Ecco perché a volte esagero e faccio:
 
 ```
 sfx("yaps", {volume:0.6});
@@ -501,7 +501,7 @@ bb({ body:"normal", eyes:"normal" });
 hong({ body:"one_up", eyes:"surprise" });
 ```
 
-h: Potremmo imparare l'autodifesa? Unirci a una comunità dove ci si protegge a vicenda? Migliorare i nostri confini generali di salute e personali?
+h: Potremmo imparare l'autodifesa? Unirci a una comunità dove ci si protegge a vicenda? Migliorare i nostri confini generali e personali di salute?
 
 ```
 bb({ eyes:"annoyed_r" });
@@ -514,7 +514,7 @@ b: Forse, ma...
 
 [E se comunque non funzionasse?](#act4_harm_skills_work)
 
-[E se andassimo oltre la "sicurezza"?What if we go overboard on "safety"?](#act4_harm_skills_overboard)
+[E se andassimo oltre la "sicurezza"?](#act4_harm_skills_overboard)
 
 # act4_harm_skills_start
 
@@ -543,7 +543,7 @@ h: E *questo* ci aiuterà a proteggerci dai mali!
 
 `hong({ eyes:"normal", mouth:"normal" });`
 
-h: Perciò: questo *è* addestramento di autodifesa.
+h: Perciò: questo *è già* addestramento di autodifesa.
 
 `bb({ eyes:"normal_r" })`
 
@@ -567,26 +567,26 @@ sfx("hiya");
 
 `bb({ eyes:"normal" });`
 
-h: True, there's no way to 100% protect ourselves...
+h: Vero, è impossibile proteggerci al 100%...True, there's no way to 100% protect ourselves...
 
 `hong({ body:"one_up" });`
 
-h: But even a 1% improvement is still worth something, right?
+h: Ma anche un 1% di miglioramento è pur sempre qualcosa, giusto?
 
 ```
 bb({ eyes:"annoyed" });
 hong({ normal:"one_up" });
 ```
 
-b: You're seeing the glass as not 99% empty, but 1% full?
+b: Vedi il bicchiere non al 99% vuoto, ma all'1% pieno??You're seeing the glass as not 99% empty, but 1% full?
 
 `bb({ eyes:"normal" });`
 
-h: Which is still worth something if you're stranded in the desert.
+h: Che è pur sempre meglio di niente se stai morendo di sete in un deserto.Which is still worth something if you're stranded in the desert.
 
 `bb({ eyes:"closed" });`
 
-b: Well. Bottoms up, then.
+b: Beh, allora, su il bicchiere.Well. Bottoms up, then.
 
 (#act4_something_else)
 
@@ -594,19 +594,19 @@ b: Well. Bottoms up, then.
 
 `bb({ body:"chest", eyes:"annoyed" })`
 
-b: I mean, the whole reason you ignored my warnings was because *I* went overboard with safety! 
+b: Cioè, il vero motivo per cui ignoravi i miei segnali era il *mio* andare oltre la sicurezza!I mean, the whole reason you ignored my warnings was because *I* went overboard with safety! 
 
 `bb({ body:"normal", eyes:"normal" })`
 
-h: Naw, you're right. We would want to do safety in moderation. Everything in moderation.
+h: Nah, avevi ragione. Dovremmo fare sicurezza in moderazione. Tutto in moderazione. Naw, you're right. We would want to do safety in moderation. Everything in moderation.
 
 `bb({ eyes:"suspect" })`
 
-b: Sorry, *EVERYTHING* in moderation?
+b: Scusa, *TUTTO* in moderazione?
 
 `hong({ eyes:"annoyed" })`
 
-h: *A moderate number of things* in moderation.
+h: *Un numero moderato di cose* in moderazione.
 
 ```
 bb({ eyes:"closed" });
@@ -622,45 +622,45 @@ b: Thank you for making your statements recursively self-consistent.
 
 `bb({ mouth:"scream_talk", eyes:"scream", MOUTH_LOCK:true });`
 
-b: *WHAT*
+b: *COSA*
 
 ```
 bb({ mouth:"narrow", eyes:"suspect" });
 hong({ body:"one_up" });
 ```
 
-h: I mean, let's say a dog is scared of thunder.
+h: Nel senso, prendiamo un cane che ha paura dei tuoni.I mean, let's say a dog is scared of thunder.
 
 `hong({ body:"hands_1" });`
 
-h: One trick trainers use is to play a recording of thunder at a low volume, then give the dog a treat for staying calm.
+h: Un trucchetto usato dagli addestratori è quello di riprodurre la registrazione dei tuoni a volume basso, , poi premiano il cane per essere rimasto calmo.
 
 `hong({ body:"hands_2" });`
 
-h: Over several days, the trainer raises the volume bit by bit, until the dog has overcome their fear of thunder.
+h: Giorno dopo giorno, l'addestratore alza piano piano il volume, finché il cane non ha superato la paura dei tuoni.
 
 ```
 hong({ body:"normal", eyes:"surprise" });
 bb({ mouth:"normal", eyes:"normal" });
 ```
 
-h: It's called exposure therapy!
+h: Si chiama terapia di esposizione!
 
 `hong({ body:"point", eyes:"normal" });`
 
-h: Since you're a dog, it should work for you too, right? All mammals have the same fight-or-flight response.
+h: Tu sei un cane, quindi dovrebbe funzionare anche con te, giusto? Tutti i mammiferi hanno la stessa reazione di attacco o fuga.
 
 `hong({ body:"normal" });`
 
 [What if we desensitize *too* much?](#act4_harm_exposure_overboard)
 
-[What if we're exposed to *real* danger?](#act4_harm_exposure_hurt)
+[E se siamo esposti ad un *vero* pericolo?](#act4_harm_exposure_hurt)
 
-[I'm a wolf, not a dog.](#act4_harm_exposure_dog) `bb({ eyes:"suspect" })`
+[Sono un lupo, non un cane.](#act4_harm_exposure_dog) `bb({ eyes:"suspect" })`
 
 # act4_harm_exposure_dog
 
-h: And I'll show you kindness and patience 'til you're domesticated into a cute lil' puppy.
+h: Ed io ti mostrerò gentilezza e pazienza fino a farti diventare un bel cucciolino addomesticato.And I'll show you kindness and patience 'til you're domesticated into a cute lil' puppy.
 
 `bb({ MOUTH_LOCK:true })`
 
@@ -668,7 +668,7 @@ b: ...
 
 `bb({ eyes:"sad", mouth:"smile" })`
 
-b: D'aw.
+b: Ohh.
 
 (#act4_something_else)
 
@@ -676,11 +676,11 @@ b: D'aw.
 
 `bb({ eyes:"annoyed" })`
 
-b: We *just* saw what happens if you shut down your fear – you put yourself in *actually* dangerous situations.
+b: Abbiamo *appena* visto cosa succede se metti a tacere le paure... ci hai fatto cacciare in una situazione *veramente* pericolosa.
 
 `bb({ eyes:"angry_r", body:"one_up" })`
 
-b: Besides, won't *too* much desensitization turn us into psychopaths?
+b: Inoltre, won't *too* much desensitization turn us into psychopaths?
 
 `bb({ mouth:"scream", eyes:"scream", body:"two_up" })`
 
@@ -688,15 +688,15 @@ b: Soon we'll give ourselves treats while watching snuff murder porn!
 
 `hong({ eyes:"annoyed" })`
 
-h: I... think there's a line between that and the thunder.
+h: Io... credo che quello sia molto diverso dai tuoni.
 
 `bb({ body:"normal", mouth:"normal", eyes:"suspect" })`
 
-b: But exactly *where*, human? *Where?!*
+b: Ma *dove*, esattamente? *Dove*?!
 
 `hong({ eyes:"surprise", body:"one_up" })`
 
-h: I don't know. But *you* can help me!
+h: Non lo so. Ma *tu* puoi aiutarmi!
 
 `hong({ eyes:"normal", body:"normal" })`
 
@@ -704,7 +704,7 @@ h: Working and negotiating with you, we'll draw that line.
 
 `bb({ body:"paw", mouth:"narrow", eyes:"closed" })`
 
-b: Okay. But I've got no opposable thumbs, so you have to do the drawing.
+b: Ok. Ma io non ho i pollici opponibili, dovrai tracciarla tu.But I've got no opposable thumbs, so you have to do the drawing.
 
 (#act4_something_else)
 
@@ -713,11 +713,11 @@ b: Okay. But I've got no opposable thumbs, so you have to do the drawing.
 `bb({ body:"two_up", eyes:"angry_r" })`
 
 {{if _.INJURED}}
-b: For example: we jumped off a freaking *roof!*
+b: Per esempio: siamo saltati da un cavolo di *tetto*!we jumped off a freaking *roof!*
 {{/if}}
 
 {{if !_.INJURED}}
-b: For example: we almost jumped off a freaking *roof!*
+b: Per esempio: stavamo quasi per saltare da un cavolo di *tetto*!we almost jumped off a freaking *roof!*
 {{/if}}
 
 ```
@@ -725,13 +725,13 @@ hong({ eyes:"annoyed" });
 bb({ body:"normal", eyes:"annoyed" });
 ```
 
-h: Nah you're right. One *can* go too far.
+h: Nah, hai ragione. One *can* go too far.
 
 `hong({ eyes:"normal" });`
 
-h: But that's why, if we do exposure therapy, we'll start small, and make small steps upward.
+h: Ma ecco perché, con la terapia di esposizione, inizieremo piano piano, a piccoli passi.
 
-h: Just before we hit *actual* danger, we stop.
+h: Prima di andare incontro ai *veri* pericoli, ci fermiamo.
 
 `bb({ eyes:"annoyed_r", mouth:"narrow" });`
 
@@ -763,11 +763,11 @@ b: ...
 
 `bb({ eyes:"annoyed" })`
 
-b: Wait, no arguments for or against what I'm feeling? Just... "thank you"?
+b: Cosa, no arguments for or against what I'm feeling? Solo... "grazie"?
 
 `hong({ eyes:"surprise", body:"shrug" })`
 
-h: Yeah! Thank you for showing your concern for my {{_.thanks_for}}.
+h: Esatto! Grazie per avermi mostrato la tua preoccupazione per {{_.thanks_for}}.
 
 ```
 bb({ eyes:"closed_annoyed", MOUTH_LOCK:true });
@@ -776,32 +776,32 @@ hong({ eyes:"normal", body:"normal" });
 
 b: ...
 
-h: You okay?
+h: Tutto bene?
 
 `bb({ eyes:"super_sad", mouth:"narrow" });`
 
-b: You've never said *thank you* to me before.
+b: Non mi hai *ringraziato*.You've never said *thank you* to me before.
 
 `hong({ mouth:"smile" });`
 
-h: Aw you big fuzzy-wuzzy panic-wolf.
+h: Oh, il mio lupone pelosone panicone.Aw you big fuzzy-wuzzy panic-wolf.
 
 (#act4_something_else)
 
 # act4_thanks_2
 
-h: Even if you over-react, I appreciate you looking out for my {{_.thanks_for}}.
+h: Anche se esageri, mi fa piacere che ti preoccupi per {{_.thanks_for}}.
 
 `bb({ eyes:"annoyed" })`
 
-b: Wait... you're not just repeating "thank you" to avoid actually talking about these fears, are you?
+b: Aspetta... Non stai continuando a ringraziarmi solo per evitare di parlare delle paure, vero?
 
 ```
 bb({ eyes:"normal" });
 hong({ eyes:"annoyed", body:"chin" });
 ```
 
-h: Well, stuff's complicated, and I don't always have answers ready.
+h: Beh, è complicato, e non ho sempre la risposta a tutto.Well, stuff's complicated, and I don't always have answers ready.
 
 `hong({ eyes:"annoyed_l", body:"one_up" })`
 
@@ -809,34 +809,34 @@ h: It's not like life gives you a list of 3 pre-made dialogue responses.
 
 `hong({ eyes:"normal", mouth:"smile", body:"normal" })`
 
-h: But for now, I can at least say thanks.
+h: Ma per ora, posso almeno dire grazie.
 
-b: Well, thank you too, for listening to me patiently.
+b: Beh, grazie a te, per ascoltarmi pazientemente.
 
 `bb({ eyes:"closed" });`
 
-b: You small hairless flesh-mammal.
+b: Piccolo mammifero di carne spelacchiato.
 
 (#act4_something_else)
 
 # act4_thanks_3
 
-h: Even if your yapping scares me, you're simply trying to protect my {{_.thanks_for}}.
+h: Anche se il tuo blaterare mi mette paura, stai solo provando a proteggere {{_.thanks_for}}.
 
 `bb({ eyes:"smile_r" });`
 
-b: Okay, if you keep flattering me like this, the internet's gonna get some weird ideas about us.
+b: Ok, se mi continui a lusingare così, internet si farà strane idee su di noi.
 
 ```
 bb({ eyes:"smile" });
 hong({ eyes:"annoyed" });
 ```
 
-h: C'mon, I'm just a vulnerable college-age kid and you're a big, scary wolf. What's the worst that cou--
+h: Dai, I'm just a vulnerable college-age kid e tu un lupo grande e spaventoso. Che mai ci può accad-
 
 `hong({ eyes:"normal", body:"point" });`
 
-h: Actually, do not answer that.
+h: Anzi, meglio non rispondere.
 
 (#act4_something_else)
 
@@ -852,16 +852,16 @@ _.a4_fears_discussed += 1;
 
 `bb({ eyes:"sad_d" });`
 
-b: I want to make sure you fulfil that deep, human need to belong...
+b: Voglio solo assicurarmi che tu soddisfi il profondo bisogno umano di appartenenza...
 
 `bb({ eyes:"sad_u" });`
 
-b: But I worry that if anyone ever knew us – the *real* us – we'd scare them all away.
+b: Ma ho paura che se mai qualcuno ci dovesse conoscere, *veramente*, li spaventeremmo.
 
 `bb({ eyes:"sad" });`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: Non so, enough of *me* choosing what to say next. What do *you* say, human?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
@@ -874,11 +874,11 @@ b: More thoughts, human?
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[I agree: let's work on our social life.](#act4_alone_skills)
+[Sono d'accordo: lavoriamo sulla nostra vita sociale.](#act4_alone_skills)
 
-[I think people like us. Let's find out?](#act4_alone_experiment)
+[Magari piacciamo alle persone. Vogliamo scoprirlo?](#act4_alone_experiment)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "social belonging";`
+[Grazie.](#act4_thanks) `_.thanks_for = "social belonging";`
 
 # act4_alone_skills
 
@@ -887,32 +887,32 @@ bb({ eyes:"normal" });
 hong({ body:"chin" });
 ```
 
-h: We could practice skills like asking questions, listening and empathizing, being open and vulnerable, etc?
+h: Potremmo esercitarci su abilità sociali come fare domande, ascoltare, empatizzare, essere aperti e vulnerabili, e così via?We could practice skills like asking questions, listening and empathizing, being open and vulnerable, etc?
 
 `hong({ eyes:"normal_l" });`
 
-h: Or make better social habits, like scheduling time with friends or regularly going to meetups?
+h: O migliorare le abitudini sociali, come gestire il tempo con gli amici, o partecipare regolarmente ad incontri?Or make better social habits, like scheduling time with friends or regularly going to meetups?
 
 `hong({ body:"one_up" });`
 
-h: Could also learn to get more comfortable with rejection.
+h: Potremmo anche imparare ad accettare i rifiuti.Could also learn to get more comfortable with rejection.
 
 `hong({ eyes:"normal" });`
 
-h: Or learn to know when people *aren't* rejecting us, they're just tired or have Resting ^Bitch^ Face.
+h: O imparare a capire quando le persone *non* ci rifiutano, sono stanchi, o hanno solo l'espressione imbronciata.Or learn to know when people *aren't* rejecting us, they're just tired or have Resting ^Bitch^ Face.
 
 ```
 hong({ body:"normal" });
 bb({ eyes:"annoyed_r" });
 ```
 
-b: That's a lot of options. But, about "learning social skills"...
+b: Le opzioni sono tante. Tuttavia, riguardo all'"imparare le abilità sociali"...That's a lot of options. But, about "learning social skills"...
 
-[Isn't that *manipulative?*](#act4_alone_skills_manipulative)
+[Non è *manipolazione?*](#act4_alone_skills_manipulative)
 
-[Won't that make us *easier to manipulate?*](#act4_alone_skills_manipulated)
+[Non ci renderà *più facili da manipolare?*](#act4_alone_skills_manipulated)
 
-[What if we still fail?](#act4_alone_skills_fail)
+[E se non ce la facessimo comunque?](#act4_alone_skills_fail)
 
 # act4_alone_skills_manipulative
 
@@ -926,21 +926,21 @@ b: Didn't Charles Manson win friends and influence people?
 
 `hong({ eyes:"annoyed", body:"chin" });`
 
-h: No, you're right.
+h: No, hai ragione.
 
-h: "Social skills" mean nothing if we don't genuinely care *for* people.
+h: Le "abilità socialis" non contano nulla se non ci importasse veramente *degli* altri. mean nothing if we don't genuinely care *for* people.
 
 `hong({ body:"normal" });`
 
-h: Basically, just don't be a ^dick^.
+h: In pratica, non fare gli ^stronzi^.
 
 `bb({ eyes:"annoyed", mouth:"smile" });`
 
-b: That's a motivational poster caption right there.
+b: Là c'è un poster motivazionaleThat's a motivational poster caption right there.
 
 `hong({ body:"shrug", mouth:"narrow" });`
 
-h: “Don't Be A ^Dick^™”
+h: “Non fare lo ^stronzo^™”
 
 (#act4_something_else)
 
@@ -948,18 +948,18 @@ h: “Don't Be A ^Dick^™”
 
 `bb({ eyes:"angry" })`
 
-b: We'll become a Welcome doormat, saying Please and Thank You as people wipe their feet on us!
+b: Diventeremo uno zerbino che dice "per favore" e "grazie" quando le persone ci si puliscono le scarpe sopra, saying Please and Thank You as people wipe their feet on us!
 
 `bb({ mouth:"scream", eyes:"scream" })`
 
-b: We'll kiss so much butt, it'll look like we're wearing brown lipstick!
+b: Baceremo così tanti ^culi^, che sembrerà che abbiamo messo il rossetto marrone!We'll kiss so much butt, it'll look like we're wearing brown lipstick!
 
 ```
 bb({ mouth:"normal", eyes:"normal" });
 hong( body:"chin" });
 ```
 
-h: Nah, you're right. "Social skills" can't be just about pleasing others, it's also got to be about setting *boundaries.*
+h: Nah, hai ragione. "Social skills" can't be just about pleasing others, it's also got to be about setting *boundaries.*
 
 `hong( body:"one_up" });`
 
@@ -978,26 +978,26 @@ h: Also... re: that lipstick mental image... *ew??*
 
 `bb({ eyes:"annoyed" });`
 
-h: We might fail. Actually, we *will* fail.
+h: Potremmo fallire. Anzi, *falliremo*.
 
 ```
 bb({ eyes:"normal" });
 hong({ eyes:"surprise", body:"shrug" });
 ```
 
-h: And that's fine! Failing is how anyone learns anything new at first!
+h: E va bene così! È fallendo che si impara qualcosa di nuovo!Failing is how anyone learns anything new at first!
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: So let's fail forward together, yeah?
+h: Quindi falliamo insieme, ok?
 
 `bb({ eyes:"normal_r" });`
 
-b: Sure, I guess... worst-case scenario, we can just skip town and get a new identity.
+b: Immagino di sì... Alle brutte, possiamo cambiare città e cambiare identità., we can just skip town and get a new identity.
 
 `bb({ eyes:"normal" });`
 
-h: Yeah I think that only costs two bitcoins these days.
+h: Sì, forse oggigiorno costa un paio di bitcoin.Yeah I think that only costs two bitcoins these days.
 
 (#act4_something_else)
 
@@ -1008,15 +1008,15 @@ hong({ body:"one_up" });
 bb({ eyes:"normal" });
 ```
 
-h: We could try some experiments!
+h: Possiamo fare degli esperimenti!We could try some experiments!
 
 `hong({ body:"chin" });`
 
-h: We could ping a friend to hang out, reconnect with an old pal, or even just chat with a barista.
+h: Chiedere ad un amico di uscire, risentire vecchi amici, oppure chiacchierare con i baristi.We could ping a friend to hang out, reconnect with an old pal, or even just chat with a barista.
 
 `hong({ body:"normal" });`
 
-h: I think we may find we're more likeable than we suspect.
+h: Magari scopriamo di essere più piacevoli che sospettosi.I think we may find we're more likeable than we suspect.
 
 `bb({ eyes:"annoyed" });`
 
