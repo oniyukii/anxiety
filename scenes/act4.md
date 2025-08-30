@@ -462,7 +462,7 @@ _.a4_fears_discussed += 1;
 
 `bb({eyes:"normal_d"})`
 
-b: Voglio proteggere la tua incolumità fisica,I want to protect your need for physical safety,
+b: Voglio proteggerti per la tua incolumità fisica,I want to protect your need for physical safety,
 
 `bb({eyes:"sad_d"})`
 
@@ -578,11 +578,11 @@ bb({ eyes:"annoyed" });
 hong({ normal:"one_up" });
 ```
 
-b: Vedi il bicchiere non al 99% vuoto, ma all'1% pieno??You're seeing the glass as not 99% empty, but 1% full?
+b: Non vedi il bicchiere 99% vuoto, ma lo vedi 1% pieno??You're seeing the glass as not 99% empty, but 1% full?
 
 `bb({ eyes:"normal" });`
 
-h: Che è pur sempre meglio di niente se stai morendo di sete in un deserto.Which is still worth something if you're stranded in the desert.
+h: Che è meglio di niente se stai morendo di sete in un deserto.Which is still worth something if you're stranded in the desert.
 
 `bb({ eyes:"closed" });`
 
@@ -633,7 +633,7 @@ h: Nel senso, prendiamo un cane che ha paura dei tuoni.I mean, let's say a dog i
 
 `hong({ body:"hands_1" });`
 
-h: Un trucchetto usato dagli addestratori è quello di riprodurre la registrazione dei tuoni a volume basso, , poi premiano il cane per essere rimasto calmo.
+h: Un trucchetto usato dagli addestratori è quello di riprodurre la registrazione dei tuoni a volume basso, poi premiano il cane per essere rimasto calmo.
 
 `hong({ body:"hands_2" });`
 
@@ -713,11 +713,11 @@ b: Ok. Ma io non ho i pollici opponibili, dovrai tracciarla tu.But I've got no o
 `bb({ body:"two_up", eyes:"angry_r" })`
 
 {{if _.INJURED}}
-b: Per esempio: siamo saltati da un cavolo di *tetto*!we jumped off a freaking *roof!*
+b: Per esempio: siamo saltati da un cavolo di *tetto*!
 {{/if}}
 
 {{if !_.INJURED}}
-b: Per esempio: stavamo quasi per saltare da un cavolo di *tetto*!we almost jumped off a freaking *roof!*
+b: Per esempio: stavamo quasi per saltare da un cavolo di *tetto*!
 {{/if}}
 
 ```
@@ -763,7 +763,7 @@ b: ...
 
 `bb({ eyes:"annoyed" })`
 
-b: Cosa, no arguments for or against what I'm feeling? Solo... "grazie"?
+b: Cosa, nessun commento in merito a come mi sento? Solo... "grazie"?
 
 `hong({ eyes:"surprise", body:"shrug" })`
 
@@ -780,7 +780,7 @@ h: Tutto bene?
 
 `bb({ eyes:"super_sad", mouth:"narrow" });`
 
-b: Non mi hai *ringraziato*.You've never said *thank you* to me before.
+b: Non mi avevi mai *ringraziato* prima d'ora.
 
 `hong({ mouth:"smile" });`
 
@@ -801,11 +801,11 @@ bb({ eyes:"normal" });
 hong({ eyes:"annoyed", body:"chin" });
 ```
 
-h: Beh, è complicato, e non ho sempre la risposta a tutto.Well, stuff's complicated, and I don't always have answers ready.
+h: Beh, è complicato, e non ho sempre la risposta a tutto.
 
 `hong({ eyes:"annoyed_l", body:"one_up" })`
 
-h: It's not like life gives you a list of 3 pre-made dialogue responses.
+h: Nella vita non hai una schermata di dialogo con 3 risposte predefinite.It's not like life gives you a list of 3 pre-made dialogue responses.
 
 `hong({ eyes:"normal", mouth:"smile", body:"normal" })`
 
@@ -825,14 +825,14 @@ h: Anche se il tuo blaterare mi mette paura, stai solo provando a proteggere {{_
 
 `bb({ eyes:"smile_r" });`
 
-b: Ok, se mi continui a lusingare così, internet si farà strane idee su di noi.
+b: Ok, se continui a lusingarmi così, internet poi si farà strane idee su di noi.
 
 ```
 bb({ eyes:"smile" });
 hong({ eyes:"annoyed" });
 ```
 
-h: Dai, I'm just a vulnerable college-age kid e tu un lupo grande e spaventoso. Che mai ci può accad-
+h: Dai, io una giovane anima vulnerabile e tu un grande lupo spaventoso. Che mai ci può accad-
 
 `hong({ eyes:"normal", body:"point" });`
 
@@ -895,18 +895,18 @@ h: O migliorare le abitudini sociali, come gestire il tempo con gli amici, o par
 
 `hong({ body:"one_up" });`
 
-h: Potremmo anche imparare ad accettare i rifiuti.Could also learn to get more comfortable with rejection.
+h: Potremmo anche imparare ad accettare i rifiuti.
 
 `hong({ eyes:"normal" });`
 
-h: O imparare a capire quando le persone *non* ci rifiutano, sono stanchi, o hanno solo l'espressione imbronciata.Or learn to know when people *aren't* rejecting us, they're just tired or have Resting ^Bitch^ Face.
+h: O imparare a capire quando le persone *non* ci rifiutano, sono stanchi, o hanno solo la faccia da schiaffi.Or learn to know when people *aren't* rejecting us, they're just tired or have Resting ^Bitch^ Face.
 
 ```
 hong({ body:"normal" });
 bb({ eyes:"annoyed_r" });
 ```
 
-b: Le opzioni sono tante. Tuttavia, riguardo all'"imparare le abilità sociali"...That's a lot of options. But, about "learning social skills"...
+b: Le opzioni sono tante. Tuttavia, riguardo l'"imparare le abilità sociali"...That's a lot of options. But, about "learning social skills"...
 
 [Non è *manipolazione?*](#act4_alone_skills_manipulative)
 
@@ -928,7 +928,7 @@ b: Didn't Charles Manson win friends and influence people?
 
 h: No, hai ragione.
 
-h: Le "abilità socialis" non contano nulla se non ci importasse veramente *degli* altri. mean nothing if we don't genuinely care *for* people.
+h: Le "abilità sociali" non contano nulla se non ci importasse veramente *degli* altri.
 
 `hong({ body:"normal" });`
 
@@ -936,7 +936,7 @@ h: In pratica, non fare gli ^stronzi^.
 
 `bb({ eyes:"annoyed", mouth:"smile" });`
 
-b: Là c'è un poster motivazionaleThat's a motivational poster caption right there.
+b: Leggi su quel un poster motivazionale.That's a motivational poster caption right there.
 
 `hong({ body:"shrug", mouth:"narrow" });`
 
@@ -959,11 +959,11 @@ bb({ mouth:"normal", eyes:"normal" });
 hong( body:"chin" });
 ```
 
-h: Nah, hai ragione. "Social skills" can't be just about pleasing others, it's also got to be about setting *boundaries.*
+h: Nah, hai ragione. Le "abilità sociali" non è solo compiacere gli altri, ma anche impostare dei *confini*.  "Social skills" can't be just about pleasing others, it's also got to be about setting *boundaries.*
 
 `hong( body:"one_up" });`
 
-h: We can't invite others into our home, if we have no walls to hold up our home.
+h: Non possiamo invitare gli altri a casa, se non abbiamo delle mura che la sorreggano.We can't invite others into our home, if we have no walls to hold up our home.
 
 ```
 hong( eyes:"angry", mouth:"narrow" });
