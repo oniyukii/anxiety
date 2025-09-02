@@ -1008,33 +1008,33 @@ hong({ body:"one_up" });
 bb({ eyes:"normal" });
 ```
 
-h: Possiamo fare degli esperimenti!We could try some experiments!
+h: Potremmo fare degli esperimenti!We could try some experiments!
 
 `hong({ body:"chin" });`
 
-h: Chiedere ad un amico di uscire, risentire vecchi amici, oppure chiacchierare con i baristi.We could ping a friend to hang out, reconnect with an old pal, or even just chat with a barista.
+h: Chiedere a qualche amico di uscire, risentire vecchi amici, oppure chiacchierare con i baristi.We could ping a friend to hang out, reconnect with an old pal, or even just chat with a barista.
 
 `hong({ body:"normal" });`
 
-h: Magari scopriamo di essere più piacevoli che sospettosi.I think we may find we're more likeable than we suspect.
+h: Magari scopriamo di essere più simpatici del previsto.I think we may find we're more likeable than we suspect.
 
 `bb({ eyes:"annoyed" });`
 
-[What if these are small, cheap "wins"?](#act4_alone_experiment_cheap)
+[E se fossero dei piccoli e banali "successi"?What if these are small, cheap "wins"?](#act4_alone_experiment_cheap)
 
-[What if this is a burden to others?](#act4_alone_experiment_burden)
+[E se fosse un fardello per gli altri?](#act4_alone_experiment_burden)
 
-[But small talk isn't the *real* us!](#act4_alone_experiment_real_us)
+[Ma parlare del più e del meno non è *da noi*!](#act4_alone_experiment_real_us)
 
 # act4_alone_experiment_real_us
 
 `bb({ eyes:"sad" });`
 
-b: If we put on a shallow smile, we'll never really connect with anyone,
+b: Se facciamo un sorriso falso, non riusciremo mai a comunicare con nessuno,If we put on a shallow smile, we'll never really connect with anyone,
 
 `bb({ eyes:"super_sad" });`
 
-b: *But* if we open up, other people will see all our messed-up insides!
+b: *Ma* se ci apriamo, gli altri vedranno tutto il nostro disordine interiore!*But* if we open up, other people will see all our messed-up insides!
 
 `hong({body:"chin", mouth:"narrow", MOUTH_LOCK:true})`
 
@@ -1045,28 +1045,28 @@ hong({body:"normal", mouth:"normal"});
 bb({eyes:"normal"});
 ```
 
-h: Roll over.
+h: Rotola.
 
-b: What.
+b: Cosa.
 
 `hong({body:"hands_1"})`
 
-h: When dogs want to show love and trust, they make themselves vulnerable by exposing their belly.
+h: Quando i cani vogliono esprimere amore e fiducia, si rendono vulnerabili mostrando la pancia.When dogs want to show love and trust, they make themselves vulnerable by exposing their belly.
 
 `hong({body:"one_up"})`
 
-h: Maybe we're not *yet* secure enough to be too vulnerable, but with enough training,
+h: Forse non siamo *ancora* abbastanza al sicuro per essere troppo vulnerabili, ma esercitandoci,Maybe we're not *yet* secure enough to be too vulnerable, but with enough training,
 
 `hong({body:"normal", eyes:"surprise"})`
 
-h: One day we can show people the real us – all messed-up, all human.
+h: Un giorno riusciremo a mostrarci per quello che siamo: disastrati, ma umani.One day we can show people the real us – all messed-up, all human.
 
 ```
 hong({eyes:"normal"});
 bb({ eyes:"super_sad", mouth:"smile", body:"chest" });
 ```
 
-b: I'll roll over if you give me a treat.
+b: Rotolerò solo se mi dai un biscottino.I'll roll over if you give me a treat.
 
 `bb({ eyes:"normal", mouth:"normal" });`
 
@@ -1077,32 +1077,32 @@ h: No.
 
 # act4_alone_experiment_cheap
 
-b: Saying "hi" to the barista isn't exactly gold-medal performance in the Social Butterfly Olympics.
+b: Salutare i baristi non è proprio una prestazione da medaglia d'oro alle Socialimpiadi.Saying "hi" to the barista isn't exactly gold-medal performance in the Social Butterfly Olympics.
 
 ```
 hong({ body:"point", eyes:"surprise" });
 bb({ eyes:"normal" });
 ```
 
-h: It is for *us!*
+h: Lo è per *noi*!
 
 `hong({ body:"one_up", eyes:"annoyed" });`
 
-h: In the social arena, we're not even featherweight class, we're like... quark-weight.
+h: Nel ring sociale, non siamo nemmeno peso piuma, siamo tipo... peso ricotta.
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: If we have to start with small, cheap wins, so be it. Gotta climb the 1st step before the 1000th step.
+h: Se dobbiamo iniziare con piccoli e banali successi, facciamolo. Per arrivare al millesimo gradino, dobbiamo prima salire sul primo.If we have to start with small, cheap wins, so be it. Gotta climb the 1st step before the 1000th step.
 
-b: Yeah! Maybe after saying "Hi", we can advance to saying...
+b: Esatto! Magari dopo aver detto "Ciao", possiamo proseguire dicendo...Yeah! Maybe after saying "Hi", we can advance to saying...
 
 `bb({ body:"two_up", mouth:"smile", eyes:"smile_u" });`
 
-b: *"How are you?"*
+b: *"Come stai?"*
 
 `hong({ body:"shrug", mouth:"smile", eyes:"surprise_l" });`
 
-h: *"Not much!"*
+h: *"Non c'è male!*
 
 (#act4_something_else)
 
@@ -1110,29 +1110,29 @@ h: *"Not much!"*
 
 `bb({ eyes:"suspect_r" })`
 
-b: Maybe the barista just wants to make some dang coffee, not be an *experiment* to see if our social skills suck.
+b: Forse vuole solo fare un dannato caffè, non diventare una *cavia* dei nostri fallimenti nelle le interazioni sociali.Maybe the barista just wants to make some dang coffee, not be an *experiment* to see if our social skills suck.
 
 `bb({ eyes:"annoyed" })`
 
-h: Well, if it turns out we *are* being a burden...
+h: Beh, ci riveliamo *essere* un fardello...Well, if it turns out we *are* being a burden...
 
 ```
 hong({ eyes:"surprise" });
 bb({ eyes:"normal" });
 ```
 
-h: That's good to know, too!
+h: Comunque buon per noi!That's good to know, too!
 
 `hong({ eyes:"normal" });`
 
-h: We can then learn how to pro-actively ask people what they're comfortable with, to know and respect others' boundaries.
+h: Possiamo imparare a chiedere proattivamente agli altri cosa li mette a proprio agio, per conoscere e rispettare i confini altrui. We can then learn how to pro-actively ask people what they're comfortable with, to know and respect others' boundaries.
 
 ```
 hong({ eyes:"annoyed_l", mouth:"narrow" });
 bb({ eyes:"annoyed", mouth:"smile" });
 ```
 
-h: Y'know, all that "inter-personal skills" ^crap^ we see in counselor brochures.
+h: Sai, tutta quella robaccia delle "abilità interpersonali" che vediamo sui volantini del consulente.Y'know, all that "inter-personal skills" ^crap^ we see in counselor brochures.
 
 (#act4_something_else)
 
@@ -1147,11 +1147,11 @@ _.a4_fears_discussed += 1;
 
 `bb({ eyes:"annoyed_r" })`
 
-b: I want to defend your moral needs, that drive to become a better person,
+b: Voglio difendere i tuoi bisogni morali, che ti portano a diventare una persona migliore,I want to defend your moral needs, that drive to become a better person,
 
 `bb({ eyes:"sad_d" })`
 
-b: But it just feels like deep down, we're so fundamentally... broken.
+b: Ma in fondo, sembra che siamo fondamentalmente... rotti.But it just feels like deep down, we're so fundamentally... broken.
 
 `bb({ body:"two_up", eyes:"angry" })`
 
