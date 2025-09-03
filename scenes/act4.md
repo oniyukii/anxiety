@@ -1114,7 +1114,7 @@ b: Forse vuole solo fare un dannato caffè, non diventare una *cavia* dei nostri
 
 `bb({ eyes:"annoyed" })`
 
-h: Beh, ci riveliamo *essere* un fardello...Well, if it turns out we *are* being a burden...
+h: Beh, se ci riveliamo *essere* un fardello...Well, if it turns out we *are* being a burden...
 
 ```
 hong({ eyes:"surprise" });
@@ -1151,16 +1151,16 @@ b: Voglio difendere i tuoi bisogni morali, che ti portano a diventare una person
 
 `bb({ eyes:"sad_d" })`
 
-b: Ma in fondo, sembra che siamo fondamentalmente... rotti.But it just feels like deep down, we're so fundamentally... broken.
+b: Ma sembra che, in fondo, siamo completamente... rotti.But it just feels like deep down, we're so fundamentally... broken.
 
 `bb({ body:"two_up", eyes:"angry" })`
 
 {{if _.INJURED}}
-b: And don't tell me we're *not* messed up. We jumped off a *roof*.
+b: E non dirmi che *non* siamo incasinati. Siamo saltati da un *tetto*.And don't tell me we're *not* messed up. We jumped off a *roof*.
 {{/if}}
 
 {{if !_.INJURED}}
-b: And don't tell me we're *not* messed up. We almost jumped off a *roof*.
+b: E non dirmi che *non* siamo incasinati. Siamo quasi saltati da un *tetto*.
 {{/if}}
 
 `bb({ body:"normal", eyes:"sad" })`
@@ -1192,21 +1192,21 @@ bb({eyes:"normal"});
 hong({body:"chin"});
 ```
 
-h: We could slowly build better habits, get our life more in line with what we value,
+h: Potremmo piano piano acquisire abitudini più sane, e rendere la nostra vita più in linea con i nostri valori,We could slowly build better habits, get our life more in line with what we value,
 
 `hong({body:"one_up"});`
 
-h: And if needed, we could get professional help – a therapist or counsellor.
+h: E, se necessario, potremmo chiedere un aiuto professionale: uno psicologo o un consulente.And if needed, we could get professional help – a therapist or counsellor.
 
 `hong({body:"normal"});`
 
-h: There's ways to fix us.
+h: I modi per uscirne ci sono.There's ways to fix us.
 
-[What if we can't fix it all?](#act4_bad_fix_cant)
+[E se non riuscissimo a uscirne del tutto?What if we can't fix it all?](#act4_bad_fix_cant)
 
-[What if we fix *too* much?](#act4_bad_fix_too_much)
+[E se ne uscissimo *fin* troppo?What if we fix *too* much?](#act4_bad_fix_too_much)
 
-[We can't afford professional help.](#act4_bad_fix_afford)
+[Non possiamo permetterci un aiuto professionale.We can't afford professional help.](#act4_bad_fix_afford)
 
 # act4_bad_fix_cant
 
@@ -1214,26 +1214,26 @@ h: There's ways to fix us.
 
 h: Nah, I guess you're right.
 
-h: We can't fix it all.
+h: Non possiamo uscirne del tutto.We can't fix it all.
 
 `bb({mouth:"scream", eyes:"scream_sad"});`
 
-b: Ahhh I knew it we'll always be broken!
+b: Ahhh lo sapevo che saremo per sempre rotti! I knew it we'll always be broken!
 
 `hong({eyes:"surprise"});`
 
-h: But we can at least be *less* broken.
+h: Ma possiamo almeno essere *meno* rotti.But we can at least be *less* broken.
 
 ```
 bb({mouth:"normal", eyes:"annoyed"});
 hong({eyes:"sad", mouth:"smile"});
 ```
 
-h: Scars heal with time, but they never go away. And that's okay.
+h: Le cicatrici si curano col tempo, ma non se ne andranno più. E va bene così. Scars heal with time, but they never go away. And that's okay.
 
 `bb({eyes:"annoyed_r"});`
 
-b: I guess. Besides,
+b: Credo di sì. Inoltre,
 
 ```
 Game.FORCE_TEXT_Y = 460;
@@ -1241,7 +1241,7 @@ Game.clearText();
 publish("act4-sexy", [true]);
 ```
 
-b: Scars are *sexy.*
+b: Le cicatrici sono *sexy*.
 
 ```
 Game.FORCE_TEXT_Y = -1;
@@ -1251,7 +1251,7 @@ bb({body:"chest", mouth:"smile_talk", MOUTH_LOCK:true, eyes:"sexy"}, 0);
 hong({eyes:"normal", mouth:"normal"}, 0);
 ```
 
-h: Please do not do that.
+h: Ti prego non farlo.Please do not do that.
 
 (#act4_something_else)
 
@@ -1259,23 +1259,23 @@ h: Please do not do that.
 
 `bb({ eyes:"angry_d" })`
 
-b: This feels sick to admit, but... some part of me *wants* to have this disorder.
+b: Fa schifo ammetterlo, ma... una parte di me *vuole* avere questo disordine.This feels sick to admit, but... some part of me *wants* to have this disorder.
 
 `bb({ eyes:"angry" })`
 
-b: I mean, without it, won't we be *boring?*
+b: Voglio dire, non è che saremo *noiosi* senza?I mean, without it, won't we be *boring?*
 
 `bb({ eyes:"sad_r", body:"one_up" })`
 
-b: Without the disorder, won't our art become stale and bland?
+b: Senza il disordine, la nostra arte non è che diventa Without the disorder, won't our art become stale and bland?
 
 `bb({ eyes:"sad_u", body:"two_up" })`
 
-b: Without the disorder, won't we be unable to connect with our friends who have the disorder?
+b: Senza il disordine, won't we be unable to connect with our friends who have the disorder?
 
 `bb({ eyes:"sad", body:"chest" })`
 
-b: If we're ever content with life, won't we stop driving ourselves to do great things?
+b: Se siamo soddisfatti nella vita, If we're ever content with life, won't we stop driving ourselves to do great things?
 
 `hong({ MOUTH_LOCK:true })`
 
