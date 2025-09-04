@@ -963,14 +963,14 @@ h: Nah, hai ragione. Le "abilità sociali" non è solo compiacere gli altri, ma 
 
 `hong( body:"one_up" });`
 
-h: Non possiamo invitare gli altri a casa, se non abbiamo delle mura che la sorreggano.We can't invite others into our home, if we have no walls to hold up our home.
+h: Non possiamo invitare persone a casa, se non abbiamo delle mura che la sorreggano.We can't invite others into our home, if we have no walls to hold up our home.
 
 ```
 hong( eyes:"angry", mouth:"narrow" });
 bb( eyes:"annoyed", mouth:"smile" });
 ```
 
-h: Also... re: that lipstick mental image... *ew??*
+h: Poi... quella cosa del rossetto... *che schifo*!!Also... re: that lipstick mental image... *ew??*
 
 (#act4_something_else)
 
@@ -993,11 +993,11 @@ h: Quindi falliamo insieme, ok?
 
 `bb({ eyes:"normal_r" });`
 
-b: Immagino di sì... Alle brutte, possiamo cambiare città e cambiare identità., we can just skip town and get a new identity.
+b: Immagino di sì... Alle brutte, possiamo cambiare città e farci una nuova identità., we can just skip town and get a new identity.
 
 `bb({ eyes:"normal" });`
 
-h: Sì, forse oggigiorno costa un paio di bitcoin.Yeah I think that only costs two bitcoins these days.
+h: Sì, forse oggigiorno costa giusto un paio di bitcoin.Yeah I think that only costs two bitcoins these days.
 
 (#act4_something_else)
 
@@ -1008,11 +1008,11 @@ hong({ body:"one_up" });
 bb({ eyes:"normal" });
 ```
 
-h: Potremmo fare degli esperimenti!We could try some experiments!
+h: Potremmo provare a sperimentare!We could try some experiments!
 
 `hong({ body:"chin" });`
 
-h: Chiedere a qualche amico di uscire, risentire vecchi amici, oppure chiacchierare con i baristi.We could ping a friend to hang out, reconnect with an old pal, or even just chat with a barista.
+h: Chiedere a qualche amico di uscire, risentire vecchie conoscenze, oppure chiacchierare con i baristi.We could ping a friend to hang out, reconnect with an old pal, or even just chat with a barista.
 
 `hong({ body:"normal" });`
 
@@ -1030,11 +1030,11 @@ h: Magari scopriamo di essere più simpatici del previsto.I think we may find we
 
 `bb({ eyes:"sad" });`
 
-b: Se facciamo un sorriso falso, non riusciremo mai a comunicare con nessuno,If we put on a shallow smile, we'll never really connect with anyone,
+b: Se facciamo un finto sorriso, non riusciremo mai a comunicare con nessuno,If we put on a shallow smile, we'll never really connect with anyone,
 
 `bb({ eyes:"super_sad" });`
 
-b: *Ma* se ci apriamo, gli altri vedranno tutto il nostro disordine interiore!*But* if we open up, other people will see all our messed-up insides!
+b: *Ma* se ci apriamo, gli altri vedranno tutto il nostro disordine interno!*But* if we open up, other people will see all our messed-up insides!
 
 `hong({body:"chin", mouth:"narrow", MOUTH_LOCK:true})`
 
@@ -1077,7 +1077,7 @@ h: No.
 
 # act4_alone_experiment_cheap
 
-b: Salutare i baristi non è proprio una prestazione da medaglia d'oro alle Socialimpiadi.Saying "hi" to the barista isn't exactly gold-medal performance in the Social Butterfly Olympics.
+b: Dire "ciao" ai baristi non è proprio una prestazione da medaglia d'oro alle Socialimpiadi.Saying "hi" to the barista isn't exactly gold-medal performance in the Social Butterfly Olympics.
 
 ```
 hong({ body:"point", eyes:"surprise" });
@@ -1094,7 +1094,7 @@ h: Nel ring sociale, non siamo nemmeno peso piuma, siamo tipo... peso ricotta.
 
 h: Se dobbiamo iniziare con piccoli e banali successi, facciamolo. Per arrivare al millesimo gradino, dobbiamo prima salire sul primo.If we have to start with small, cheap wins, so be it. Gotta climb the 1st step before the 1000th step.
 
-b: Esatto! Magari dopo aver detto "Ciao", possiamo proseguire dicendo...Yeah! Maybe after saying "Hi", we can advance to saying...
+b: Esatto! Magari dopo aver detto "ciao", possiamo proseguire dicendo...Yeah! Maybe after saying "Hi", we can advance to saying...
 
 `bb({ body:"two_up", mouth:"smile", eyes:"smile_u" });`
 
@@ -1110,7 +1110,7 @@ h: *"Non c'è male!*
 
 `bb({ eyes:"suspect_r" })`
 
-b: Forse vuole solo fare un dannato caffè, non diventare una *cavia* dei nostri fallimenti nelle le interazioni sociali.Maybe the barista just wants to make some dang coffee, not be an *experiment* to see if our social skills suck.
+b: Forse vuole solo fare un dannato caffè, non diventare una *cavia* dei nostri fallimenti nelle interazioni sociali.Maybe the barista just wants to make some dang coffee, not be an *experiment* to see if our social skills suck.
 
 `bb({ eyes:"annoyed" })`
 
@@ -1179,11 +1179,11 @@ b: More thoughts, human?
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[So we're broken. Let's fix us.](#act4_bad_fix)
+[Dunque siamo rotti. Rimediamo.](#act4_bad_fix)
 
-[So we're broken. Let's accept it.](#act4_bad_accept)
+[Dunque, siamo rotti. Accettiamolo.](#act4_bad_accept)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "moral well-being";`
+[Grazie.](#act4_thanks) `_.thanks_for = "moral well-being";`
 
 # act4_bad_fix
 
@@ -1206,7 +1206,7 @@ h: I modi per uscirne ci sono.There's ways to fix us.
 
 [E se ne uscissimo *fin* troppo?What if we fix *too* much?](#act4_bad_fix_too_much)
 
-[Non possiamo permetterci un aiuto professionale.We can't afford professional help.](#act4_bad_fix_afford)
+[Non possiamo permetterci un aiuto professionale.](#act4_bad_fix_afford)
 
 # act4_bad_fix_cant
 
@@ -1218,7 +1218,7 @@ h: Non possiamo uscirne del tutto.We can't fix it all.
 
 `bb({mouth:"scream", eyes:"scream_sad"});`
 
-b: Ahhh lo sapevo che saremo per sempre rotti! I knew it we'll always be broken!
+b: Ahhh lo sapevo che saremo sempre rotti! I knew it we'll always be broken!
 
 `hong({eyes:"surprise"});`
 
@@ -1251,7 +1251,7 @@ bb({body:"chest", mouth:"smile_talk", MOUTH_LOCK:true, eyes:"sexy"}, 0);
 hong({eyes:"normal", mouth:"normal"}, 0);
 ```
 
-h: Ti prego non farlo.Please do not do that.
+h: Ti prego, no.Please do not do that.
 
 (#act4_something_else)
 
@@ -1263,7 +1263,7 @@ b: Fa schifo ammetterlo, ma... una parte di me *vuole* avere questo disordine.Th
 
 `bb({ eyes:"angry" })`
 
-b: Voglio dire, non è che saremo *noiosi* senza?I mean, without it, won't we be *boring?*
+b: Voglio dire, non è che siamo *noiosi* senza?I mean, without it, won't we be *boring?*
 
 `bb({ eyes:"sad_r", body:"one_up" })`
 
@@ -1275,7 +1275,7 @@ b: Senza il disordine, won't we be unable to connect with our friends who have t
 
 `bb({ eyes:"sad", body:"chest" })`
 
-b: Se siamo soddisfatti nella vita, If we're ever content with life, won't we stop driving ourselves to do great things?
+b: Se saremo mai soddisfatti nella vita, If we're ever content with life, won't we stop driving ourselves to do great things?
 
 `hong({ MOUTH_LOCK:true })`
 
@@ -1287,7 +1287,7 @@ h: I don't think we're gonna run out of fears.
 
 `bb({ eyes:"smile_u", body:"normal", mouth:"smile" })`
 
-b: Oh, yeah! Whew! What a relief!
+b: Oh, sì! Uh, che sollievo!
 
 (#act4_something_else)
 
@@ -1299,26 +1299,26 @@ b: "Doc, I'm anxious that I'm paying $100/hr just to hear you ask *how does that
 
 `bb({ body:"paw", eyes:"closed", mouth:"narrow" })`
 
-b: "Mm-hmm. And how does that make you feel?"
+b: "Mm-hmm. E questo come ti fa sentire?"
 
 ```
 bb({ body:"normal", eyes:"normal", mouth:"normal" });
 hong({ eyes:"sad" });
 ```
 
-h: Nah, that's a totally reasonable worry.
+h: Nah, è una preoccupazione piuttosto ragionevole.Nah, that's a totally reasonable worry.
 
 `hong({ eyes:"annoyed", mouth:"sad" });`
 
-h: And it genuinely sucks that mental healthcare isn't affordable for lots of folks.
+h: E fa veramente schifo che la sanità mentale è un lusso per tanta gente.And it genuinely sucks that mental healthcare isn't affordable for lots of folks.
 
 `hong({ eyes:"normal", mouth:"normal" });`
 
-h: Still, there are some cheap or free options:
+h: Ma ci sono anche opzioni economiche o gratuite:
 
 `hong({ body:"chin" })`
 
-h: Support groups, online therapy, student/non-profit health centers...
+h: Gruppi di supporto, terapia online, student/non-profit health centers...
 
 `hong({ body:"hands_1" })`
 
@@ -1326,22 +1326,22 @@ h: Building habits like meditation, sleeping well, chatting regularly with frien
 
 `hong({ body:"hands_2" })`
 
-h: Going to a library to borrow workbooks for evidence-based psychotherapies...
+h: Andare in biblioteca e prendere in prestito workbooks for evidence-based psychotherapies...
 
 `hong({ body:"one_up" })`
 
-h: There's a full list of resources at the end of this game!
+h: Alla fine c'è una lunga lista di risorse!
 
 ```
 hong({ body:"normal" });
 bb({ eyes:"annoyed", mouth:"narrow" });
 ```
 
-b: Well *that* fourth wall didn't last long.
+b: Beh, *quella* quarta parete non è durata molto.
 
 `hong({ body:"point" });`
 
-h: Some things are more important than narrative convention. Such as mental health.
+h: Ci sono cose più importanti delle regole di narrazione. Come la salute mentale.Some things are more important than narrative convention. Such as mental health.
 
 (#act4_something_else)
 
@@ -1353,26 +1353,26 @@ bb({ eyes:"normal" });
 hong({ eyes:"normal_l", body:"one_up", mouth:"narrow" });
 ```
 
-h: I mean, that's what therapists say right? Accept all your emotions, even the negative ones?
+h: Insomma, è quello che dicono gli psicologi, no? Accettare i tuoi sentimenti, anche quelli negativi?I mean, that's what therapists say right? Accept all your emotions, even the negative ones?
 
 ```
 bb({ eyes:"annoyed" });
 hong({ eyes:"normal", body:"normal", mouth:"normal" });
 ```
 
-b: Wait.
+b: Aspetta.
 
-["Accept" as in *give up*?](#act4_bad_accept_give_up)
+["Accettare" nel senso di *arrendersi*?](#act4_bad_accept_give_up)
 
-["Accept" as in *approve*?](#act4_bad_accept_approve)
+["Accettare" nel senso di *approvare*?](#act4_bad_accept_approve)
 
-["Accept" as in *take literally*?](#act4_bad_accept_literally)
+["Accettare" *inteso letteralmente*?](#act4_bad_accept_literally)
 
 # act4_bad_accept_give_up
 
 `bb({ eyes:"angry", body:"one_up" });`
 
-b: Do you think Martin Luther King would've said, "Shucks we can't sit in the front of the bus, let's just *accept* it?"
+b: Pensi che Martin Luther King avrebbe detto: "Shucks we can't sit in the front of the bus, let's just *accept* it?"
 
 `bb({ eyes:"angry_r", body:"two_up" });`
 
@@ -1386,15 +1386,15 @@ h: But not necessarily giving up a commitment to change.
 
 `bb({ eyes:"suspect" });`
 
-b: Then therapists should say *acknowledge*, not *accept*.
+b: Allora gli psicologi dovrebbero dire *riconoscere*, non *accettare*.
 
 `hong({ body:"chin", eyes:"annoyed" });`
 
-h: Yeah come to think of it, "accept" is kinda confusing.
+h: Pensaci, *accettare* è abbastanza fuorviante.Yeah come to think of it, "accept" is kinda confusing.
 
 `bb({ eyes:"closed", mouth:"narrow" });`
 
-b: Well, I *acknowledge* that.
+b: Beh, lo *riconosco*.
 
 (#act4_something_else)
 
@@ -1410,11 +1410,11 @@ b: All those dang Hollywood screenwriters who romanticize mental illness are ful
 
 `bb({ eyes:"angry", body:"two_up" });`
 
-b: Having a mental disorder *sucks!* It robs people of *lives!* Why should we "accept" that?!
+b: Avere un disturbo mentale *fa schifo*! Deruba le persone della *vita*! Perché dovremmo *accettarlo*?Having a mental disorder *sucks!* It robs people of *lives!* Why should we "accept" that?!
 
 `bb({ body:"normal" });`
 
-h: I think therapists mean "accept" our emotions as in: be patient with them.
+h: Penso che gli psicologi intendano "accettare" le nostre emozioni nel senso di essere pazienti con esse.I think therapists mean "accept" our emotions as in: be patient with them.
 
 ```
 hong({ body:"one_up" });
