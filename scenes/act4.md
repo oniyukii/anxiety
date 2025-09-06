@@ -14,7 +14,7 @@ Game.FORCE_CANT_SKIP = false;
 Game.CLICK_TO_ADVANCE = true;
 ```
 
-n3: (gioco salvato automaticamente)
+n3: (gioco salvato in automatico)
 
 ```
 Game.clearText();
@@ -231,7 +231,7 @@ h: Cosa abbiamo *imparato*? Mi *stavo* comportando da idiota, i miei "amici" mi 
 [Già, per non parlare del danno epatico.](#act4a_liver)
 {{/if}}
 
-[Già, quello *è stato* il peggio che potesse capitare](#act4a_worst)
+[Già, quello *è stato* il peggio che potesse capitare.](#act4a_worst)
 
 [Già, avevo ragione.](#act4a_right)
 
@@ -471,15 +471,15 @@ b: Ma il *mondo intero* sembra pericoloso. Pieno di tragedie e cattiverie.
 `bb({eyes:"sad"})`
 
 {{if _.a4_fears_discussed==1}}
-b: Non so, enough of *me* choosing what to say next. *Tu* che ne dici, umano?
+b: Non so, sono sempre *io* a decidere cosa dire. *Tu* cosa vorresti dire?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Adesso tocca a te, umano. Che ne pensi?
+b: Adesso tocca a te. Cosa ne pensi?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: Altro da dire, umano?
+b: Che altro ti viene in mente?
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
@@ -494,14 +494,14 @@ b: Altro da dire, umano?
 
 `bb({eyes:"look_down", body:"paw"})`
 
-b: Ma... come? Io ho zanne e artigli, ma sono solo un concetto.
+b: Ma... come? Io ho zanne e artigli, ma solo metaforicamente.
 
 ```
 bb({ body:"normal", eyes:"normal" });
 hong({ body:"one_up", eyes:"surprise" });
 ```
 
-h: Potremmo imparare l'autodifesa? Unirci a una comunità dove ci si protegge a vicenda? Migliorare i nostri confini generali e personali di salute?
+h: Potremmo imparare ad autodifenderci? Unirci a una comunità dove ci si protegge a vicenda? Migliorare i nostri confini generali e personali di salute?
 
 ```
 bb({ eyes:"annoyed_r" });
@@ -547,7 +547,7 @@ h: Perciò: questo *è già* addestramento di autodifesa.
 
 `bb({ eyes:"normal_r" })`
 
-b: Huh. I was expecting more of this:
+b: Ah, tutto qui?
 
 ```
 Game.FORCE_CANT_SKIP = true;
@@ -567,7 +567,7 @@ sfx("hiya");
 
 `bb({ eyes:"normal" });`
 
-h: Vero, è impossibile proteggerci al 100%...True, there's no way to 100% protect ourselves...
+h: Vero, è impossibile proteggerci al 100%...
 
 `hong({ body:"one_up" });`
 
@@ -578,15 +578,15 @@ bb({ eyes:"annoyed" });
 hong({ normal:"one_up" });
 ```
 
-b: Non vedi il bicchiere 99% vuoto, ma lo vedi 1% pieno??You're seeing the glass as not 99% empty, but 1% full?
+b: Non vedi il bicchiere 99% vuoto, ma lo vedi 1% pieno?You're seeing the glass as not 99% empty, but 1% full?
 
 `bb({ eyes:"normal" });`
 
-h: Che è meglio di niente se stai morendo di sete in un deserto.Which is still worth something if you're stranded in the desert.
+h: Che è comunque meglio di niente se ti ritrovi in un deserto.
 
 `bb({ eyes:"closed" });`
 
-b: Beh, allora, su il bicchiere.Well. Bottoms up, then.
+b: Beh, allora, alla goccia.
 
 (#act4_something_else)
 
@@ -594,11 +594,11 @@ b: Beh, allora, su il bicchiere.Well. Bottoms up, then.
 
 `bb({ body:"chest", eyes:"annoyed" })`
 
-b: Cioè, il vero motivo per cui ignoravi i miei segnali era il *mio* andare oltre la sicurezza!I mean, the whole reason you ignored my warnings was because *I* went overboard with safety! 
+b: Cioè, il vero motivo per cui ignoravi i miei avvertimenti era il *mio* andare oltre la sicurezza!
 
 `bb({ body:"normal", eyes:"normal" })`
 
-h: Nah, avevi ragione. Dovremmo fare sicurezza in moderazione. Tutto in moderazione. Naw, you're right. We would want to do safety in moderation. Everything in moderation.
+h: Nah, avevi ragione. Dovremmo fare sicurezza in moderazione. Tutto in moderazione.
 
 `bb({ eyes:"suspect" })`
 
@@ -613,7 +613,7 @@ bb({ eyes:"closed" });
 hong({ eyes:"normal" });
 ```
 
-b: Thank you for making your statements recursively self-consistent.
+b: Grazie per aver reso le tue affermazioni ricorsivamente coerenti.
 
 (#act4_something_else)
 
@@ -629,7 +629,7 @@ bb({ mouth:"narrow", eyes:"suspect" });
 hong({ body:"one_up" });
 ```
 
-h: Nel senso, prendiamo un cane che ha paura dei tuoni.I mean, let's say a dog is scared of thunder.
+h: Per dire, prendiamo un cane che ha paura dei tuoni.
 
 `hong({ body:"hands_1" });`
 
@@ -652,15 +652,15 @@ h: Tu sei un cane, quindi dovrebbe funzionare anche con te, giusto? Tutti i mamm
 
 `hong({ body:"normal" });`
 
-[What if we desensitize *too* much?](#act4_harm_exposure_overboard)
+[E se perdessimo *troppa* sensibilità?](#act4_harm_exposure_overboard)
 
-[E se siamo esposti ad un *vero* pericolo?](#act4_harm_exposure_hurt)
+[E se fossimo esposti ad un *vero* pericolo?](#act4_harm_exposure_hurt)
 
 [Sono un lupo, non un cane.](#act4_harm_exposure_dog) `bb({ eyes:"suspect" })`
 
 # act4_harm_exposure_dog
 
-h: Ed io ti mostrerò gentilezza e pazienza fino a farti diventare un bel cucciolino addomesticato.And I'll show you kindness and patience 'til you're domesticated into a cute lil' puppy.
+h: Ed io ti mostrerò gentilezza e pazienza finché non diventi un bel cucciolino addomesticato.
 
 `bb({ MOUTH_LOCK:true })`
 
@@ -680,15 +680,15 @@ b: Abbiamo *appena* visto cosa succede se metti a tacere le paure... ci hai fatt
 
 `bb({ eyes:"angry_r", body:"one_up" })`
 
-b: Inoltre, won't *too* much desensitization turn us into psychopaths?
+b: Inoltre, *troppa* desensibilizzazione non ci renderà degli psicopatici? won't *too* much desensitization turn us into psychopaths?
 
 `bb({ mouth:"scream", eyes:"scream", body:"two_up" })`
 
-b: Soon we'll give ourselves treats while watching snuff murder porn!
+b: Finiremo per sgranocchiarci qualcosa mentre guardiamo dei porno snuff! dei porno Soon we'll give ourselves treats while watching snuff murder porn!
 
 `hong({ eyes:"annoyed" })`
 
-h: Io... credo che quello sia molto diverso dai tuoni.
+h: Io... credo che ci sia un confine tra quello e i tuoni.
 
 `bb({ body:"normal", mouth:"normal", eyes:"suspect" })`
 
@@ -700,11 +700,11 @@ h: Non lo so. Ma *tu* puoi aiutarmi!
 
 `hong({ eyes:"normal", body:"normal" })`
 
-h: Working and negotiating with you, we'll draw that line.
+h: Lavorando e negoziando insieme, tracceremo quel confine.
 
 `bb({ body:"paw", mouth:"narrow", eyes:"closed" })`
 
-b: Ok. Ma io non ho i pollici opponibili, dovrai tracciarla tu.But I've got no opposable thumbs, so you have to do the drawing.
+b: Ok. Ma io non ho i pollici opponibili, dovrai tracciarla tu.
 
 (#act4_something_else)
 
@@ -725,7 +725,7 @@ hong({ eyes:"annoyed" });
 bb({ body:"normal", eyes:"annoyed" });
 ```
 
-h: Nah, hai ragione. One *can* go too far.
+h: Nah, hai ragione. Si *può* esagerare.
 
 `hong({ eyes:"normal" });`
 
@@ -735,7 +735,7 @@ h: Prima di andare incontro ai *veri* pericoli, ci fermiamo.
 
 `bb({ eyes:"annoyed_r", mouth:"narrow" });`
 
-b: Yeah I draw the line between hearing loud thunder, and standing in a storm with a tall pointy hat.
+b: Sì, traccio il confine tra sentire i tuoni e stare in una tempesta con un lungo cappello a punta.
 
 (#act4_something_else)
 
@@ -784,7 +784,7 @@ b: Non mi avevi mai *ringraziato* prima d'ora.
 
 `hong({ mouth:"smile" });`
 
-h: Oh, il mio lupone pelosone panicone.Aw you big fuzzy-wuzzy panic-wolf.
+h: Oh, il mio lupone pelosone panicone.
 
 (#act4_something_else)
 
