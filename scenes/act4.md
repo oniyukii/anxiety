@@ -899,7 +899,7 @@ h: Potremmo anche imparare ad accettare i rifiuti.
 
 `hong({ eyes:"normal" });`
 
-h: O imparare a capire quando le persone *non* ci rifiutano, sono stanchi, o hanno solo l'espressione imbronciata.
+h: O imparare a capire quando le persone *non* ci rifiutano, magari sono stanchi, o hanno solo l'espressione imbronciata.
 
 ```
 hong({ body:"normal" });
@@ -928,7 +928,7 @@ b: Charles Manson non sapeva forse come trattare gli altri e farseli amici?
 
 h: No, hai ragione.
 
-h: Le "abilità sociali" non contano nulla se non ci importasse veramente *degli* altri.
+h: Le "abilità sociali" non contano nulla se non ci importa veramente *degli* altri.
 
 `hong({ body:"normal" });`
 
@@ -936,7 +936,7 @@ h: In pratica, non fare gli ^stronzi^.
 
 `bb({ eyes:"annoyed", mouth:"smile" });`
 
-b: Leggi cosa c'è scritto su quel un poster motivazionale.
+b: Leggi che c'è scritto su quel un poster motivazionale.
 
 `hong({ body:"shrug", mouth:"narrow" });`
 
@@ -970,7 +970,7 @@ hong( eyes:"angry", mouth:"narrow" });
 bb( eyes:"annoyed", mouth:"smile" });
 ```
 
-h: Poi... quella cosa del rossetto... *che schifo*!!Also... re: that lipstick mental image... *ew??*
+h: Poi... quella cosa del rossetto... *che schifo*!!
 
 (#act4_something_else)
 
@@ -1007,21 +1007,21 @@ hong({ body:"one_up" });
 bb({ eyes:"normal" });
 ```
 
-h: Potremmo provare a sperimentare!We could try some experiments!
+h: Possiamo provare a sperimentare!
 
 `hong({ body:"chin" });`
 
-h: Chiedere a qualche amico di uscire, risentire vecchie conoscenze, oppure scambiare due parole con qualche barista.We could ping a friend to hang out, reconnect with an old pal, or even just chat with a barista.
+h: Scrivere a qualche amico per uscire, risentire vecchie conoscenze, oppure scambiare due parole con qualche barista.We could ping a friend to hang out, reconnect with an old pal, or even just chat with a barista.
 
 `hong({ body:"normal" });`
 
-h: Magari scopriamo di essere più simpatici del previsto.I think we may find we're more likeable than we suspect.
+h: Magari scopriamo di essere più simpatici del previsto.
 
 `bb({ eyes:"annoyed" });`
 
-[E se fossero dei piccoli e banali "successi"?What if these are small, cheap "wins"?](#act4_alone_experiment_cheap)
+[E se fossero dei piccoli "successi" da poco?](#act4_alone_experiment_cheap)
 
-[E se fosse un fardello per gli altri?](#act4_alone_experiment_burden)
+[E se fosse un peso per gli altri?](#act4_alone_experiment_burden)
 
 [Ma parlare del più e del meno non è *da noi*!](#act4_alone_experiment_real_us)
 
@@ -1029,7 +1029,7 @@ h: Magari scopriamo di essere più simpatici del previsto.I think we may find we
 
 `bb({ eyes:"sad" });`
 
-b: Se facciamo un finto sorriso, non riusciremo mai a comunicare con nessuno,If we put on a shallow smile, we'll never really connect with anyone,
+b: Se sorridiamo forzatamente, non riusciremo mai a comunicare con nessuno,If we put on a shallow smile, we'll never really connect with anyone,
 
 `bb({ eyes:"super_sad" });`
 
@@ -1054,18 +1054,18 @@ h: Quando i cani vogliono esprimere amore e fiducia, si rendono vulnerabili most
 
 `hong({body:"one_up"})`
 
-h: Forse non siamo *ancora* abbastanza al sicuro per essere troppo vulnerabili, ma esercitandoci,Maybe we're not *yet* secure enough to be too vulnerable, but with enough training,
+h: Forse non siamo *ancora* abbastanza al sicuro da permetterci di essere troppo vulnerabili, ma con la pratica,
 
 `hong({body:"normal", eyes:"surprise"})`
 
-h: Un giorno riusciremo a mostrarci per quello che siamo: disastrati, ma umani.One day we can show people the real us – all messed-up, all human.
+h: Un giorno riusciremo a mostrare al mondo i veri noi: disastrati, ma umani.
 
 ```
 hong({eyes:"normal"});
 bb({ eyes:"super_sad", mouth:"smile", body:"chest" });
 ```
 
-b: Rotolerò solo se mi dai un biscottino.I'll roll over if you give me a treat.
+b: Rotolerò solo se mi dai un biscottino.
 
 `bb({ eyes:"normal", mouth:"normal" });`
 
@@ -1076,7 +1076,7 @@ h: No.
 
 # act4_alone_experiment_cheap
 
-b: Dire "ciao" ai baristi non è proprio una prestazione da medaglia d'oro alle Socialimpiadi.Saying "hi" to the barista isn't exactly gold-medal performance in the Social Butterfly Olympics.
+b: Dire "ciao" a chi lavora al bar non è proprio una prestazione da medaglia d'oro alle Socialimpiadi.Saying "hi" to the barista isn't exactly gold-medal performance in the Social Butterfly Olympics.
 
 ```
 hong({ body:"point", eyes:"surprise" });
@@ -1091,9 +1091,9 @@ h: Nel ring sociale, non siamo nemmeno peso piuma, siamo tipo... peso ricotta.
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: Se dobbiamo iniziare con piccoli e banali successi, facciamolo. Per arrivare al millesimo gradino, dobbiamo prima salire sul primo.If we have to start with small, cheap wins, so be it. Gotta climb the 1st step before the 1000th step.
+h: Se dobbiamo iniziare con piccoli successi da poco, facciamolo. Per arrivare al millesimo gradino, dobbiamo prima salire sul primo.
 
-b: Esatto! Magari dopo aver detto "ciao", possiamo proseguire dicendo...Yeah! Maybe after saying "Hi", we can advance to saying...
+b: Esatto! Magari dopo aver detto "ciao", possiamo proseguire dicendo...
 
 `bb({ body:"two_up", mouth:"smile", eyes:"smile_u" });`
 
@@ -1109,29 +1109,29 @@ h: *"Non c'è male!*
 
 `bb({ eyes:"suspect_r" })`
 
-b: Forse vuole solo fare un dannato caffè, non diventare una *cavia* dei nostri fallimenti nelle interazioni sociali.Maybe the barista just wants to make some dang coffee, not be an *experiment* to see if our social skills suck.
+b: Forse vuole solo fare un dannato caffè, non diventare una *cavia* dei nostri fallimenti nelle interazioni sociali.
 
 `bb({ eyes:"annoyed" })`
 
-h: Beh, se ci riveliamo *essere* un fardello...Well, if it turns out we *are* being a burden...
+h: Beh, se venisse fuori che *siamo* un peso...Well, if it turns out we *are* being a burden...
 
 ```
 hong({ eyes:"surprise" });
 bb({ eyes:"normal" });
 ```
 
-h: Comunque buon per noi!That's good to know, too!
+h: Comunque buono a sapersi!
 
 `hong({ eyes:"normal" });`
 
-h: Possiamo imparare a chiedere proattivamente agli altri cosa li mette a proprio agio, per conoscere e rispettare i confini altrui. We can then learn how to pro-actively ask people what they're comfortable with, to know and respect others' boundaries.
+h: Possiamo imparare a chiedere proattivamente agli altri cosa li mette a proprio agio, per conoscere e rispettare i confini altrui.
 
 ```
 hong({ eyes:"annoyed_l", mouth:"narrow" });
 bb({ eyes:"annoyed", mouth:"smile" });
 ```
 
-h: Sai, tutta quella robaccia delle "abilità interpersonali" che vediamo sui volantini del consulente.Y'know, all that "inter-personal skills" ^crap^ we see in counselor brochures.
+h: Sai, tutta quella robaccia delle "abilità interpersonali" che vediamo sui volantini dei consulenti.
 
 (#act4_something_else)
 
@@ -1169,16 +1169,16 @@ b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: Tocca di nuovo a te. Cosa ne pensi?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: More thoughts, human?
+b: Altre considerazioni?
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[Dunque siamo rotti. Rimediamo.](#act4_bad_fix)
+[Dunque, siamo rotti. Rimediamo.](#act4_bad_fix)
 
 [Dunque, siamo rotti. Accettiamolo.](#act4_bad_accept)
 
@@ -1191,7 +1191,7 @@ bb({eyes:"normal"});
 hong({body:"chin"});
 ```
 
-h: Potremmo piano piano sviluppare abitudini migliori, vivere seguendo i nostri valori.
+h: Potremmo piano piano crearci abitudini migliori, vivere seguendo i nostri valori.
 
 `hong({body:"one_up"});`
 
@@ -1266,7 +1266,7 @@ b: Voglio dire, non è che poi diventiamo *noiosi* senza?
 
 `bb({ eyes:"sad_r", body:"one_up" })`
 
-b: Senza disturbo, non è che la nostra arte diventa banale ed inspida?
+b: Senza disturbo, non è che la nostra arte diventa banale ed insipida?
 
 `bb({ eyes:"sad_u", body:"two_up" })`
 
@@ -1274,15 +1274,15 @@ b: Senza disturbo, non è che non saremo più in grado di stare con gli amici ch
 
 `bb({ eyes:"sad", body:"chest" })`
 
-b: Se saremo mai soddisfatti nella vita, If we're ever content with life, won't we stop driving ourselves to do great things?
+b: Se mai saremo soddisfatti della vita, non è che smetteremo di fare grandi cose?
 
 `hong({ MOUTH_LOCK:true })`
 
 h: ...
 
-h: If we even fear... "running out of fears"...
+h: Se abbiamo persino paura... di "scappare dalle paure"...
 
-h: I don't think we're gonna run out of fears.
+h: Non credo che riusciremo a scappare.
 
 `bb({ eyes:"smile_u", body:"normal", mouth:"smile" })`
 
@@ -1317,7 +1317,7 @@ h: Ma ci sono anche soluzioni economiche o gratuite:
 
 `hong({ body:"chin" })`
 
-h: Gruppi di supporto, terapia online, student/non-profit health centers...
+h: Gruppi di supporto, terapia online, centri sanitari per studenti o a scopo di lucro...
 
 `hong({ body:"hands_1" })`
 
@@ -1352,7 +1352,7 @@ bb({ eyes:"normal" });
 hong({ eyes:"normal_l", body:"one_up", mouth:"narrow" });
 ```
 
-h: Insomma, è quello che dicono gli psicologi, no? Accettare i tuoi sentimenti, anche quelli negativi?
+h: Insomma, è quello che dicono gli psicologi, no? Accettare i sentimenti, anche quelli negativi?
 
 ```
 bb({ eyes:"annoyed" });
@@ -1371,17 +1371,17 @@ b: Aspetta.
 
 `bb({ eyes:"angry", body:"one_up" });`
 
-b: Pensi che Martin Luther King avrebbe detto: "Shucks we can't sit in the front of the bus, let's just *accept* it?"
+b: Pensi che Martin Luther King abbia detto: "Caspita, non possiamo sederci ai posti davanti del bus, pazienza!"?
 
 `bb({ eyes:"angry_r", body:"two_up" });`
 
-b: Why does the Self-Help Industrial Complex think waving the white flag is some *profound wisdom?*
+b: Perché il Complesso Industriale dell'Auto-Aiuto pensa che sventolare bandiera bianca sia qualcosa di *profondamente saggio*?
 
 `bb({ eyes:"annoyed", body:"normal" });`
 
-h: I think therapists mean "accept" bad things as in: acknowledging they exist and are hard to change,
+h: Penso che gli psicologi con "accettare" le cose brutte intendano: riconoscere la loro esistenza e che sia difficile cambiarle,
 
-h: But not necessarily giving up a commitment to change.
+h: Ma non per forza arrendersi al tentativo di cambiarle.
 
 `bb({ eyes:"suspect" });`
 
