@@ -1375,7 +1375,7 @@ b: Pensi che Martin Luther King abbia detto: "Caspita, non possiamo sederci ai p
 
 `bb({ eyes:"angry_r", body:"two_up" });`
 
-b: Perché il Complesso Industriale dell'Auto-Aiuto pensa che sventolare bandiera bianca sia qualcosa di *profondamente saggio*?
+b: Perché, secondo il Complesso Industriale dell'Auto-Aiuto, alzare bandiera bianca sia qualcosa di *profondamente saggio*?
 
 `bb({ eyes:"annoyed", body:"normal" });`
 
@@ -1389,7 +1389,7 @@ b: Allora gli psicologi dovrebbero dire *riconoscere*, non *accettare*.
 
 `hong({ body:"chin", eyes:"annoyed" });`
 
-h: Pensaci, *accettare* è abbastanza fuorviante.Yeah come to think of it, "accept" is kinda confusing.
+h: Sì, ora che ci penso, *accettare* è abbastanza fuorviante.
 
 `bb({ eyes:"closed", mouth:"narrow" });`
 
@@ -1401,52 +1401,52 @@ b: Beh, lo *riconosco*.
 
 `bb({ eyes:"angry" });`
 
-b: Like it's *good* that we're broken or something? No!
+b: Cioè, va *bene* che siamo rotti o qualcosa del genere? No!
 
 `bb({ eyes:"angry_r", body:"one_up" });`
 
-b: All those dang Hollywood screenwriters who romanticize mental illness are full of crud!
+b: Tutti quei cavolo di sceneggiatori di Hollywood che romanticizzano l'infermità mentale hanno la segatura nel cervello!
 
 `bb({ eyes:"angry", body:"two_up" });`
 
-b: Avere un disturbo mentale *fa schifo*! Deruba le persone della *vita*! Perché dovremmo *accettarlo*?Having a mental disorder *sucks!* It robs people of *lives!* Why should we "accept" that?!
+b: Avere un disturbo mentale *fa schifo*! Deruba le persone della *vita*! Perché dovremmo *accettarlo*?
 
 `bb({ body:"normal" });`
 
-h: Penso che gli psicologi intendano "accettare" le nostre emozioni nel senso di essere pazienti con esse.I think therapists mean "accept" our emotions as in: be patient with them.
+h: Penso che gli psicologi intendano "accettare" le nostre emozioni nel senso di averci pazienza.
 
 ```
 hong({ body:"one_up" });
 bb({ eyes:"normal" });
 ```
 
-h: Like how struggling in quicksand makes you sink faster, and the solution is to patiently lie flat,
+h: Come quando l'agitarsi nelle sabbie mobili ti fa affondare più velocemente, e la soluzione è sdraiarsi pazientemente.
 
 `hong({ eyes:"surprise" });`
 
 {{if _.INJURED}}
-h: Fighting against you, my fear, led me to jump off a roof.
+h: Lottare contro di te, la mia paura, mi ha portato a saltare da un tetto.
 {{/if}}
 
 {{if !_.INJURED}}
-h: Fighting against you, my fear, almost led me to jump off a roof.
+h: Lottare contro di te, la mia paura, mi ha quasi portato a saltare da un tetto.
 {{/if}}
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: Instead, the solution is to do what we're doing now – not to fight, but to patiently be with each other.
+h: Invece, la soluzione è quello che stiamo facendo adesso: non lottare, ma essere pazienti l'un con l'altro.
 
 `bb({ eyes:"annoyed" });`
 
-b: Then they should say *that* instead of some problematic word like "accept".
+b: Allora dovrebbero dire *questo* anziché parole problematiche come "accettare".
 
 `hong({ body:"chin", eyes:"annoyed" });`
 
-h: Yeah come to think of it, "accept" kind of sucks.
+h: Sì, ora che ci penso, *accettare* fa abbastanza schifo.
 
 `bb({ eyes:"closed_annoyed", mouth:"narrow" });`
 
-b: I do not accept "accept".
+b: Non accetto "accettare".
 
 (#act4_something_else)
 
@@ -1454,30 +1454,30 @@ b: I do not accept "accept".
 
 `bb({ eyes:"sad", body:"one_up" });`
 
-b: But we already *know* you shouldn't take me literally!
+b: Ma noi *sappiamo* già che non dovresti prendermi alla lettera!
 
 `bb({ eyes:"sad_u", body:"two_up" });`
 
-b: The whole *problem* is that I want to help you, but I suck at using words to do so!
+b: L'intero *problema* è che voglio aiutarti, ma faccio schifo nel farlo a parole.
 
 `bb({ eyes:"sad", body:"normal" });`
 
-h: I think therapists mean "accept" your emotions as in: "don't fight or ignore them."
+h: Penso che gli psicologi intendano "accettare" le nostre emozioni nel senso di: "non lottarci o ignorarli".
 
 `hong({ eyes:"surprise", body:"one_up" });`
 
-h: To listen to you, work *with* you, but not take what you say as 100% literal truth.
+h: Per ascoltarti, lavorare *con* te, non prendere per 100% vero tutto quello che dici.
 
 ```
 hong({ eyes:"normal", body:"normal" });
 bb({ eyes:"annoyed", mouth:"normal" });`
 ```
 
-b: Then therapists should say *that* instead of some vague confusing word like "accept".
+b: Allora dovrebbero dire *questo* anziché parole vaghe e fuorvianti come "accettare".
 
 `hong({ body:"chin", eyes:"annoyed" });`
 
-h: I guess they suck at using words, too.
+h: Immagino che anche loro facciano schifo a parole.
 
 (#act4_something_else)
 
@@ -1492,11 +1492,11 @@ hong({ body:"normal", mouth:"normal", eyes:"normal" });
 ```
 
 {{if _.a4_fears_discussed==1}}
-h: Anyway, anything else you wanna chat about?
+h: Comunque, altro di cui vuoi parlare?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-h: So, anything else on your heavy heart?
+h: Allora, altro di cui vuoi sfogarti?So, anything else on your heavy heart?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
@@ -1504,34 +1504,34 @@ h: So, anything else on your heavy heart?
 {{/if}}
 
 {{if _.a4_talked_about_harm!=true}}
-[I'm scared we'll be harmed.](#act4_harm)
+[Ho paura che ci faremo male.](#act4_harm)
 {{/if}}
 
 {{if _.a4_talked_about_alone!=true}}
-[I'm scared we'll be alone.](#act4_alone)
+[Ho paura che rimarremo soli.](#act4_alone)
 {{/if}}
 
 {{if _.a4_talked_about_bad!=true}}
-[I'm scared we're bad people.](#act4_bad)
+[Ho paura che siamo delle cattive persone.](#act4_bad)
 {{/if}}
 
-[Nah, I'm good for now.](#act4c_prelude)
+[Nah, per ora sto bene.](#act4c_prelude)
 
 # act4_something_else_2
 
-h: Okay, I think we've talked about all our fears now.
+h: Ok, credo che abbiamo parlato di tutte le nostre paure.
 
-b: Yes, there are only three fears.
+b: Sì, ci sono solo tre paure.
 
-h: Yup, exactly three.
+h: Già, proprio tre.
 
-b: Convenient.
+b: Ottimo direi.Convenient.
 
 (#act4c)
 
 # act4c_prelude
 
-h: Good chat, team.
+h: Bella chiacchierata.
 
 (#act4c)
 
@@ -1552,28 +1552,28 @@ h: ...
 
 `bb({eyes:"annoyed_d"})`
 
-b: This isn't some *game*, you know.
+b: Non è un *gioco*, lo sai.
 
 `bb({eyes:"angry_d", body:"one_up"})`
 
-b: Building a healthy relationship with your emotions isn't as simple as clicking buttons on a screen.
+b: Instaurare una relazione sana con le proprie emozioni non è facile come fare clic su uno schermo.
 
 `bb({eyes:"sad", body:"normal"})`
 
-b: *Can* we really get along?
+b: *Possiamo* davvero andare d'accordo?
 
-b: *Can* we work together, as a team?
+b: *Possiamo* lavorare insieme, come una squadra?
 
 `hong({eyes:"sad", body:"one_up"})`
 
-h: Well,
+h: Beh,
 
 ```
 hong({eyes:"surprise_l"});
 bb({eyes:"normal"});
 ```
 
-a: E-excuse me...
+a: S-scusa...
 
 ```
 Game.clearText();
@@ -1591,25 +1591,25 @@ music('campus', {volume:0.5, fade:1});
 
 `publish("act4", ["alshire", 0]);`
 
-a: W-wo-would you mind if I sat with you for lunch?
+a: P-posso sedermi vicino a te per pranzo?
 
 `publish("act4", ["alshire", 1]);`
 
 {{if _.TOP_FEAR=="harm"}}
-s: *This* is your crush? Why are they sitting alone like a psycho serial killer?
+s: *Quella* non è la tua cotta? Perché si siede per conto suo come i serial killer?
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: Asking your crush if you can sit with them? Do you know how *needy* we sound?!
+s: Chiedere alla tua cotta se ti ci puoi sedere vicino? Non ti suona così *disperato*?Asking your crush if you can sit with them? Do you know how *needy* we sound?!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: *This* is your crush? We interrupted their peace and quiet! We're such a burden!
+s: *Quella* non è la tua cotta? Abbiamo interrotta la sua pace e quiete! Siamo proprio un peso!
 {{/if}}
 
 `publish("act4", ["alshire", 2]);`
 
-a: I- I mean- it's, it's okay if not, I just...
+a: C-cioè, sennò fa... fa niente, io...I- I mean- it's, it's okay if not, I just...
 
 `publish("act4", ["alshire", 3]);`
 
