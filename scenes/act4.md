@@ -14,7 +14,7 @@ Game.FORCE_CANT_SKIP = false;
 Game.CLICK_TO_ADVANCE = true;
 ```
 
-n3: (gioco salvato automaticamente)
+n3: (gioco salvato in automatico)
 
 ```
 Game.clearText();
