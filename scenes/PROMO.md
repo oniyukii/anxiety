@@ -88,7 +88,7 @@ h: Già, mi chiedo perché non mi fermo più spesso ad ascoltare i miei pensieri
 
 `hong({eyes:"neutral"});`
 
-n: PRESTO, AVVERTI DI UN *PERICOLO!*
+n: PRESTO, AVVISA DI UN *PERICOLO!*
 
 ```
 bb({eyes:"look"});
