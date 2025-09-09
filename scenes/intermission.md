@@ -18,11 +18,11 @@ publish("show_stats");
 
 n2: PAURE NEL ROUND:
 
-i: #harm# *PROVARE DOLORE:* {{_.INTERMISSION_STAGE==1 ? _.attack_harm_ch1 : _.attack_harm_ch2}}
+i: #harm# *FARSI MALE:* {{_.INTERMISSION_STAGE==1 ? _.attack_harm_ch1 : _.attack_harm_ch2}}
 
-i: #alone# *NON RICEVERE AFFETTO:* {{_.INTERMISSION_STAGE==1 ? _.attack_alone_ch1 : _.attack_alone_ch2}}
+i: #alone# *MANCANZA DI AFFETTO:* {{_.INTERMISSION_STAGE==1 ? _.attack_alone_ch1 : _.attack_alone_ch2}}
 
-i: #bad# *ESSERE UNA CATTIVA PERSONA:* {{_.INTERMISSION_STAGE==1 ? _.attack_bad_ch1 : _.attack_bad_ch2}}
+i: #bad# *ESSERE UNA BRUTTA PERSONA:* {{_.INTERMISSION_STAGE==1 ? _.attack_bad_ch1 : _.attack_bad_ch2}}
 
 
 ```
@@ -31,7 +31,7 @@ Game.FORCE_CANT_SKIP = false;
 Game.CLICK_TO_ADVANCE = true;
 ```
 
-n5: (gioco salvato automaticamente! puoi abbandonare e continuare più tardi)
+n5: (Gioco salvato in automatico! Puoi abbandonare e continuare più tardi)
 
 ```
 Game.clearAll();
