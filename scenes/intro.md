@@ -100,9 +100,9 @@ n3: Prima di iniziare, imposta la *tua* preferenza di lettura!
 
 # intro-start-2
 
-n3: Ottimo! Nota: puoi modificare le impostazioni con l'icona ⚙ in basso. Inoltre, il gioco si salverà automaticamente ad ogni capitolo!
+n3: Ottimo! Nota: puoi modificare le impostazioni con l'icona ⚙ in basso. Inoltre, il gioco si salverà in automatico ad ogni capitolo!
 
-n3: E ora, iniziamo la nostra storia...
+n3: E adesso, iniziamo la nostra storia...
 
 `clearText()`
 
