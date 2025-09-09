@@ -66,18 +66,18 @@ sfx("rustle");
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: No, no, no. Non voglio ascoltare. Do un'occhiata al telefono.
+h: No, no, no. Non voglio ascoltare. Mi metto un po' al telefono.
 
 ```
 sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: IL TUO COMPITO È DI PROTEGGERE L'UMANO DAI *PERICOLI*
+n: IL TUO COMPITO È PROTEGGERE L'UMANO DAI *PERICOLI*
 
 `bb({eyes:"look", mouth:"small_lock", body:"fear"})`
 
-b: Oh no! Stai buttando il tuo tempo a scrollare su Twitter! Di nuovo!
+b: Oh no! Stai di nuovo buttando la tua vita a scrollare su Twitter!
 
 ```
 bb({eyes:"normal", mouth:"normal", body:"normal"});
@@ -88,7 +88,7 @@ h: Già, mi chiedo perché non mi fermo più spesso ad ascoltare i miei pensieri
 
 `hong({eyes:"neutral"});`
 
-n: PRESTO, AVVISA L'UMANO DI UN *PERICOLO!*
+n: PRESTO, AVVERTI DI UN *PERICOLO!*
 
 ```
 bb({eyes:"look"});
@@ -96,15 +96,15 @@ bb({eyes:"look"});
 
 [Oh no, leggi che notizia terribile!](#act1d_news)
 
-[Oh no, quel tweet parla segretamente di *noi?*](#act1d_subtweet)
+[Oh no, quel tweet non è mica su di *noi?*](#act1d_subtweet)
 
-[Uh, una GIF di un gatto che beve il latte](#act1d_milk)
+[Uh, una GIF di un gatto che beve il latte!](#act1d_milk)
 
 # act1d_milk
 
 `hong({mouth:"smile", eyes:"surprise"});`
 
-h: Eheh, che carino, mi--
+h: Eheh, che carino, mi-
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -112,7 +112,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: I GATTI NON DIGERISCONO IL LATTE, E NOI SIAMO DELLE PERSONE ORRIBILI A GUSTARCI L'ABUSO SUGLI ANIMALI 
+b: I GATTI NON DIGERISCONO IL LATTE E NOI SIAMO DEI MOSTRI NEL GUSTARCI L'ABUSO SUGLI ANIMALI 
 
 (...200)
 
