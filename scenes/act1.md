@@ -282,7 +282,7 @@ bb({mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Se non contribuiamo al corpo-società, diventeremo dei parassiti sociali!
+b: Se non contribuiamo al corpo sociale, diventeremo dei parassiti sociali!
 
 b: Il corpo sociale andrà dal dottor Società, che prescriverà dei farmaci che uccide i parassiti sociali e noi-
 
