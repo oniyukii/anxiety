@@ -416,7 +416,7 @@ h: Uh, su Facebook c'è scritto che ci sarà una festa questo weekend.
 
 `bb({eyes:"uncertain"});`
 
-b: Ma quel fenomeno organizza una festa *tutti* i weekend?
+b: Ma quel fenomeno mette su una festa *ogni* weekend?
 
 `bb({eyes:"uncertain_right"});`
 
@@ -424,22 +424,22 @@ b: Che vuoto interiore sta cercando di colmare? Dev'essere proprio fuori di test
 
 `hong({eyes:"surprise"});`
 
-h: E ho persino ricevuto un invito?
+h: Ho persino ricevuto un invito?
 
 `bb({eyes:"fear", mouth:"normal"});`
 
-b: Che bello!
+b: Perfetto!
 
 [Conferma, o moriremo di solitudine!](#act1c_loner)
 
 [Rifiuta, è pieno di droghe pericolose!](#act1c_drugs)
 
-[Ignora, noi siamo dei guastafeste.](#act1c_sad)
+[Ignora, siamo dei guastafeste.](#act1c_sad)
 
 # act1c_loner
 
 {{if _.fifteencigs}}
-b: Quindici sigarette al giorno, umano! Quindici!
+b: Quindici sigarette al giorno! Quindici!
 {{/if}}
 
 {{if !_.fifteencigs}}
@@ -447,7 +447,7 @@ b: Quindici sigarette al giorno, umano! Quindici!
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: E poi nessuno verrà al nostro funerale, butteranno le nostre ceneri all'oceano, verremo mangiati da una balena,
+b: Poi nessuno verrà al nostro funerale, butteranno le nostre ceneri in mare, verremo mangiati da una balena,
 {{/if}}
 
 {{if !_.fifteencigs}}
@@ -472,21 +472,21 @@ b: Quindi sì, dovremmo andare a quella festa!
 {{/if}}
 
 {{if _.parasite}}
-b: Porta il pc, così potremo lavorare e non essere dei parassiti-società
+b: Porta il pc, così potremo lavorare e non essere dei parassiti sociali.
 {{/if}}
 
 {{if _.whitebread}}
-b: Basta che non servono PANE BIANCO
+b: Basta che non servono PANE BIANCO!
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: ODDIO. Se questo ti farà chiudere il becco, va bene.
+h: ODDIO. Se questo ti farà zittire, va bene.
 
 h: Accetto l'invito.
 
 {{if _.whalepoop}}
-b: Cacca di balena, umano! Cacca di balena!
+b: Cacca di balena, capito? Cacca di balena!
 {{/if}}
 
 `_.partyinvite="yes"`
@@ -498,7 +498,7 @@ b: Cacca di balena, umano! Cacca di balena!
 `bb({mouth:"small", eyes:"fear"});`
 
 {{if _.whitebread}}
-b: o ancora peggio... PANE BIANCO
+b: o peggio... PANE BIANCO!
 {{/if}}
 
 {{if _.whitebread}}
