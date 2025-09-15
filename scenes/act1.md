@@ -506,11 +506,11 @@ b: o peggio... PANE BIANCO!
 {{/if}}
 
 {{if _.whitebread}}
-b: Faremo overdose di metanfetamina e pane bianco tanto che non riusciranno a mettere il nostro cadavere grasso nel forno crematorio!
+b: Saremo così gonfi di metanfetamina e pane che non riusciranno ad infilare il nostro cadavere obeso nel forno crematorio!
 {{/if}}
 
 {{if !_.whitebread}}
-b: Faremo overdose di talmente tante droghe che il becchino si chiederà come il nostro corpo sia *già* stato imbalsamato!
+b: Faremo un'overdose di così tante droghe che il becchino si chiederà perché siamo *già* imbalsamati!
 {{/if}}
 
 ```
@@ -521,12 +521,12 @@ attack("18p", "harm");
 (...2500)
 
 {{if _.parasite}}
-b: Per di più, non possiamo fare festa, dobbiamo lavorare, o diventeremo degli orribili parassiti-società!
+b: E poi niente feste, dobbiamo lavorare, o diventeremo un orribile parassita sociale!
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: ODDIO. Se questo ti farà chiudere il becco, va bene.
+h: ODDIO. Se questo ti farà zittire, va bene.
 
 h: Rifiuto l'invito.
 
@@ -541,15 +541,15 @@ h: Rifiuto l'invito.
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.fifteencigs}}
-b: Tuttò ciò che facciamo è stare in un angolino a piangere su come la solitudine sia mortale quanto fumare 15 sigarette al giorno.
+b: Non facciamo che piangere in un angolino su come la solitudine sia come fumare 15 sigarette al giorno.
 {{/if}}
 
 {{if _.parasite}}
-b: Tutto ciò che facciamo alle feste è preoccuparci di come invece potremmo essere produttivi.
+b: Alle feste non facciamo che preoccuparci di come invece potremmo fare qualcosa.
 {{/if}}
 
 {{if _.whitebread}}
-b: Tutto ciò che facciamo è preoccuparci di come i cibi spazzatura ci uccideranno.
+b: Non facciamo che preoccuparci di come i cibi spazzatura ci uccideranno.
 {{/if}}
 
 ```
@@ -557,19 +557,19 @@ bb({mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"lookaway"});
 ```
 
-h: Cavolo, mi chiedo il perché.
+h: Cavolo, chissà perché.
 
 `hong({eyes:"neutral"});`
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: Quindi, se ci andiamo, li faremo sentire in colpa, ma anche se non andiamo li faremo sentire in colpa!
+b: Quindi, se andiamo, li faremo sentire in colpa, ma anche se non andiamo li faremo sentire in colpa!
 
 `bb({body:"fear", eyes:"fear"});`
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: TUTTO CIÒ CHE FACCIAMO E FAR SENTIRE IN COLPA LE PERSONE, NOI DOVREMMO SENTIRCI IN COLPA
+b: FACCIAMO SEMPRE SOFFRIRE TUTTI, QUINDI ANCHE NOI DOVREMMO SOFFRIRE
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -580,7 +580,7 @@ attack("18p", "bad");
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: Uff. Se questo ti farà chiudere il becco, va bene.
+h: Uff. Se questo ti farà zittire, va bene.
 
 h: Ignoro l'invito.
 
@@ -595,7 +595,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"annoyed"});
 ```
 
-h: Comunque. Basta Facebook. Mi serve qualcosa di più tranquillo, che non mi faccia venire ansia.
+h: Comunque, basta Facebook. Mi serve qualcosa di più tranquillo e meno ansiogeno.
 
 `hong({eyes:"neutral"});`
 
@@ -603,7 +603,7 @@ h: Che succede su Twitter?
 
 `bb({eyes:"look"});`
 
-[Oh no, leggi questa terribile notizia!](#act1d_news)
+[Oh no, leggi quella notizia orribile!](#act1d_news)
 
 [Oh no, quel tweet parla di nascosto di *noi?*](#act1d_subtweet)
 
@@ -617,7 +617,7 @@ bb({eyes:"pained1"});
 music(null, {fade:2});
 ```
 
-b: Cavolo, è come se il mondo stesse andando a fuoco, vero?
+b: Dio, pare che il mondo stia andando a fuoco, vero?
 
 ```
 bb({eyes:"pained2"});
@@ -666,7 +666,7 @@ h: Al diavolo, andiamo su Snapchat.
 
 `bb({eyes:"fear"});`
 
-b: È una frecciatina! Una vile, subdola feecciatina!
+b: È una frecciatina! Una vile, subdola frecciatina!
 
 `hong({eyes:"annoyed"});`
 
@@ -674,7 +674,7 @@ h: Magari no?
 
 `bb({eyes:"narrow", mouth:"small"});`
 
-b: E se ci stessero sparlando alle spalle?
+b: E se ci stessero tutti sparlando alle spalle?
 
 h: Non ci-
 
@@ -719,7 +719,7 @@ hong({mouth:"anger", eyes:"annoyed"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: O-ok, andiamo su Snapchat.
+h: O-ok, proviamo Snapchat.
 
 (#act1e)
 
