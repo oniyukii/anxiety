@@ -603,11 +603,11 @@ h: Che succede su Twitter?
 
 `bb({eyes:"look"});`
 
-[Oh no, leggi quella notizia orribile!](#act1d_news)
+[Oh no, leggi che notizia orribile!](#act1d_news)
 
-[Oh no, quel tweet parla di nascosto di *noi?*](#act1d_subtweet)
+[Oh no, quel tweet non è mica su di *noi*?](#act1d_subtweet)
 
-[Uh, una GIF di un gatto che beve il latte](#act1d_milk)
+[Uh, una GIF di un gatto che beve il latte!](#act1d_milk)
 
 
 # act1d_news
@@ -735,7 +735,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: I GATTI NON DIGERISCONO IL LATTE, E NOI SIAMO DELLE PERSONE ORRIBILI A GUSTARCI L'ABUSO SUGLI ANIMALI
+b: I GATTI NON DIGERISCONO IL LATTE E NOI SIAMO DEI MOSTRI NEL GUSTARCI L'ABUSO SUGLI ANIMALI
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
