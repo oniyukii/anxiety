@@ -774,14 +774,14 @@ h: Uh, le foto di ieri sera. Allora è *così* che son fatte quelle feste settim
 
 h: Uff, sembra troppo affollato per la mia ansia.
 
-h: Forse non avrei dovuto accettare?
+h: Forse non avrei dovuto accettare l'invito?
 
 ```
 hong({mouth:"neutral", eyes:"neutral"});
 bb({mouth:"normal", eyes:"normal"});
 ```
 
-[Cambi risposta? Come un idiota?!](#act1e_yes_dontchange)
+[Cambi risposta? Ma sei idiota?!](#act1e_yes_dontchange)
 
 [Cambia risposta! Troppo affollato!](#act1e_yes_changetono)
 
@@ -804,7 +804,7 @@ bb({eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Contavano sulla nostra presenza e ora stiamo tradendo la loro fiducia? Vuoi morire così, senza nessuno?!
+b: Contavano sulla nostra presenza e ora tradiamo la loro fiducia? Vuoi morire così, senza nessuno?!
 
 {{if _.fifteencigs}}
 b: QUINDICI. SIGARETTE.
@@ -826,7 +826,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Va bene, smettila, lascerò la conferma!
+h: Va bene, smettila, lascio la conferma!
 
 (#act1f)
 
@@ -845,7 +845,7 @@ hong({eyes:"sad", mouth:"sad"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Nel 2003, nel Rhode Island, ci fu un incendio in una discoteca, col panico si creò un ingorgo alle uscite, causando la morte di 100 persone-
+b: Nel 2003, ci fu un incendio in una discoteca del Rhode Island. La folla nel panico bloccò le uscite, 100 persone morirono-
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
@@ -860,7 +860,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 2.5;
 ```
 
-b: METTI NO METTI NO METTI NO METTI NO METTI NO METTI NO METTI NO METTI NO METT-
+b: METTI NO METTI NO METTI NO METTI NO METTI NO METTI NO METTI N-
 
 
 ```
@@ -876,7 +876,7 @@ hong({eyes:"anger", mouth:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Va bene, smettila, cambio risposta in "no"! Santo cielo!
+h: Va bene, smettila, metto "no"! Santo cielo!
 
 (#act1f)
 
@@ -886,11 +886,11 @@ h: Va bene, smettila, cambio risposta in "no"! Santo cielo!
 
 h: Uhm... sembra divertente.
 
-h: Forse non avrei dovuto rifiutare?
+h: Forse non avrei dovuto rifiutare l'invito?
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[Cambi risposta? Come un idiota?!](#act1e_no_dontchange)
+[Cambi risposta? Ma sei idiota?!](#act1e_no_dontchange)
 
 [Cambia risposta! Non morire senza nessuno!](#act1e_no_changetoyes)
 
@@ -912,7 +912,7 @@ h: Forse non avrei dovuto rifiutare?
 
 b: Tutti contavano sul fatto che...
 
-b: Li lasciassimo festeggiare spensierati senza un orribile e disgustoso verme {{if _.whitebread}}mangia-pane-bianco{{/if}} come te-
+b: li lasciassimo festeggiare spensierati senza un orribile e disgustoso verme {{if _.whitebread}}mangia-pane-bianco{{/if}} come te-
 
 
 ```
@@ -958,7 +958,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Va bene, smettila, cambio risposta in "sì"! Santo cielo!
+h: Va bene, smettila, metto "sì"! Santo cielo!
 
 (#act1f)
 
@@ -969,14 +969,14 @@ bb({eyes:"fear", mouth:"small"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Tutti i nostri tweet problematici sono ritornati a galla!
+b: Tutti i nostri tweet problematici sono tornati a galla!
 
 ```
 bb({body:"fear", eyes:"fear", mouth:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.7;
 ```
 
-b: Verremo richiamati, sospesi, e portati via verso l'autostrada delle informazioni con una corda attaccata alla sella di un cavallo!
+b: Verremo richiamati, sospesi, e trascinati con una corda legata a un cavallo nell'autostrada dell'informazione!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1002,7 +1002,7 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Stiamo diffondendo disinformazione! Stiamo minando la fiducia nella libertà di stampa!
+b: Stiamo diffondendo disinformazione! Stiamo distruggendo la libertà di stampa!
 
 ```
 bb({body:"scream"});
@@ -1036,7 +1036,7 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Vuoi avere un pretzel al posto della spina dorsale?! Smettila di ingobbirti davanti allo schermo!
+b: Vuoi un pretzel al posto della spina dorsale? Non ingobbirti davanti allo schermo!
 
 ```
 bb({body:"meta"});
