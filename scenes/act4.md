@@ -219,7 +219,7 @@ h: Allora, quale diamine è la morale della favola?
 
 `hong({body:"one_up", eyes:"annoyed"})`
 
-h: Cosa abbiamo *imparato*? Mi *stavo* comportando da idiota, i miei "amici" si *stavano* approfittando di me, e stavamo quasi per *morire*, cavolo.
+h: Cosa abbiamo *imparato*? *stavo* facendo l'idiota, i miei "amici" mi *stavano* usando, e siamo quasi *morti*.
 
 `hong({body:"normal", eyes:"normal"})`
 
@@ -239,7 +239,7 @@ h: Cosa abbiamo *imparato*? Mi *stavo* comportando da idiota, i miei "amici" si 
 
 `hong({eyes:"annoyed_l", mouth:"narrow"});`
 
-h: Vero. Non penso il piano assicurativo copra la polizza "sono idiota".
+h: Già. Dubito il piano assicurativo copra la polizza "sono idiota".
 
 `hong({eyes:"annoyed", mouth:"normal"});`
 
@@ -259,7 +259,7 @@ b: Abbiamo decisamente perso qualche anno di vita...
 
 `bb({eyes:"surprise"});`
 
-b: Ma almeno ce l'*abbiamo* ancora, qualche anno di vita! Siamo sopravvissuti!
+b: Ma almeno *abbiamo* ancora qualche anno di vita! Siamo vivi!
 
 ```
 hong({eyes:"surprise"});
@@ -296,7 +296,7 @@ h: Mh?
 
 `bb({eyes:"normal"});`
 
-b: Io *ero* il lupo che gridava al lupo al lupo. Perciò, quando arrivavano i *veri* pericoli, tu, giustamente, non mi credevi.
+b: *Ero* il lupo che gridava al lupo. Quando arrivavano i *veri* pericoli, tu, giustamente, non mi credevi.
 
 `bb({eyes:"surprise_r"});`
 
@@ -320,7 +320,7 @@ h: Sembri piuttosto calmo, considerando che stavamo per morire.
 {{/if}}
 
 {{if !_.INJURED}}
-h: Sembri piuttosto calmo, considerando che stavamo *tanto così* per morire.
+h: Sembri piuttosto calmo, considerando che stavamo *quasi* per morire.
 {{/if}}
 
 ```
@@ -332,9 +332,9 @@ b: Beh, tutto il resto a confronto fa meno paura. Mi ha fatto anche riflettere.
 
 `bb({eyes:"normal", mouth:"normal"});`
 
-b: Se io faccio schifo a litigare con te, perché non riesco a proteggerti...
+b: Se fa schifo litigare con te, perché non ti tiene al sicuro...
 
-h: Ma *anch'io* faccio schifo a litigare con te, perché ti faccio solo abbaiare più forte...
+h: Ma *anche* litigare con te fa schifo, perché ti fa abbaiare più forte...
 
 `bb({eyes:"normal_r"})`
 
@@ -381,7 +381,7 @@ music('dontfight',{fade:5, volume:0.6});
 bb({eyes:"annoyed_d"});
 ```
 
-b: Non sono il lupo cattivo, ma non sono nemmeno un cane da guardia.
+b: Non sono il lupo cattivo, ma nemmeno un cane da guardia.
 
 `bb({eyes:"sad_d"})`
 
@@ -438,7 +438,7 @@ n2: TOTALE PAURE USATE:
 
 n2: *STARE MALE* {{_.attack_harm_total}}, *MANCANZA DI AFFETTO* {{_.attack_alone_total}}, *CATTIVA PERSONA* {{_.attack_bad_total}}
 
-n2: DI QUALE PAURA VORRESTI PARLARE PER PRIMA? (PUOI PARLARE DELLE ALTRE IN SEGUITO)
+n2: DA QUALE PAURA VORRESTI INIZIARE? (PUOI PARLARE DELLE ALTRE IN SEGUITO)
 
 ```
 _.a4_fears_discussed = 0;
@@ -462,7 +462,7 @@ _.a4_fears_discussed += 1;
 
 `bb({eyes:"normal_d"})`
 
-b: Voglio proteggerti per la tua incolumità fisica,I want to protect your need for physical safety,
+b: Voglio proteggerti per la tua incolumità fisica,
 
 `bb({eyes:"sad_d"})`
 
@@ -501,7 +501,7 @@ bb({ body:"normal", eyes:"normal" });
 hong({ body:"one_up", eyes:"surprise" });
 ```
 
-h: Potremmo imparare ad autodifenderci? Unirci ad una comunità dove ci si protegge a vicenda? Migliorare i nostri confini generali e personali di salute?
+h: Potremmo imparare l'autodifesa? Unirci a una comunità dove ci si protegge? Migliorare i confini generali e personali di salute?
 
 ```
 bb({ eyes:"annoyed_r" });
@@ -535,15 +535,15 @@ bb({ body:"normal", mouth:"normal" });
 hong({ body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: Proprio ora, ci stiamo esercitando a comunicare, il che ci aiuterà a rilevare meglio i pericoli, con meno falsi positivi,
+h: Ci stiamo esercitando a comunicare proprio ora, il che ci aiuterà a rilevare meglio i pericoli, con meno falsi positivi,
 
 `hong({ eyes:"surprise" });`
 
-h: E *questo* ci aiuterà a proteggerci dai mali!
+h: E *questo* aiuterà a proteggerci dai mali!
 
 `hong({ eyes:"normal", mouth:"normal" });`
 
-h: Perciò: questo *è già* addestramento di autodifesa.
+h: Perciò ci *stiamo già* esercitando all'autodifesa.
 
 `bb({ eyes:"normal_r" })`
 
@@ -578,7 +578,7 @@ bb({ eyes:"annoyed" });
 hong({ normal:"one_up" });
 ```
 
-b: Non vedi il bicchiere 99% vuoto, ma lo vedi 1% pieno?You're seeing the glass as not 99% empty, but 1% full?
+b: Non vedi il bicchiere 99% vuoto, ma lo vedi 1% pieno?
 
 `bb({ eyes:"normal" });`
 
@@ -633,7 +633,7 @@ h: Per dire, prendiamo un cane che ha paura dei tuoni.
 
 `hong({ body:"hands_1" });`
 
-h: Un trucchetto usato dagli addestratori è quello di riprodurre la registrazione dei tuoni a volume basso, poi premiano il cane per essere rimasto calmo.
+h: Un trucchetto degli addestratori è di far sentire un audio dei tuoni a volume basso, per poi premiarlo se rimane calmo.
 
 `hong({ body:"hands_2" });`
 
@@ -648,7 +648,7 @@ h: Si chiama terapia di esposizione!
 
 `hong({ body:"point", eyes:"normal" });`
 
-h: Tu sei un cane, quindi dovrebbe funzionare anche con te, giusto? Tutti i mammiferi hanno la stessa reazione di attacco o fuga.
+h: Sei un cane, dovrebbe funzionare anche con te, no? Tutti i mammiferi hanno la stessa reazione di attacco o fuga.
 
 `hong({ body:"normal" });`
 
@@ -676,11 +676,11 @@ b: Ohh.
 
 `bb({ eyes:"annoyed" })`
 
-b: Abbiamo *appena* visto cosa succede se metti a tacere le paure... ci hai fatto cacciare in una situazione *veramente* pericolosa.
+b: Hai visto che succede se ignori le paure? Ci hai fatto cacciare in una situazione *molto* pericolosa.
 
 `bb({ eyes:"angry_r", body:"one_up" })`
 
-b: Inoltre, *troppa* desensibilizzazione non ci renderà degli psicopatici? won't *too* much desensitization turn us into psychopaths?
+b: Inoltre, *troppa* desensibilizzazione non ci renderà degli psicopatici?
 
 `bb({ mouth:"scream", eyes:"scream", body:"two_up" })`
 
@@ -731,11 +731,11 @@ h: Nah, hai ragione. Si *può* esagerare.
 
 h: Ma ecco perché, con la terapia di esposizione, inizieremo piano piano, a piccoli passi.
 
-h: Prima che andiamo incontro ai *veri* pericoli, ci fermiamo.
+h: Prima di arrivare ai *veri* pericoli, ci fermiamo.
 
 `bb({ eyes:"annoyed_r", mouth:"narrow" });`
 
-b: Sì, traccio il confine tra sentire i tuoni e stare in una tempesta con un lungo cappello a punta.
+b: Ok, traccio il confine tra sentire i tuoni e stare in una tempesta con un lungo cappello a punta.
 
 (#act4_something_else)
 
@@ -767,7 +767,7 @@ b: Cosa, nessun commento su come mi sento? Solo... "grazie"?
 
 `hong({ eyes:"surprise", body:"shrug" })`
 
-h: Esatto! Grazie per avermi mostrato la tua preoccupazione per {{_.thanks_for}}.
+h: Esatto! Grazie di esserti preoccupato per {{_.thanks_for}}.
 
 ```
 bb({ eyes:"closed_annoyed", MOUTH_LOCK:true });
@@ -832,7 +832,7 @@ bb({ eyes:"smile" });
 hong({ eyes:"annoyed" });
 ```
 
-h: Dai, io una giovane anima vulnerabile e tu un grande lupo spaventoso. Che mai ci può accad-
+h: Dai, io una giovane anima vulnerabile e tu un grande lupo spaventoso. Che mai ci può accader-
 
 `hong({ eyes:"normal", body:"point" });`
 
