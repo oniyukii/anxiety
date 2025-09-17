@@ -1082,7 +1082,7 @@ h: Forse non avrei dovuto rifiutare l'invito?
 
 `hong({eyes:"annoyed"});`
 
-h: Però non è molto carino continuare ad ignorare, giusto?
+h: Però non è carino continuare ad ignorarli, no?
 
 `bb({eyes:"normal_right"});`
 
@@ -1097,7 +1097,7 @@ attack("18p", "alone");
 
 `bb({eyes:"normal"});`
 
-b: Immagino siamo pari.
+b: Direi siamo pari.
 
 (#act1f)
 
@@ -1105,9 +1105,9 @@ b: Immagino siamo pari.
 
 `hong({eyes:"surprise", mouth:"smile"});`
 
-h: Tu... lasceresti che mi diverta?
+h: Tu... lasceresti divertirmi?
 
-b: Beh, sai com'è, stare soli *può* ucciderci.
+b: Beh, sai, stare soli *può* ucciderci.
 
 `hong({eyes:"neutral", mouth:"neutral"});`
 
@@ -1137,7 +1137,7 @@ b: Cosa, l'app di incontri?
 
 `hong({eyes:"annoyed"})`
 
-h: Non è un'app di incontri, è solo un modo per conoscere pers-
+h: Non è un'app di incontri, è solo un modo per conoscere per-
 
 `bb({eyes:"narrow"})`
 
@@ -1166,9 +1166,9 @@ b: ALLARME ALLARME ALLARME ALLARME ALLARME ALLARME
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"})`
 
-[Siamo *sfruttati* dagli altri.](#act1f_used_by_others)
+[Siamo *usati* dagli altri.](#act1f_used_by_others)
 
-[Stiamo *sfruttando* gli altri.](#act1f_using_others)
+[Stiamo *usando* gli altri.](#act1f_using_others)
 
 [IL TUO MATCH È UN SERIAL KILLER](#act1f_killer)
 
@@ -1208,7 +1208,7 @@ attack("18p", "alone");
 
 `bb({eyes:"narrow", mouth:"small"})`
 
-b: Pensi che i genitali delle persone siano come dei Pokémon da collezionare?
+b: Pensi che i genitali altrui siano come dei Pokémon da collezionare?
 
 ```
 bb({body:"sing", eyes:"pretty", mouth:"shut"});
@@ -1295,7 +1295,7 @@ attack("18p", "bad");
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.whitebread}}
-b: Ti intrappolerà in un pozzo e ti farà mangiare a forza pane bianco, così ingrassi e poi con la tua pelle ci farà un vestito!
+b: Ti intrappolerà in un pozzo e ti farà mangiare a forza pane bianco, così ingrassi e con la tua pelle ci fa un vestito!
 {{/if}}
 
 {{if _.parasite}}
@@ -1303,7 +1303,7 @@ b: Ti picchierà con un timer pomodoro, urlando "NON STAI FACENDO NULLA, PARASSI
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: Ti strapperà la carne riducendola in coriandoli di sangue, trasformerà le tue viscere in stelle filanti, e mescoleranno il tuo sangue nel ciotolne del punch!
+b: Ridurrà la tua carne in coriandoli di sangue, le tue viscere in stelle filanti, e mescolerà il tuo sangue nel punch!
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
@@ -1342,7 +1342,7 @@ h: Questo gioco mi ha stufato.
 
 h:
 {{if _.fifteencigs}}"la solitudine ci ucciderà"... {{/if}}
-{{if _.parasite}}"siamo dei parassiti-società"... {{/if}}
+{{if _.parasite}}"siamo dei parassiti sociali"... {{/if}}
 {{if _.whitebread}}"non mangiarlo, ci ucciderà"... {{/if}}
 {{if _.subtweet}}"ci sparlano alle spalle"... {{/if}}
 {{if _.badnews}}"il mondo sta andando a fuoco"... {{/if}}
@@ -1367,7 +1367,7 @@ b: Andrà tutto bene.
 
 `bb({body:"point_heart", eyes:"look_sad_smile", mouth:"smile"});`
 
-b: In quanto tuo lupo da guardia, farò sempre attenzione ai pericoli, e farò del mio meglio per tenerti al sicuro.
+b: In quanto tuo lupo da guardia, farò sempre attenzione ai pericoli, e farò di tutto per tenerti al sicuro.
 
 `bb({body:"normal", eyes:"look_sad", mouth:"smile"});`
 
@@ -1388,15 +1388,15 @@ h: Altre... foto di feste.
 
 `hong({mouth:"sad"});`
 
-h: Sembrano tutti così felici. Liberi dalle preoccupazioni. Dalle ansie.
+h: Sembrano tutti così felici. Senza preoccupazioni. Senza ansia.
 
 `hong({mouth:"anger"});`
 
-h: Dio, perché non posso essere come loro? Perché non posso essere *normale?*
+h: Dio, perché non posso esserlo anch'io? Perché non posso essere *normale*?
 
 `bb({eyes:"normal_right"});`
 
-b: A proposito di feste, riguardo all'invito di questo weekend. Ecco la mia risposta DEFINITIVA:
+b: A proposito di feste, ecco la mia risposta DEFINITIVA per l'invito:
 
 `bb({eyes:"normal"});`
 
@@ -1439,7 +1439,7 @@ b: c-
 
 `bb({eyes:"wat_2"});`
 
-b: cos?
+b: Cos?
 
 `hong({body:"phone1", eyes:"anger", mouth:"anger"});`
 
@@ -1465,7 +1465,7 @@ sfx("rustle2");
 hong({body:"0_sammich", eyes:"0_annoyed", mouth:"0_neutral"});
 ```
 
-h: E ora, scusami, vado a mangiare questo delizioso panino in santa pace.
+h: E ora scusami, vado a mangiare questo delizioso panino in santa pace.
 `hong({body:"2_sammich_eat"});`
 
 (...601)
@@ -1506,7 +1506,7 @@ b: ..................
 
 [AHHHH CI ODIANO TUTTI](#act1h_loneliness) `Game.OVERRIDE_CHOICE_LINE = true;`
 
-[AHHHH SIAMO DELLE PERSONE ORRIBILI](#act1h_worthless) `Game.OVERRIDE_CHOICE_LINE = true;`
+[AHHHH SIAMO DEI MOSTRI](#act1h_worthless) `Game.OVERRIDE_CHOICE_LINE = true;`
 
 # act1h_death
 
@@ -1551,7 +1551,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH SIAMO DELLE PERSONE ORRIBILI AAAAAAHHHHHHH
+b: AHHHH SIAMO DEI MOSTRI AAAAAAHHHHHHH
 
 ```
 hong({body:"3_defeated1"});
@@ -1583,15 +1583,15 @@ n: ORA CHE LA SUA ENERGIA È A ZERO, PUOI DIRETTAMENTE CONTROLLARE LE SUE AZIONI
 
 `bb({mouth:"smile", eyes:"normal"});`
 
-n: SCEGLI LA TUA MOSSA FINALE
+n: SCEGLI LA MOSSA FINALE
 
 `bb({mouth:"small_lock", eyes:"fear"});`
 
 n: *DAI IL COLPO DI GRAZIA*
 
-[{LOTTA: Dai una punizione al tuo telefono straziante!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
+[{ATTACCO: Punisci quello strazio di telefono!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{LOTTA: Rannicchiati in un angolino a piangere!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
+[{FUGA: Rannicchiati in un angolino a piangere!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1i_phone
 
@@ -1601,7 +1601,7 @@ b: Il tuo telefono ti stava facendo venire un attacco di panico!
 
 `bb({eyes:"anger"})`
 
-b: Zuckerberg e compagnia bella stanno sabotando la tua salute mentale e fare soldi per gli investitori!
+b: Zuckerberg e compagnia stanno sabotando la tua salute mentale per fare soldi!
 
 ```
 bb({body:"fear", eyes:"fear"});
@@ -1618,7 +1618,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "fight";
 ```
 
-b: UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCID--
+b: UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCID-
 
 (#act1j)
 
@@ -1643,7 +1643,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "flight";
 ```
 
-b: RANNICCHIATI E PIANGI RANNICCHIATI E PIANGI RANNICCHIATI E PIANGI RANNICCHIATI E PIANGI RANNICCH-- 
+b: RANNICCHIATI E PIANGI RANNICCHIATI E PIANGI RANNICCHIATI E PIANGI RANNICCHIATI E PIANGI RANNICC-
 
 (#act1j)
 
