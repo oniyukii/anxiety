@@ -897,7 +897,7 @@ attack("20p", _.a2_attack_3);
 
 (...1001)
 
-h: CAZZOOO!
+h: ^CAZZOOO^!
 
 h: PORCA LA PORCACCIA PORCA MALEDETTAAAAAA
 
@@ -1537,7 +1537,7 @@ b: Stava provando a rovinarti, facendoti uscire di testa anche a te!
 
 `bb({ body:"yell_angry_1" });`
 
-b: Prendi a pugni quella ^merda^ e mettila al tappeto!
+b: Prendi a pugni quell'idiota e fa' vedere chi sei!
 
 `bb({ body:"final_1" });`
 
