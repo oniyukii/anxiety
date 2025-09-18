@@ -436,7 +436,7 @@ h: Caro lupo interiore... come *ti* senti?
 
 n2: TOTALE PAURE USATE:
 
-n2: *STARE MALE* {{_.attack_harm_total}}, *MANCANZA DI AFFETTO* {{_.attack_alone_total}}, *CATTIVA PERSONA* {{_.attack_bad_total}}
+n2: *FARSI MALE* {{_.attack_harm_total}}, *MANCANZA DI AFFETTO* {{_.attack_alone_total}}, *CATTIVA PERSONA* {{_.attack_bad_total}}
 
 n2: DA QUALE PAURA VORRESTI INIZIARE? (PUOI PARLARE DELLE ALTRE IN SEGUITO)
 
@@ -447,9 +447,9 @@ hong({body:"normal"});
 bb({eyes:"normal"});
 ```
 
-[Paura di stare male.](#act4_harm)
+[Paura di farsi male.](#act4_harm)
 
-[Paura di rimanere da soli.](#act4_alone)
+[Paura di rimanere soli.](#act4_alone)
 
 [Paura di essere cattive persone.](#act4_bad)
 
@@ -936,7 +936,7 @@ h: In pratica, non fare gli ^stronzi^.
 
 `bb({ eyes:"annoyed", mouth:"smile" });`
 
-b: Leggi su quel un poster motivazionale.
+b: Là c'è un poster motivazionale.
 
 `hong({ body:"shrug", mouth:"narrow" });`
 
@@ -952,7 +952,7 @@ b: Diventeremo uno zerbino che dice "per favore" e "grazie" quando gli altri ci 
 
 `bb({ mouth:"scream", eyes:"scream" })`
 
-b: Baceremo così tanti ^culi^, che sembrerà che abbiamo il rossetto marrone!
+b: Baceremo così tanti sederi che sembrerà che abbiamo il rossetto marrone!
 
 ```
 bb({ mouth:"normal", eyes:"normal" });
@@ -1165,7 +1165,7 @@ b: E non dirmi che *non* siamo incasinati. Siamo quasi saltati da un *tetto*.
 `bb({ body:"normal", eyes:"sad" })`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: Non so, sono sempre *io* a decidere cosa dire. *Tu* cosa vorresti dire?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
@@ -1282,7 +1282,7 @@ h: ...
 
 h: Se abbiamo persino paura... di "scappare dalle paure"...
 
-h: Non credo che riusciremo a scappare.
+h: Non credo riusciremo a scappare.
 
 `bb({ eyes:"smile_u", body:"normal", mouth:"smile" })`
 
@@ -1850,7 +1850,7 @@ b: Abbaierò alle ombre. Ti spaventerò con le parole. Potrei persino mostrarti 
 
 `publish("act4", ["bb_closer", 9]);`
 
-b: Scusa! Sono un malconcio cane da rifugio, di quelli che ti fanno la cacca sul letto!
+b: Scusa! Sono un malconcio cane da rifugio, di quelli che ti fanno i bisogni sul letto!
 
 `publish("act4", ["bb_closer", 4]);`
 
