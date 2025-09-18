@@ -420,7 +420,7 @@ h: Scusa, hai detto *grazie*?
 
 b: È proprio per questo che *ci sono* io! Gli umani non riescono a proteggersi da soli!
 
-b: Ho provato a salvarti il ^culo^ per tutta la vita, e ora stai per-
+b: Ho provato a salvarti le chiappe per tutta la vita, e ora stai per-
 
 ```
 hong({body:"drink"});
