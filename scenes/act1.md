@@ -237,13 +237,13 @@ b: (Holt-Lunstad 2010, PLoS Medicine)
 
 `hong({eyes:"0_annoyed"})`
 
-h: Ehm, grazie per aver citato le fonti, ma-
+h: Ehm, grazie per aver citato le fonti, ma--
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
 `bb({body:"fear", mouth:"normal", eyes:"fear"})`
 
-b: Significa che se non usciamo con qualcuno *adesso*, noi-
+b: Significa che se non usciamo con qualcuno *adesso*, noi--
 
 `bb({body:"panic"})`
 
@@ -275,7 +275,7 @@ b: Apri il tuo pc e mettiamoci al lavoro, adesso!
 
 `hong({eyes:"0_annoyed"})`
 
-h: Ehm, meglio non lasciare briciole sulla tast-
+h: Ehm, meglio non lasciare briciole sulla tast--
 
 ```
 bb({mouth:"normal", eyes:"fear"});
@@ -284,7 +284,7 @@ Game.OVERRIDE_TEXT_SPEED = 1.5;
 
 b: Se non contribuiamo al corpo sociale, diventeremo dei parassiti sociali!
 
-b: Il corpo sociale andrà dal dottor Società, che prescriverà dei farmaci che uccide i parassiti sociali e noi-
+b: Il corpo sociale andrà dal dottor Società, che prescriverà dei farmaci che uccide i parassiti sociali e noi--
 
 ```
 bb({body:"panic", mouth:"normal", eyes:"fear"});
@@ -315,14 +315,14 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich", eyes:"0_annoyed"});
 ```
 
-h: Quegli studi hanno replicat-
+h: Quegli studi hanno replicat--
 
 ```
 bb({body:"fear", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Il grano raffinato alzerà il livello di glicemia, ci dovranno amputare braccia e gambe, e alla fine-
+b: Il grano raffinato alzerà il livello di glicemia, ci dovranno amputare braccia e gambe, e alla fine--
 
 `bb({body:"panic"})`
 
@@ -353,7 +353,7 @@ b: Capito? Sono il tuo fedele lupo da guardia!
 
 `bb({body:"pride_talk"});`
 
-b: Segui tuo istinto! Le tue emozioni sono valide!
+b: Segui il tuo istinto! Le tue emozioni sono valide!
 
 `bb({body:"pride"});`
 
@@ -369,7 +369,7 @@ n: E PAURA DI *ESSERE UNA BRUTTA PERSONA* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (CONSIGLIO: FAI LE SCELTE CHE PIÙ COLPISCONO LE TUE PAURE INTERIORI!~)
+n4: (CONSIGLIO: FAI LE SCELTE CHE PIÙ COLPISCONO LE TUE PAURE INTERIORI~)
 
 h: ...
 
@@ -676,7 +676,7 @@ h: Magari no?
 
 b: E se ci stessero tutti sparlando alle spalle?
 
-h: Non ci-
+h: Non ci--
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"});`
 
@@ -684,13 +684,13 @@ b: ALLE NOSTRE SPALLE
 
 `hong({eyes:"sad", mouth:"sad"});`
 
-h: Io-
+h: Io--
 
 `bb({eyes:"narrow", mouth:"small"});`
 
 b: *E se*
 
-h: S-
+h: S--
 
 `bb({eyes:"narrow_eyebrow"});`
 
@@ -727,7 +727,7 @@ h: O-ok, proviamo Snapchat.
 
 `hong({mouth:"smile", eyes:"neutral"});`
 
-h: Eheh, che carino, retwittiamolo, pens-
+h: Eheh, che carino, retwittiamolo, pens--
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -845,7 +845,7 @@ hong({eyes:"sad", mouth:"sad"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Nel 2003, ci fu un incendio in una discoteca del Rhode Island. La folla nel panico bloccò le uscite, 100 persone morirono-
+b: Nel 2003, ci fu un incendio in una discoteca del Rhode Island. La folla nel panico bloccò le uscite, 100 persone morirono--
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
@@ -853,14 +853,14 @@ hong({mouth:"shock"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: VUOI CHE SUCCEDA A NOI-
+b: VUOI CHE SUCCEDA A NOI--
 
 ```
 bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 2.5;
 ```
 
-b: METTI NO METTI NO METTI NO METTI NO METTI NO METTI NO METTI N-
+b: METTI NO METTI NO METTI NO METTI NO METTI NO METTI NO METTI N--
 
 
 ```
@@ -912,7 +912,7 @@ h: Forse non avrei dovuto rifiutare l'invito?
 
 b: Tutti contavano sul fatto che...
 
-b: li lasciassimo festeggiare spensierati senza un orribile e disgustoso verme {{if _.whitebread}}mangia-pane-bianco{{/if}} come te-
+b: li lasciassimo festeggiare spensierati senza un orribile e disgustoso verme {{if _.whitebread}}mangia-pane-bianco{{/if}} come te--
 
 
 ```
@@ -1137,7 +1137,7 @@ b: Cosa, l'app di incontri?
 
 `hong({eyes:"annoyed"})`
 
-h: Non è un'app di incontri, è solo un modo per conoscere per-
+h: Non è un'app di incontri, è solo un modo per conoscere per--
 
 `bb({eyes:"narrow"})`
 
@@ -1155,7 +1155,7 @@ bb({eyes:"narrow_eyebrow"});
 hong({eyes:"sad", mouth:"anger"})
 ```
 
-h: Ti prego, non mi rovinare quest-
+h: Ti prego, non mi rovinare quest--
 
 ```
 bb({body:"panic"});
@@ -1231,7 +1231,7 @@ bb({mouth:"normal"});
 Game.FORCE_TEXT_DURATION = 2400;
 ```
 
-b: ♫ Girovagando per il mondo-
+b: ♫ Girovagando per il mondo--
 
 (...500)
 
@@ -1240,7 +1240,7 @@ bb({eyes:"narrow", mouth:"small"});
 Game.FORCE_TEXT_DURATION = 2100;
 ```
 
-b: ♫ Il mio uccello lancerò-
+b: ♫ Il mio uccello lancerò--
 
 (...1500)
 
@@ -1249,7 +1249,7 @@ bb({eyes:"pretty"});
 Game.FORCE_TEXT_DURATION = 2300;
 ```
 
-b: ♫ Ed ogni Porke-mon-
+b: ♫ Ed ogni Porke-mon--
 
 (...500)
 
@@ -1267,7 +1267,7 @@ bb({eyes:"smile", mouth:"smile"});
 Game.FORCE_TEXT_DURATION = 1000;
 ```
 
-b: ♫ VIVA I PORKE-MON! ^TETTE^ PROROMP-
+b: ♫ VIVA I PORKE-MON! ^TETTE^ PROROMP--
 
 ```
 Game.FORCE_CANT_SKIP = false;
@@ -1418,7 +1418,7 @@ b: A proposito di feste, ecco la mia risposta DEFINITIVA per l'invito:
 
 # act1h
 
-b: Dovremm-
+b: Dovremm--
 
 ```
 bb({eyes:"wat", mouth:"small"});
@@ -1618,7 +1618,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "fight";
 ```
 
-b: UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCID-
+b: UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCIDI UCCID--
 
 (#act1j)
 
