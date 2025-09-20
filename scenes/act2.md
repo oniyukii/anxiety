@@ -45,7 +45,7 @@ publish("act2",["dum",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: B... bella festa...
+h2: B-bella festa...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -100,7 +100,7 @@ publish("act2",["dum",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: B... bella festa...
+h2: B-bella festa...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -149,7 +149,7 @@ publish("act2",["dum",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: B... bella festa...
+h2: B-bella festa...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -204,7 +204,7 @@ publish("act2",["dum",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: B... bella festa...
+h2: B-bella festa...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -320,7 +320,7 @@ b: Stiamo uccidendo l'atmosfera! Stiamo commettendo un atmosfericidio di primo g
 
 `bb({eyes:"normal", body:"normal"})`
 
-b: Dobbiamo andarcene *ora*, prima che-
+b: Dobbiamo andarcene *ora*, prima che--
 
 ```
 _.a2_first_danger = 'social';
@@ -333,7 +333,7 @@ _.a2_attack_1 = "alone";
 
 `bb({eyes:"suspect"})`
 
-b: È più attraente di noi, vuol dire che se ci mettiamo a *fissare*, allora-
+b: È più attraente di noi, vuol dire che se ci mettiamo a *fissare*, allora--
 
 `bb({eyes:"shock", body:"two_up"})`
 
@@ -341,7 +341,7 @@ b: SIAMO DEI MANIACI
 
 `bb({body:"normal"})`
 
-b: Siamo dei viscidi, orribili, brutti e cattivi perv-
+b: Siamo dei viscidi, orribili, brutti e cattivi perv--
 
 ```
 _.a2_first_danger = 'perv';
@@ -378,7 +378,7 @@ b: Oh, "dai un senso alla tua esistenza"? È quello che fanno i cultisti e i cos
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: La vita non ha senso, la morte non ha senso, neanche il *senso* ha senso! Che dovrebbe fare un'anima mortale-
+b: La vita non ha senso, la morte non ha senso, neanche il *senso* ha senso! Che dovrebbe fare un'anima mortale--
 
 ```
 _.a2_first_danger = 'meaning';
@@ -596,7 +596,7 @@ b: Pensi di essere al sicuro solo togliendo le batterie dal rilevatore di monoss
 
 `bb({eyes:"suspect_r"})`
 
-b: Non riuscirai nemmeno a sentirne l'odore! Ti addormenterai e poi-
+b: Non riuscirai nemmeno a sentirne l'odore! Ti addormenterai e poi--
 
 `bb({body:"scream_c_1"})`
 
@@ -785,7 +785,7 @@ b: Dicendo, *menomale che i "buoni" hanno finito con quelle robe "rilassanti" e 
 
 `bb({body:"point", mouth:"smile", eyes:"happy_r"})`
 
-b: *E ora va tutto SSecondo i piani!*
+b: *E ora va tutto... "SS"econdo i piani!*
 
 `_.a2_attack_3 = "bad";`
 
@@ -847,7 +847,7 @@ b: E se fosse nella nostra indole ferire gli altri? E se non fossimo *altro* che
 
 `bb({body:"scream_a_1"})`
 
-b: AHH SIAMO COSÌ ROTTI! ROTTI ROTTI ROTTI ROTTI RO-
+b: AHH SIAMO COSÌ ROTTI! ROTTI ROTTI ROTTI ROTTI RO--
 
 `_.a2_attack_3 = "bad";`
 
@@ -865,7 +865,7 @@ b: Ti fa male la testa? Ti fanno male gli arti? Mi sa che stiamo morendo.
 
 `bb({body:"scream_a_1"})`
 
-b: AHHH STIAMO MORENDO! STIAMO MORENDO STIAMO MORENDO S-
+b: AHHH STIAMO MORENDO! STIAMO MORENDO STIAMO MORENDO ST--
 
 `_.a2_attack_3 = "harm";`
 
@@ -1096,7 +1096,7 @@ b: Se io *sono* irrazionale in quanto "solo sostanza chimica"... allora anche *t
 b: E se *entrambi* siamo irrazionali, allora non sapremo *mai* come trovare la felicità!
 `bb({body:"scream_a_1"})`
 
-b: AHH SIAMO COSÌ ROTTI! ROTTI ROTTI ROTTI ROTTI RO-
+b: AHH SIAMO COSÌ ROTTI! ROTTI ROTTI ROTTI ROTTI RO--
 
 ```
 music(null);
@@ -1150,7 +1150,7 @@ h: Non riesco a placarti. Ad ignorarti. Ad affrontarti.
 
 `bb({eyes:"suspect"});`
 
-h: Qualunque cosa faccia, non riesco a sbarazzarmi di t-
+h: Qualunque cosa faccia, non riesco a sbarazzarmi di t--
 
 `bb({body:"cry_1"});`
 
@@ -1192,7 +1192,7 @@ b: Voglio solo che... abbia pazienza con me.
 
 `bb({eyes:"cry_r_3"});`
 
-b: Voglio solo che ti sieda un attimo con me, invece di voltarti e-
+b: Voglio solo che ti sieda un attimo con me, invece di voltarti e--
 
 ```
 bb({eyes:"cry_r_4"});
@@ -1397,19 +1397,19 @@ b: Non va bene, umano. Non va per niente bene.
 
 # act2h_opt1
 
-b: È *propr*-
+b: È *propr*--
 
 (#act2h)
 
 # act2h_opt2
 
-b: Potrebber aver-
+b: Potrebber aver--
 
 (#act2h)
 
 # act2h_opt3
 
-b: Lo *sapevo* ch-
+b: Lo *sapevo* ch--
 
 (#act2h)
 
@@ -1467,7 +1467,7 @@ sfx("charging");
 
 h: Cos'è questa ^merda^?
 
-h: Dovrai blaterare altre *stupidaggini* con me per-
+h: Dovrai blaterare altre *stupidaggini* con me per--
 
 ```
 bb({body:"special_c"});
@@ -1541,7 +1541,7 @@ b: Prendi a pugni quell'idiota e fa' vedere chi sei!
 
 `bb({ body:"final_1" });`
 
-b:  A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A-
+b:  A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A P--
 
 `_.a2_ending = "fight";`
 
@@ -1557,7 +1557,7 @@ b: E ti sta incastrando a fare lo stesso! Ti sta rovinando! Dobbiamo andarcene v
 
 `bb({ body:"final_1" });`
 
-b: VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA-
+b: VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA--
 
 `_.a2_ending = "flight";`
 
@@ -1696,7 +1696,7 @@ b: Umano! Tutto bene?!
 publish("act2", ["act2_end","next"]);
 ```
 
-b: Cavolo, c'è mancato *poco*. Potevamo-
+b: Cavolo, c'è mancato *poco*. Potevamo--
 
 ```
 Game.clearText();
