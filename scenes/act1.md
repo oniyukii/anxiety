@@ -96,11 +96,11 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Certo, la storia nel *complesso* è la stessa, ma ciascun capitolo ha due possibili finali, più le varie opzioni di dialo-
+h: Certo, la storia nel *complesso* è la stessa, ma ciascun capitolo ha due possibili finali, più le varie opzioni di dialo--
 
 `bb({body:"fear"});`
 
-b: Chi ci gioca si stuferà, chiuderà la scheda del browser, cancellerà il software, e poi noi-
+b: Chi ci gioca si stuferà, chiuderà la scheda del browser, cancellerà il software, e poi noi--
 
 (#act1_replay_end)
 
@@ -132,7 +132,7 @@ b: E rivela la struttura di questo universo narrativo,
 
 `bb({body:"fear"});`
 
-b: E poi noi-
+b: E poi noi--
 
 (#act1_replay_end)
 
@@ -1072,7 +1072,7 @@ h: Forse non avrei dovuto rifiutare l'invito?
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[Continua ad ignorare, siamo sempre dei guastafeste.](#act1e_ignore_continue)
+[Ignora, siamo sempre dei guastafeste.](#act1e_ignore_continue)
 
 [Non ignorare e accetta.](#act1e_ignore_changetoyes)
 
@@ -1137,7 +1137,7 @@ b: Cosa, l'app di incontri?
 
 `hong({eyes:"annoyed"})`
 
-h: Non è un'app di incontri, è solo un modo per conoscere per--
+h: Non è un'app di incontri, è solo un modo per conoscere pers--
 
 `bb({eyes:"narrow"})`
 
