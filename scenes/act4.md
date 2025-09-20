@@ -832,7 +832,7 @@ bb({ eyes:"smile" });
 hong({ eyes:"annoyed" });
 ```
 
-h: Dai, io una giovane anima vulnerabile e tu un grande lupo spaventoso. Che mai ci può accader-
+h: Dai, io una giovane anima vulnerabile e tu un grande lupo spaventoso. Che mai ci può accader--
 
 `hong({ eyes:"normal", body:"point" });`
 
