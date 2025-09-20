@@ -26,7 +26,7 @@ Loader.addSounds([
 			HOW_MANY_PROMPTS = 1;
 		}
 		Game.CLICK_TO_ADVANCE = !Game.CLICK_TO_ADVANCE;
-		text_automatic_toggle.innerHTML = Game.CLICK_TO_ADVANCE ? "cliccando" : "in automatico";
+		text_automatic_toggle.innerHTML = Game.CLICK_TO_ADVANCE ? "cliccando" : "automatico";
 
 		// Sound
 		sfx( Game.CLICK_TO_ADVANCE ? "ui_button2" : "ui_button1");
