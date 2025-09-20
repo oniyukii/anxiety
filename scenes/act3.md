@@ -57,7 +57,7 @@ r: È un piacere poter ricambiare il favore e aiutarti a uccidere la bestia come
 publish("act3",["roofhunter",2]);
 ```
 
-r: Ehi, domanda al volo: obbligo o ve-
+r: Ehi, domanda al volo: obbligo o ve--
 
 ```
 publish("act3",["roofhunter",3]);
@@ -271,7 +271,7 @@ bb({ eyes:"start" });
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: Q-
+b: Q--
 
 (#act3a_after)
 
@@ -279,7 +279,7 @@ b: Q-
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: Q-
+b: Q--
 
 (#act3a_after)
 
@@ -287,7 +287,7 @@ b: Q-
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: Q-
+b: Q--
 
 (#act3a_after)
 
@@ -406,7 +406,7 @@ hong({ body:"normal", mouth:"angry", eyes:"angry" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: L'ho visto fare da un tizio russo su YouTube.
+h: L'ho visto fare a un tizio russo su YouTube.
 
 (#act3_bad_2)
 
@@ -420,7 +420,7 @@ h: Scusa, hai detto *grazie*?
 
 b: È proprio per questo che *ci sono* io! Gli umani non riescono a proteggersi da soli!
 
-b: Ho provato a salvarti le chiappe per tutta la vita, e ora stai per-
+b: Ho provato a salvarti le chiappe per tutta la vita, e ora stai per--
 
 ```
 hong({body:"drink"});
@@ -476,7 +476,7 @@ h: Altro da aggiungere, Capitan Ovvio?
 
 # act3_good_1_fail_revenge
 
-b: Devi instaurare una relazione più sana con le tue emozioni, piuttosto che farle affogar-
+b: Devi instaurare una relazione più sana con le tue emozioni, piuttosto che farle affogar--
 
 ```
 hong({body:"drink"});
@@ -498,7 +498,7 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 # act3_good_1_fail_harm
 
-b: Quindi ti prego, metti giù la bottiglia e and-
+b: Quindi ti prego, metti giù la bottiglia e andiam--
 
 ```
 hong({body:"drink"});
@@ -558,7 +558,7 @@ bb({ mouth:"normal", eyes:"oh_crap" });
 Game.OVERRIDE_TEXT_SPEED = 2;
 ```
 
-b: NO, ASPETTA, ERA PSICOLOGIA INVERSA, DOVEVI FARE IL *CONTRARIO* DI QUELLO CHE TI DIC-
+b: NO, ASPETTA, ERA PSICOLOGIA INVERSA, DOVEVI FARE IL *CONTRARIO* DI QUELLO CHE TI DIC--
 
 (#act3_bad_3)
 
@@ -585,7 +585,7 @@ h: Perché tu non hai mai creduto in *me*.
 
 b: Gli altri lupi da guardia hanno umani che col tempo li addestrano pazientemente, per *imparare* a collaborare,
 
-b: E non odiano il loro lupo da guardia perché prova a proteggerli! E allora perché non puoi-
+b: E non odiano il loro lupo da guardia perché prova a proteggerli! E allora perché non puoi--
 
 `bb({ eyes:"normal" });`
 
