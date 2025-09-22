@@ -156,7 +156,7 @@ publish("act3",["roofhunter",6]);
 publish("act3",["dd",1]);
 ```
 
-r: Scusa, sei vittima della propaganda della McCoscienza che dice che stare male è un *bene*?
+r: Scusa, sei forse vittima della propaganda della McCoscienza che dice che stare male è un *bene*?
 
 ```
 publish("act3",["roofhunter",17]);
@@ -168,13 +168,13 @@ r: Gli ^stronzi^ che governano il mondo prima *ci* regalano ansia e depressione,
 publish("act3",["roofhunter",18]);
 ```
 
-r: Poi fanno i discorsi su TED sull'"accettare" di essere ^fottuti^ e di "accogliere" il demone sadico nella nostra testa!
+r: Poi fanno i discorsi su TED tipo "accettare" di essere ^fottuti^ ed "accogliere" il demone sadico nella nostra testa!
 
 ```
 publish("act3",["roofhunter",6]);
 ```
 
-r: Lo sai anche *tu* sai che quell'animale *ferisce* quelli come noi. *Tortura* quelli come noi.
+r: Lo sai anche *tu* che quell'animale *ferisce* quelli come noi. *Tortura* quelli come noi.
 
 ```
 publish("act3",["roofhunter",19]);
@@ -467,7 +467,7 @@ h: Esatto, brutto ammasso di ^merda^ ricoperta di sangue! Hai rovinato tutto, ^c
 
 h: Altro da aggiungere, Capitan Ovvio?
 
-[endVicarsi su di me non è la soluzione!](#act3_good_1_fail_revenge) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
+[Vendicarsi su di me non è la soluzione!](#act3_good_1_fail_revenge) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
 
 [Ma stavolta ho *davvero* ragione!](#act3_good_1_fail_harm) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
 
@@ -973,7 +973,7 @@ publish("act3",["roofhunter",32]);
 publish("act3",["roofhunter",33]);
 ```
 
-r: Ma mi ha chiuso a chiave?
+r: Ma ha chiuso a chiave?
 
 ```
 Game.clearAll();
