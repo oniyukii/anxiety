@@ -495,7 +495,7 @@ b: "UN ENORME, DISGUSTOSO, SCHIFOSO VERME"
 ```
 _.a2_second_danger = 'law';
 _.a2_attack_2 = "bad";
-_.a2_hoodie_callback = "the law";
+_.a2_hoodie_callback = "una legge";
 ```
 
 (#act2c)
@@ -525,7 +525,7 @@ b: È L'EFFETTO FARFALLA! STAI INCOSAPEVOLMENTE UCCIDENDO UN SACCO DI PERSONE IN
 ```
 _.a2_second_danger = 'butterfly';
 _.a2_attack_2 = "bad";
-_.a2_hoodie_callback = "World War I";
+_.a2_hoodie_callback = "I Guerra Mondiale";
 ```
 
 (#act2c)
@@ -553,7 +553,7 @@ b: Dobbiamo scappare da questi zombie del piacere, prima che ci facciano diventa
 ```
 _.a2_second_danger = 'zombies';
 _.a2_attack_2 = "alone";
-_.a2_hoodie_callback = "zombies";
+_.a2_hoodie_callback = "zombie";
 ```
 
 (#act2c)
@@ -605,7 +605,7 @@ b: MORIRAIIIIIIIIIIIIII
 ```
 _.a2_second_danger = 'ignore';
 _.a2_attack_2 = "harm";
-_.a2_hoodie_callback = "carbon monoxide";
+_.a2_hoodie_callback = "monossido di carbonio";
 ```
 
 (#act2c)
@@ -687,7 +687,7 @@ b: E dovranno sterilizzare il drone per eliminare i GERMI DEL MUSONE
 
 `_.a2_attack_3 = "alone";`
 
-`_.a2_hoodie_callback = "a quarantine";`
+`_.a2_hoodie_callback = "una quarantena";`
 
 (#act2d)
 
