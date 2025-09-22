@@ -271,7 +271,7 @@ bb({body:"normal", mouth:"small", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-b: Apri il tuo pc e mettiamoci al lavoro, adesso!
+b: Prendi il pc e mettiamoci al lavoro, adesso!
 
 `hong({eyes:"0_annoyed"})`
 
@@ -1433,7 +1433,7 @@ h: FARTI *^FOTTERE^*
 
 (...500)
 
-b: c-
+b: c--
 
 (...1500)
 
@@ -1466,6 +1466,7 @@ hong({body:"0_sammich", eyes:"0_annoyed", mouth:"0_neutral"});
 ```
 
 h: E ora scusami, vado a mangiare questo delizioso panino in santa pace.
+
 `hong({body:"2_sammich_eat"});`
 
 (...601)
