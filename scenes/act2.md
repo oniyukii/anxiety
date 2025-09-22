@@ -1094,6 +1094,7 @@ b: Se io *sono* irrazionale in quanto "solo sostanza chimica"... allora anche *t
 `bb({body:"two_up", eyes:"shock"});`
 
 b: E se *entrambi* siamo irrazionali, allora non sapremo *mai* come trovare la felicità!
+
 `bb({body:"scream_a_1"})`
 
 b: AHH SIAMO COSÌ ROTTI! ROTTI ROTTI ROTTI ROTTI RO--
@@ -1357,13 +1358,13 @@ b: O--
 
 # act2g_2
 
-b: T--
+b: Q--
 
 (#act2g)
 
 # act2g_3
 
-b: D--
+b: N--
 
 (#act2g)
 
@@ -1397,13 +1398,13 @@ b: Non va bene, umano. Non va per niente bene.
 
 # act2h_opt1
 
-b: È *propr*--
+b: È *così* che--
 
 (#act2h)
 
 # act2h_opt2
 
-b: Potrebber aver--
+b: Potrebbe aver--
 
 (#act2h)
 
@@ -1533,7 +1534,7 @@ n: *DAI IL COLPO DI GRAZIA*
 
 b: Quella testa bacata si stava approfittando di te.
 
-b: Stava provando a rovinarti, facendoti uscire di testa anche a te!
+b: Stava provando a rovinarti, facendo uscire di testa anche a te!
 
 `bb({ body:"yell_angry_1" });`
 
@@ -1541,7 +1542,7 @@ b: Prendi a pugni quell'idiota e fa' vedere chi sei!
 
 `bb({ body:"final_1" });`
 
-b:  A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A P--
+b:  A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A PUGNI A--
 
 `_.a2_ending = "fight";`
 
