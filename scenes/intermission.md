@@ -22,7 +22,7 @@ i: #harm# *FARSI MALE:* {{_.INTERMISSION_STAGE==1 ? _.attack_harm_ch1 : _.attack
 
 i: #alone# *MANCANZA DI AFFETTO:* {{_.INTERMISSION_STAGE==1 ? _.attack_alone_ch1 : _.attack_alone_ch2}}
 
-i: #bad# *ESSERE UNA BRUTTA PERSONA:* {{_.INTERMISSION_STAGE==1 ? _.attack_bad_ch1 : _.attack_bad_ch2}}
+i: #bad# *BRUTTA PERSONA:* {{_.INTERMISSION_STAGE==1 ? _.attack_bad_ch1 : _.attack_bad_ch2}}
 
 
 ```
