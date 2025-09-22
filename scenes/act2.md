@@ -407,7 +407,7 @@ b: *AHHH*
 
 `bb({mouth:"small_talk"})`
 
-b: DEVO AVVERTIRTI DI...
+b: DEVO AVVISARTI:
 
 [*Altri pericoli* dello stesso pericolo!](#act2b_louder)
 
@@ -625,7 +625,7 @@ b: Oh, grazie al cielo, forse riesci di nuovo a sentirmi!
 
 `bb({eyes:"closed", body:"point"})`
 
-b: DEVO AVVISARTI DI...
+b: DEVO AVVISARTI:
 
 {{if _.a2_first_choice=="louder"}}
 [*Ancora altri* pericoli dello stesso pericolo!](#act2c_louder)
@@ -805,7 +805,7 @@ b: E ci stessimo avvelenando *IN QUESTO MOMENTO*?
 
 `bb({body:"scream_a_1"})`
 
-b: NON VEDREMO NEMMENO LA MORTE ARRIVARE. SMETTEREMO SEMPLICEMENTE DI ESISTERE PER SEMPRE E-
+b: NON VEDREMO NEMMENO LA MORTE ARRIVARE. SMETTEREMO SEMPLICEMENTE DI ESISTERE PER SEMPRE E--
 
 `_.a2_attack_3 = "harm";`
 
@@ -825,7 +825,7 @@ b: E se qualcosa dentro di noi si fosse irreversibilmente rotto tempo fa? O non 
 
 `bb({body:"scream_a_1"})`
 
-b: AHH SIAMO COSÌ ROTTI! ROTTI ROTTI ROTTI ROTTI RO-
+b: AHH SIAMO COSÌ ROTTI! ROTTI ROTTI ROTTI ROTTI RO--
 
 `_.a2_attack_3 = "alone";`
 
@@ -938,7 +938,7 @@ h: *Sono una persona amata. Gentile, Intelligente. Di bell'aspetto. Speciale*.
 
 [Sai che queste affermazioni sono state *smentite?*](#act2d_disproven)
 
-[Ti prego, non associare storielle a caso con gli indigeni](#act2d_racist)
+[Ti prego, non associare storielle a caso con gli indigeni.](#act2d_racist)
 
 # act2d_disproven
 
@@ -984,11 +984,11 @@ b: Non puoi coprire la polvere con un tappeto! A lungo andare, nascondere i tuoi
 
 `bb({body:"chest", mouth:"smile", eyes:"closed"})`
 
-b: Per fortuna io, il tuo fedele lupo da guardia, posso avvertirti dei tuoi difetti. E ora va-
+b: Per fortuna io, il tuo fedele lupo da guardia, posso avvertirti dei tuoi difetti. E ora va--
 
 `bb({body:"scream_b_1"})`
 
-b: MALE. VA TUTTO MALE
+b: MALE. VA TUTTO MALE.
 
 ```
 hong({body:"attacked"});
@@ -1054,7 +1054,7 @@ b: ...
 
 [Sono un sentimento. E i sentimenti sono importanti.](#act2e_valid)
 
-[Siamo *entrambi* sostanze chimiche."](#act2e_rational)
+[Siamo *entrambi* sostanze chimiche.](#act2e_rational)
 
 # act2e_hurtful
 
@@ -1216,7 +1216,7 @@ publish("act2",["party_hunter",2]);
 Game.WORDS_HEIGHT_BOTTOM = 230;
 ```
 
-r: Ehi tu, hai l'aria di aver litigato tra te e te.
+r: Ehi tu, hai l'aria di chi ha appena litigato con sé stesso.
 
 ```
 publish("act2",["party_hunter",3]);
@@ -1557,7 +1557,7 @@ b: E ti sta incastrando a fare lo stesso! Ti sta rovinando! Dobbiamo andarcene v
 
 `bb({ body:"final_1" });`
 
-b: VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA--
+b: VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI VIA VAI--
 
 `_.a2_ending = "flight";`
 
