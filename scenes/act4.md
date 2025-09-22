@@ -1682,6 +1682,7 @@ publish("act4", ["bb_to_alshire", _.INJURED ? 3 : 1]);
 ```
 
 b: Aspetta, sembra essere a disagio.
+
 ```
 publish("act4", ["hong_to_alshire", 6]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 2 : 0]);
@@ -1758,7 +1759,7 @@ Game.WORDS_HEIGHT_BOTTOM = 195;
 publish("act4", ["alshire", 6]);
 ```
 
-s: SCAPPA SCAPPA SCAPPA SCAPPA SCAPPA SCAPPA SCAPPA SCAPPA
+s: SCAPPA SCAPPA SCAPPA SCAPPA SCAPPA SCAPPA SCAPPA SCAPPA SCAPPA
 
 ```
 Game.clearText();
@@ -1785,7 +1786,7 @@ Game.WORDS_HEIGHT_BOTTOM = -1; /* reset */
 
 `publish("act4-jumpcut-hong");`
 
-h: Uh. È stato strano. Chissà che gli ronzava nella testa.
+h: Ehm. Che personaggio. Chissà che aveva in testa.
 
 `publish("act4", ["hong_closer", 2]);`
 
@@ -1818,7 +1819,7 @@ b: Ma io voglio *più* di una semplice pace! Voglio che diventiamo *alleati*!
 
 `publish("act4", ["bb_closer", 3]);`
 
-b: Voglio essere un buon cane da guardia. Come fame e sete sono allarmi per i tuoi bisogni fisici,
+b: Voglio essere un buon cane da guardia. Come fame e sete sono allarmi per i tuoi bisogni fisici.
 
 `publish("act4", ["bb_closer", 8]);`
 
