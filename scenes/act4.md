@@ -488,7 +488,7 @@ b: Altre considerazioni?
 
 [Dobbiamo esporci a *più* pericoli.](#act4_harm_exposure)
 
-[Grazie.](#act4_thanks) `_.thanks_for = "la sicurezza fisica";`
+[Grazie.](#act4_thanks) `_.thanks_for = "la mia incolumità";`
 
 # act4_harm_skills
 
@@ -594,7 +594,7 @@ b: Beh, allora, alla goccia.
 
 `bb({ body:"chest", eyes:"annoyed" })`
 
-b: Cioè, il vero motivo per cui ignoravi i miei avvertimenti era il *mio* andare oltre la sicurezza!
+b: Voglio dire, il vero motivo per cui ignoravi i miei avvertimenti era il *mio* andare oltre la sicurezza!
 
 `bb({ body:"normal", eyes:"normal" })`
 
@@ -878,7 +878,7 @@ b: Altre considerazioni?
 
 [Magari piacciamo agli altri. Vogliamo scoprirlo?](#act4_alone_experiment)
 
-[Grazie.](#act4_thanks) `_.thanks_for = "l'appartenenza nella società";`
+[Grazie.](#act4_thanks) `_.thanks_for = "la mia appartenenza nella società";`
 
 # act4_alone_skills
 
@@ -936,7 +936,7 @@ h: In pratica, non fare gli ^stronzi^.
 
 `bb({ eyes:"annoyed", mouth:"smile" });`
 
-b: Là c'è un poster motivazionale.
+b: Come dice la scritta nei poster motivazionali.
 
 `hong({ body:"shrug", mouth:"narrow" });`
 
@@ -948,7 +948,7 @@ h: “Non fate gli ^stronzi^™”
 
 `bb({ eyes:"angry" })`
 
-b: Diventeremo uno zerbino che dice "per favore" e "grazie" quando gli altri ci si puliscono le scarpe!
+b: Diventeremo uno zerbino che dice "per favore" e "grazie" quando gli altri ci si puliscono le scarpe sopra!
 
 `bb({ mouth:"scream", eyes:"scream" })`
 
@@ -959,7 +959,7 @@ bb({ mouth:"normal", eyes:"normal" });
 hong( body:"chin" });
 ```
 
-h: Nah, hai ragione. Le "abilità sociali" non si trattano solo di compiacere gli altri, ma anche di stabilire dei *confini*.
+h: Nah, hai ragione. Le "abilità sociali" non consistono solo nel compiacere gli altri, ma anche nello stabilire dei *confini*.
 
 `hong( body:"one_up" });`
 
@@ -1182,7 +1182,7 @@ b: Altre considerazioni?
 
 [Dunque, siamo rotti. Accettiamolo.](#act4_bad_accept)
 
-[Grazie.](#act4_thanks) `_.thanks_for = "il benessere morale";`
+[Grazie.](#act4_thanks) `_.thanks_for = "il mio benessere morale";`
 
 # act4_bad_fix
 
