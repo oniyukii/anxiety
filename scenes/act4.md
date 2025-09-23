@@ -488,7 +488,7 @@ b: Altre considerazioni?
 
 [Dobbiamo esporci a *più* pericoli.](#act4_harm_exposure)
 
-[Grazie.](#act4_thanks) `_.thanks_for = "physical safety";`
+[Grazie.](#act4_thanks) `_.thanks_for = "la sicurezza fisica";`
 
 # act4_harm_skills
 
@@ -878,7 +878,7 @@ b: Altre considerazioni?
 
 [Magari piacciamo agli altri. Vogliamo scoprirlo?](#act4_alone_experiment)
 
-[Grazie.](#act4_thanks) `_.thanks_for = "social belonging";`
+[Grazie.](#act4_thanks) `_.thanks_for = "l'appartenenza nella società";`
 
 # act4_alone_skills
 
@@ -1182,7 +1182,7 @@ b: Altre considerazioni?
 
 [Dunque, siamo rotti. Accettiamolo.](#act4_bad_accept)
 
-[Grazie.](#act4_thanks) `_.thanks_for = "moral well-being";`
+[Grazie.](#act4_thanks) `_.thanks_for = "il benessere morale";`
 
 # act4_bad_fix
 
@@ -1700,7 +1700,7 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: È *TROPPO* AMICHEVOLE! COME TED BUNDY, IL SERIAL KILLER!
+s: È *FIN TROPPO* AMICHEVOLE! COME TED BUNDY, IL SERIAL KILLER!
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
