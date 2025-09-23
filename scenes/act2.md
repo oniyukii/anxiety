@@ -452,7 +452,7 @@ b: Dobbiamo andarcene e metterci per sempre in quarantena in una stanzetta con N
 ```
 _.a2_second_danger = 'netflix';
 _.a2_attack_2 = "alone";
-_.a2_hoodie_callback = "a quarantine";
+_.a2_hoodie_callback = "una quarantena";
 ```
 
 (#act2c)
@@ -525,7 +525,7 @@ b: È L'EFFETTO FARFALLA! STAI INCOSAPEVOLMENTE UCCIDENDO UN SACCO DI PERSONE IN
 ```
 _.a2_second_danger = 'butterfly';
 _.a2_attack_2 = "bad";
-_.a2_hoodie_callback = "I Guerra Mondiale";
+_.a2_hoodie_callback = "la I Guerra Mondiale";
 ```
 
 (#act2c)
@@ -553,7 +553,7 @@ b: Dobbiamo scappare da questi zombie del piacere, prima che ci facciano diventa
 ```
 _.a2_second_danger = 'zombies';
 _.a2_attack_2 = "alone";
-_.a2_hoodie_callback = "zombie";
+_.a2_hoodie_callback = "degli zombie";
 ```
 
 (#act2c)
@@ -605,7 +605,7 @@ b: MORIRAIIIIIIIIIIIIII
 ```
 _.a2_second_danger = 'ignore';
 _.a2_attack_2 = "harm";
-_.a2_hoodie_callback = "monossido di carbonio";
+_.a2_hoodie_callback = "il monossido di carbonio";
 ```
 
 (#act2c)
@@ -726,7 +726,7 @@ b: dato che è un ENORME DISGUSTOSO SCHIFOSO VERME
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "the law";`
+`_.a2_hoodie_callback = "la legge";`
 
 (#act2d)
 
@@ -769,7 +769,7 @@ b: MI PIACEEEE. MI PIACEEEEE.
 b: Poi ti MORDERANNO e ti trasformeranno in un FRA FESSO e/o una CAGNA CRETINA!
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "zombies";`
+`_.a2_hoodie_callback = "degli zombie";`
 
 (#act2d)
 
@@ -781,7 +781,7 @@ b: I NAZI STANNO MARCIANDO PER LE STRADE IN QUESTO MOMENTO
 
 `bb({body:"one_up", mouth:"smile", eyes:"happy"})`
 
-b: Dicendo, *menomale che i "buoni" hanno finito con quelle robe "rilassanti" e "per la cura personale"!*
+b: Dicendo: *menomale che i "buoni" hanno finito con quelle robe "rilassanti" e "per la cura personale"!*
 
 `bb({body:"point", mouth:"smile", eyes:"happy_r"})`
 
@@ -843,7 +843,7 @@ b: C'è chi è portato a fare del bene, noi al massimo lo facciamo solo spinti d
 
 `bb({body:"normal", mouth:"small", eyes:"sad_r"})`
 
-b: E se fosse nella nostra indole ferire gli altri? E se non fossimo *altro* che un fardello per chi ci sta intorno?
+b: E se fosse nella nostra indole ferire gli altri? E se non fossimo *altro* che un peso per chi ci sta intorno?
 
 `bb({body:"scream_a_1"})`
 
@@ -869,7 +869,7 @@ b: AHHH STIAMO MORENDO! STIAMO MORENDO STIAMO MORENDO ST--
 
 `_.a2_attack_3 = "harm";`
 
-`_.a2_hoodie_callback = "punch bowls";`
+`_.a2_hoodie_callback = "le ciotole di punch";`
 
 (#act2d)
 
@@ -936,7 +936,7 @@ h: *Sono una persona amata. Gentile, Intelligente. Di bell'aspetto. Speciale*.
 
 [Accidenti, quanto narcisismo!](#act2d_narcissist)
 
-[Sai che queste affermazioni sono state *smentite?*](#act2d_disproven)
+[Sai che queste affermazioni non sono *comprovate?*](#act2d_disproven)
 
 [Ti prego, non associare storielle a caso con gli indigeni.](#act2d_racist)
 
@@ -1231,7 +1231,7 @@ publish("act2",["party_hunter",4]);
 publish("act2",["party_hong",14]);
 ```
 
-r: Ehm, stavi bisbigliando con la tua felpa riguardo {{_.a2_hoodie_callback}} o qualcosa del genere.
+r: Ehm, stavi bisbigliando alla tua felpa cose riguardo {{_.a2_hoodie_callback}} o qualcosa del genere.
 
 ```
 publish("act2",["party_hunter",13]);
@@ -1255,7 +1255,7 @@ publish("act2",["party_hong",18]);
 sfx("squeak");
 ```
 
-r: Ehi. È normalissimo avere l'ansia. Non sei l'unica persona.
+r: Ehi. È normalissimo avere l'ansia. Non sei mica l'unica persona.
 
 ```
 publish("act2",["party_hunter",5]);
@@ -1263,7 +1263,7 @@ publish("act2",["party_hong",19]);
 ```
 
 {{if _.act1_ending=="fight"}}
-r: Cavolo, proprio ieri al campus ho sentito qualcuno avere un crollo e distruggere il suo telefono!
+r: Cavolo, proprio ieri al campus ho sentito qualcuno dare di matto e distruggere il suo telefono!
 {{/if}}
 
 {{if _.act1_ending=="flight"}}
@@ -1280,7 +1280,7 @@ r: Ascolta: so cosa vuol dire avere quell'animale nella tua testa.
 publish("act2",["party_hunter",8]);
 ```
 
-r: *Tutti* lo hanno. Ecco perché faccio feste ogni weekend, per dimenticarci dei problemi e dell'animale.
+r: *Tutti* lo hanno. Ecco perché organizzo feste ogni weekend: per dimenticarci dei problemi e di quell'animale.
 
 ```
 publish("act2",["party_hunter",9]);
@@ -1348,7 +1348,7 @@ publish("hp_show");
 
 [Questo è un pessimo meccanismo di difesa.](#act2g_2) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Non accettare i drink dagli sconosciuti.](#act2g_3) `Game.OVERRIDE_CHOICE_LINE=true`
+[Non accettare drink dagli sconosciuti.](#act2g_3) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act2g_1
 
@@ -1393,7 +1393,7 @@ b: Non va bene, umano. Non va per niente bene.
 
 [Lo *sapevo* che stava fuori di festa!](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Potrebbe aver persino drogato il drink!](#act2h_opt2) `Game.OVERRIDE_CHOICE_LINE=true`
+[Potrebbe anche aver drogato il drink!](#act2h_opt2) `Game.OVERRIDE_CHOICE_LINE=true`
 
 
 # act2h_opt1
@@ -1404,7 +1404,7 @@ b: È *così* che--
 
 # act2h_opt2
 
-b: Potrebbe aver--
+b: Potrebbe anch--
 
 (#act2h)
 
@@ -1513,11 +1513,11 @@ h: POTEVO *VEDERE* IL MIO CADAVERE. HO AVUTO LA *SENSAZIONE* DI MORIRE.
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="alone"}}
-h: POTEVO *VEDERE* IL DISPREZZO DI TUTTI. POTEVO *SENTIRE* COSA DICEVANO.
+h: POTEVO *VEDERE* IL DISPREZZO DI TUTTI. *SENTIRE* COSA DICEVANO.
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="bad"}}
-h: POTEVO *SENTIRE* LE COSTOLE SCROCCHIARE. POTEVO *SENTIRE* IL SANGUE NELL'ARIA.
+h: POTEVO *SENTIRE* LE COSTOLE SCROCCHIARE. *SENTIRE* IL SANGUE NELL'ARIA.
 {{/if}}
 
 b: Mi dispiace.
@@ -1640,7 +1640,7 @@ publish("act2",["party_hong",36]);
 
 h2: Ok ciao, bye, adiós, au revoir
 
-r: L'animale potrebbe aver vinto oggi, ma tu torna, e ti preparerò qualcosa di ancora più forte!
+r: L'animale potrebbe aver vinto oggi, ma se torni, ti preparerò qualcosa di ancora più forte!
 
 h2: Sayōnara, auf wiedersehen, zài jiàn, shalom
 
@@ -1660,13 +1660,13 @@ r: Cavolo. Oggi ha vinto l'animale, eh?
 
 `publish("act2",["party_hunter",15]);`
 
-h2: No no, devo, ehm, fare una maratona. Devo andare veloce!
+h2: No no, devo, ehm, fare una maratona. "Devo andare veloce!"
 
 `publish("act2",["party_hunter",19]);`
 
 r: Torna il prossimo weekend, tesoro. Ti preparerò qualcosa di ancora più forte.
 
-h2: Ok grazie ora devo proprio correre!
+h2: Ok grazie ora devo proprio scappare!
 
 r: Faremo vedere a quella bestia chi è che comanda!
 
